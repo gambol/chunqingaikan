@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mainlayout" android:background="@color/main_normal_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/titlebarlayout" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/include_top_bfbar" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/show1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/titlebarlayout">
+        <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:ellipsize="end" android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:maxWidth="120.0dip" android:text="作品名:    " android:singleLine="true" />
+                        <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:ellipsize="end" android:gravity="left" android:id="@id/title_name_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="《三国》" android:singleLine="true" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="订阅章节:" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="从" android:singleLine="true" />
+                                <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:id="@id/begin_inteval_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="开始章节" android:singleLine="true" />
+                            </LinearLayout>
+                            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                                <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="到" android:singleLine="true" />
+                                <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:id="@id/end_inteval_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="结束章节" android:singleLine="true" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View android:id="@id/line" android:background="@drawable/xuxian" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" />
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="#ffff0000" android:id="@id/money_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="￥2" android:layout_alignParentRight="true" />
+                        <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:id="@id/sum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="，总价：" android:layout_toLeftOf="@id/money_tv" />
+                        <TextView android:textSize="16.0sp" android:textColor="#ffff0000" android:id="@id/zhang_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="15章" android:layout_toLeftOf="@id/sum" />
+                        <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:id="@id/gongji_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="共计：" android:layout_toLeftOf="@id/zhang_tv" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/select_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:id="@id/tishiyu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="选择手机号所属运营商" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/yunyingshanglayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:baselineAligned="false">
+                        <LinearLayout android:orientation="vertical" android:id="@id/ydlayout" android:background="@drawable/button_light_gray_shape_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <ImageView android:layout_gravity="center_horizontal" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yidong_icon" android:contentDescription="@null" />
+                            <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:layout_gravity="center_horizontal" android:id="@id/yidong" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="中国移动" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/ltlayout" android:background="@drawable/button_light_gray_shape_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0">
+                            <ImageView android:layout_gravity="center_horizontal" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/liantong_icon" android:contentDescription="@null" />
+                            <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:layout_gravity="center_horizontal" android:id="@id/liantong" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="中国联通" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/dxlayout" android:background="@drawable/button_light_gray_shape_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0">
+                            <ImageView android:layout_gravity="center_horizontal" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dianxin_icon" android:contentDescription="@null" />
+                            <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:layout_gravity="center_horizontal" android:id="@id/dianxin" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="中国电信" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <EditText android:textSize="14.0sp" android:id="@id/input_edit" android:background="@drawable/input_edit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:hint="输入手机号" />
+                </LinearLayout>
+                <Button android:textSize="16.0sp" android:textColor="@android:color/white" android:id="@id/smspaybtn" android:background="@drawable/red_button_click_selector" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="立即购买" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <Button android:textSize="16.0sp" android:textColor="@color/gray_text" android:id="@id/morerechargebtn" android:background="@drawable/button_gray_shape" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" android:text="更多充值方式" android:layout_alignParentBottom="true" />
+</RelativeLayout>

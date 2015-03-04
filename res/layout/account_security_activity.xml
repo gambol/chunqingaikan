@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topbar_layout" android:background="@null" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@id/btn_back" android:background="@drawable/back_button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/usercenter_text" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="账号安全" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ScrollView android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="@color/usercenter_text" android:id="@id/yonghuming" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户名" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="" android:layout_toRightOf="@id/yonghuming" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/line1" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="@color/usercenter_text" android:id="@id/id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户ID" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/user_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="" android:layout_toRightOf="@id/id" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/line2" android:background="@drawable/jiange" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+            <RelativeLayout android:id="@id/iphone_layout" android:background="@drawable/relativelayout_click_selector" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="@color/usercenter_text" android:id="@id/shoujihao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="手机号" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/text_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="" android:layout_toRightOf="@id/shoujihao" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/line3" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <RelativeLayout android:id="@id/email_layout" android:background="@drawable/relativelayout_click_selector" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="@color/usercenter_text" android:id="@id/youxiang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="邮箱地址" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/text_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="" android:layout_toRightOf="@id/youxiang" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/line4" android:background="@drawable/jiange" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+            <RelativeLayout android:id="@id/update_password_layout" android:background="@drawable/relativelayout_click_selector" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="修改密码" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/line5" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/switchingaccount" android:background="@drawable/login_button_selector" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="切换账号" android:maxLength="11" android:inputType="phone" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

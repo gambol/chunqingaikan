@@ -1,0 +1,214 @@
+package com.j256.ormlite.db; class SqliteAndroidDatabaseType { void a() { int a;
+a=0;// .class public Lcom/j256/ormlite/db/SqliteAndroidDatabaseType;
+a=0;// .super Lcom/j256/ormlite/db/BaseSqliteDatabaseType;
+a=0;// .source "SqliteAndroidDatabaseType.java"
+a=0;// 
+a=0;// # interfaces
+a=0;// .implements Lcom/j256/ormlite/db/DatabaseType;
+a=0;// 
+a=0;// 
+a=0;// # annotations
+a=0;// .annotation system Ldalvik/annotation/MemberClasses;
+a=0;//     value = {
+a=0;//         Lcom/j256/ormlite/db/SqliteAndroidDatabaseType$1;
+a=0;//     }
+a=0;// .end annotation
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>()V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 21
+a=0;//     invoke-direct {p0}, Lcom/j256/ormlite/db/BaseSqliteDatabaseType;-><init>()V
+a=0;// 
+a=0;//     .line 23
+a=0;//     #p0=(Reference,Lcom/j256/ormlite/db/SqliteAndroidDatabaseType;);
+a=0;//     invoke-static {}, Lcom/j256/ormlite/misc/VersionUtils;->checkCoreVersusAndroidVersions()V
+a=0;// 
+a=0;//     .line 24
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method protected appendBooleanType(Ljava/lang/StringBuilder;Lcom/j256/ormlite/field/FieldType;I)V
+a=0;//     .locals 0
+a=0;//     .param p1, "sb"    # Ljava/lang/StringBuilder;
+a=0;//     .param p2, "fieldType"    # Lcom/j256/ormlite/field/FieldType;
+a=0;//     .param p3, "fieldWidth"    # I
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 55
+a=0;//     invoke-virtual {p0, p1, p2, p3}, Lcom/j256/ormlite/db/SqliteAndroidDatabaseType;->appendShortType(Ljava/lang/StringBuilder;Lcom/j256/ormlite/field/FieldType;I)V
+a=0;// 
+a=0;//     .line 56
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method protected appendDateType(Ljava/lang/StringBuilder;Lcom/j256/ormlite/field/FieldType;I)V
+a=0;//     .locals 0
+a=0;//     .param p1, "sb"    # Ljava/lang/StringBuilder;
+a=0;//     .param p2, "fieldType"    # Lcom/j256/ormlite/field/FieldType;
+a=0;//     .param p3, "fieldWidth"    # I
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 49
+a=0;//     invoke-virtual {p0, p1, p2, p3}, Lcom/j256/ormlite/db/SqliteAndroidDatabaseType;->appendStringType(Ljava/lang/StringBuilder;Lcom/j256/ormlite/field/FieldType;I)V
+a=0;// 
+a=0;//     .line 50
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public extractDatabaseTableConfig(Lcom/j256/ormlite/support/ConnectionSource;Ljava/lang/Class;)Lcom/j256/ormlite/table/DatabaseTableConfig;
+a=0;//     .locals 1
+a=0;//     .param p1, "connectionSource"    # Lcom/j256/ormlite/support/ConnectionSource;
+a=0;//     .annotation system Ldalvik/annotation/Signature;
+a=0;//         value = {
+a=0;//             "<T:",
+a=0;//             "Ljava/lang/Object;",
+a=0;//             ">(",
+a=0;//             "Lcom/j256/ormlite/support/ConnectionSource;",
+a=0;//             "Ljava/lang/Class",
+a=0;//             "<TT;>;)",
+a=0;//             "Lcom/j256/ormlite/table/DatabaseTableConfig",
+a=0;//             "<TT;>;"
+a=0;//         }
+a=0;//     .end annotation
+a=0;// 
+a=0;//     .annotation system Ldalvik/annotation/Throws;
+a=0;//         value = {
+a=0;//             Ljava/sql/SQLException;
+a=0;//         }
+a=0;//     .end annotation
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 82
+a=0;//     .local p2, "clazz":Ljava/lang/Class;, "Ljava/lang/Class<TT;>;"
+a=0;//     invoke-static {p1, p2}, Lcom/j256/ormlite/android/DatabaseTableConfigUtil;->fromClass(Lcom/j256/ormlite/support/ConnectionSource;Ljava/lang/Class;)Lcom/j256/ormlite/table/DatabaseTableConfig;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/j256/ormlite/table/DatabaseTableConfig;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public getDatabaseName()Ljava/lang/String;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 43
+a=0;//     const-string v0, "Android SQLite"
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method protected getDriverClassName()Ljava/lang/String;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 39
+a=0;//     const/4 v0, 0x0
+a=0;// 
+a=0;//     #v0=(Null);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public getFieldConverter(Lcom/j256/ormlite/field/DataPersister;)Lcom/j256/ormlite/field/FieldConverter;
+a=0;//     .locals 2
+a=0;//     .param p1, "dataPersister"    # Lcom/j256/ormlite/field/DataPersister;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 61
+a=0;//     sget-object v0, Lcom/j256/ormlite/db/SqliteAndroidDatabaseType$1;->$SwitchMap$com$j256$ormlite$field$SqlType:[I
+a=0;// 
+a=0;//     #v0=(Reference,[I);
+a=0;//     invoke-interface {p1}, Lcom/j256/ormlite/field/DataPersister;->getSqlType()Lcom/j256/ormlite/field/SqlType;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     #v1=(Reference,Lcom/j256/ormlite/field/SqlType;);
+a=0;//     invoke-virtual {v1}, Lcom/j256/ormlite/field/SqlType;->ordinal()I
+a=0;// 
+a=0;//     move-result v1
+a=0;// 
+a=0;//     #v1=(Integer);
+a=0;//     aget v0, v0, v1
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     packed-switch v0, :pswitch_data_0
+a=0;// 
+a=0;//     .line 65
+a=0;//     invoke-super {p0, p1}, Lcom/j256/ormlite/db/BaseSqliteDatabaseType;->getFieldConverter(Lcom/j256/ormlite/field/DataPersister;)Lcom/j256/ormlite/field/FieldConverter;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     :goto_0
+a=0;//     #v0=(Reference,Ujava/lang/Object;);
+a=0;//     return-object v0
+a=0;// 
+a=0;//     .line 63
+a=0;//     :pswitch_0
+a=0;//     #v0=(Integer);
+a=0;//     invoke-static {}, Lcom/j256/ormlite/field/types/DateStringType;->getSingleton()Lcom/j256/ormlite/field/types/DateStringType;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/j256/ormlite/field/types/DateStringType;);
+a=0;//     goto :goto_0
+a=0;// 
+a=0;//     .line 61
+a=0;//     #v0=(Unknown);v1=(Unknown);p0=(Unknown);p1=(Unknown);
+a=0;//     nop
+a=0;// 
+a=0;//     :pswitch_data_0
+a=0;//     .packed-switch 0x1
+a=0;//         :pswitch_0
+a=0;//     .end packed-switch
+a=0;// .end method
+a=0;// 
+a=0;// .method public isBatchUseTransaction()Z
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 76
+a=0;//     const/4 v0, 0x1
+a=0;// 
+a=0;//     #v0=(One);
+a=0;//     return v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public isDatabaseUrlThisType(Ljava/lang/String;Ljava/lang/String;)Z
+a=0;//     .locals 1
+a=0;//     .param p1, "url"    # Ljava/lang/String;
+a=0;//     .param p2, "dbTypePart"    # Ljava/lang/String;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 33
+a=0;//     const/4 v0, 0x1
+a=0;// 
+a=0;//     #v0=(One);
+a=0;//     return v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public isNestedSavePointsSupported()Z
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 71
+a=0;//     const/4 v0, 0x0
+a=0;// 
+a=0;//     #v0=(Null);
+a=0;//     return v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public loadDriver()V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 29
+a=0;//     return-void
+a=0;// .end method
+}}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="right" android:orientation="vertical" android:id="@id/morelayout" android:background="@drawable/read_more_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/book_detailed_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/book_detailed_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/book_detailed_icon" android:contentDescription="@null" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/xiangqing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/go_book_detailed" android:layout_toRightOf="@id/book_detailed_img" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/down_all_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <ImageView android:id="@id/down_all_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/down_chapter_icon" android:contentDescription="@null" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/down_all_chapter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/down_all_chapters" android:layout_toRightOf="@id/down_all_img" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/order_all_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <ImageView android:id="@id/order_all_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/order_all_chapter_icon" android:contentDescription="@null" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/order_all_chapter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/order_all_chapters" android:layout_toRightOf="@id/order_all_img" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/pinglun_hudong_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <ImageView android:id="@id/pinglun_hudong_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pinglun_hudong_icon" android:contentDescription="@null" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/pinglun_hudong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/pinglun_interaction" android:layout_toRightOf="@id/pinglun_hudong_img" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/auto_order_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <ImageView android:id="@id/auto_order_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/outo_order_icon" android:contentDescription="@null" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/auto_order" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/auto_order" android:layout_toRightOf="@id/auto_order_img" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/auto_order_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/auto_order_closed" android:layout_toRightOf="@id/auto_order" android:contentDescription="@null" />
+    </RelativeLayout>
+</LinearLayout>

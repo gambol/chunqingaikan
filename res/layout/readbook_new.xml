@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/read_txrl" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/read_yy2" android:layout_width="160.0dip" android:layout_height="200.0dip" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/read_yy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/read_yy3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/read_top" />
+    <RelativeLayout android:id="@id/read_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <include android:id="@id/include_top" layout="@layout/include_top_readbook_new" />
+    </RelativeLayout>
+    <ImageView android:id="@id/addmark" android:background="@drawable/addmark" android:visibility="gone" android:layout_width="21.329987dip" android:layout_height="41.329987dip" android:layout_marginRight="10.0dip" android:layout_below="@id/read_top" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/menu_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:id="@id/include_bottom" layout="@layout/include_read_radiogroup_new" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/do_readset" android:background="#ee000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/menu_button">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/do_readlight" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/read_light" android:layout_weight="0.5" />
+            <SeekBar android:id="@id/readltseek" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="8.0dip" android:max="235" android:progress="0" android:progressDrawable="@drawable/custom_seekbar" android:minHeight="8.0dip" android:thumb="@drawable/thumb_new" android:layout_weight="50.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/do_readbg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/read_theme" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/do_readbg_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioGroup android:layout_gravity="center" android:orientation="horizontal" android:id="@id/rdbgRG" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RadioButton android:id="@id/rdbg1" android:background="@drawable/btn_readbg1" style="@style/style_read_rdbg" />
+                    <RadioButton android:id="@id/rdbg2" android:background="@drawable/btn_readbg2" style="@style/style_read_rdbg" />
+                    <RadioButton android:id="@id/rdbg3" android:background="@drawable/btn_readbg3" style="@style/style_read_rdbg" />
+                    <RadioButton android:id="@id/rdbg4" android:background="@drawable/btn_readbg4" style="@style/style_read_rdbg" />
+                    <RadioButton android:id="@id/rdbg5" android:background="@drawable/btn_readbg5" style="@style/style_read_rdbg" />
+                    <RadioButton android:id="@id/rdbg6" android:background="@drawable/btn_readbg6" style="@style/style_read_rdbg" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/do_readsize" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_margin="5.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/read_textsize" />
+            <Button android:textSize="15.0sp" android:textColor="@color/gray_text" android:gravity="center" android:id="@id/btn_readsize1" android:background="@drawable/textsize_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="A-" android:layout_weight="1.0" />
+            <SeekBar android:id="@id/readszseek" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="238.0dip" android:layout_height="wrap_content" android:maxHeight="8.0dip" android:max="6" android:progress="0" android:progressDrawable="@drawable/seekbar_style" android:minHeight="8.0dip" android:thumb="@drawable/thumb" />
+            <Button android:textSize="15.0sp" android:textColor="@color/gray_text" android:gravity="center" android:id="@id/btn_readsize2" android:background="@drawable/textsize_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:text="A+" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/dashang_layout" android:background="#ff191919" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/menu_button">
+        <RelativeLayout android:id="@id/fifty_layout" android:background="@drawable/dashang_item_click_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+            <ImageView android:id="@id/icon1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/dashang1_icon" android:layout_centerVertical="true" android:contentDescription="@null" />
+            <RelativeLayout android:id="@id/fifty_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/icon1" android:layout_centerVertical="true">
+                <TextView android:textColor="@color/gray_text" android:id="@id/fifty_tv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/good_job" />
+                <TextView android:textColor="@color/orange_text" android:id="@id/fifty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fifty" android:layout_toRightOf="@id/fifty_tv1" />
+                <TextView android:textColor="@color/gray_text" android:id="@id/fifty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fifty_text" android:layout_below="@id/fifty_tv1" android:layout_alignLeft="@id/fifty_tv1" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/one_hundred_layout" android:background="@drawable/dashang_item_click_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+            <ImageView android:id="@id/icon2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/dashang2_icon" android:layout_centerVertical="true" android:contentDescription="@null" />
+            <RelativeLayout android:id="@id/one_hundred_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/icon2" android:layout_centerVertical="true">
+                <TextView android:textColor="@color/gray_text" android:id="@id/one_hundred_tv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/good_job" />
+                <TextView android:textColor="@color/orange_text" android:id="@id/one_hundred" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/one_hundred" android:layout_toRightOf="@id/one_hundred_tv1" />
+                <TextView android:textColor="@color/gray_text" android:id="@id/one_hundred_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hundred_text" android:layout_below="@id/one_hundred_tv1" android:layout_alignLeft="@id/one_hundred_tv1" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/five_hundred_layout" android:background="@drawable/dashang_item_click_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+            <ImageView android:id="@id/icon3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/dashang3_icon" android:layout_centerVertical="true" android:contentDescription="@null" />
+            <RelativeLayout android:id="@id/five_hundred_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/icon3" android:layout_centerVertical="true">
+                <TextView android:textColor="@color/gray_text" android:id="@id/five_hundred_tv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/good_job" />
+                <TextView android:textColor="@color/orange_text" android:id="@id/five_hundred" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/five_hundred" android:layout_toRightOf="@id/five_hundred_tv1" />
+                <TextView android:textColor="@color/gray_text" android:id="@id/five_hundred_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/five_hundred_text" android:layout_below="@id/five_hundred_tv1" android:layout_alignLeft="@id/five_hundred_tv1" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/one_thousand_layout" android:background="@drawable/dashang_item_click_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+            <ImageView android:id="@id/icon4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/dashang4_icon" android:layout_centerVertical="true" android:contentDescription="@null" />
+            <RelativeLayout android:id="@id/one_thousand_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/icon4" android:layout_centerVertical="true">
+                <TextView android:textColor="@color/gray_text" android:id="@id/one_thousand_tv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/good_job" />
+                <TextView android:textColor="@color/orange_text" android:id="@id/one_thousand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/one_thousand" android:layout_toRightOf="@id/one_thousand_tv1" />
+                <TextView android:textColor="@color/gray_text" android:id="@id/one_thousand_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/one_thousad_text" android:layout_below="@id/one_thousand_tv1" android:layout_alignLeft="@id/one_thousand_tv1" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/menu_more_layout" android:background="@drawable/read_more_button_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/menu_button" android:layout_alignParentRight="true">
+        <RelativeLayout android:id="@id/book_detailed_layout" android:background="@drawable/black_layout_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <ImageView android:id="@id/book_detailed_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/book_detailed_icon" android:layout_centerVertical="true" android:contentDescription="@null" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:id="@id/xiangqing" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/go_book_detailed" android:layout_toRightOf="@id/book_detailed_img" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/down_all_layout" android:background="@drawable/black_layout_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <ImageView android:id="@id/down_all_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/down_chapter_icon" android:layout_centerVertical="true" android:contentDescription="@null" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:id="@id/down_all_chapter" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/down_all_chapters" android:layout_toRightOf="@id/down_all_img" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/order_all_layout" android:background="@drawable/black_layout_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <ImageView android:id="@id/order_all_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/order_all_chapter_icon" android:layout_centerVertical="true" android:contentDescription="@null" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:id="@id/order_all_chapter" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/order_all_chapters" android:layout_toRightOf="@id/order_all_img" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/pinglun_hudong_layout" android:background="@drawable/black_layout_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <ImageView android:id="@id/pinglun_hudong_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/pinglun_hudong_icon" android:layout_centerVertical="true" android:contentDescription="@null" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:id="@id/pinglun_hudong" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/pinglun_interaction" android:layout_toRightOf="@id/pinglun_hudong_img" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/auto_order_layout" android:background="@drawable/black_layout_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip">
+            <ImageView android:id="@id/auto_order_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/outo_order_icon" android:layout_centerVertical="true" android:contentDescription="@null" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:id="@id/auto_order" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/auto_order" android:layout_toRightOf="@id/auto_order_img" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/auto_order_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/auto_order_closed" android:layout_toRightOf="@id/auto_order" android:layout_centerVertical="true" android:contentDescription="@null" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/do_readjp" android:background="@drawable/tanchuceng_ditu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="130.0dip" android:layout_above="@id/menu_button">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <SeekBar android:id="@id/readjpseek" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="238.0dip" android:layout_height="wrap_content" android:maxHeight="8.0dip" android:progress="0" android:progressDrawable="@drawable/seekbar_style" android:minHeight="8.0dip" android:thumb="@drawable/thumb_new" />
+            </RelativeLayout>
+            <TextView android:id="@id/readjp_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginBottom="2.0dip" android:text="0.00%" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <Button android:id="@id/btn_readjp1" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="2.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <Button android:id="@id/btn_readjp2" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="2.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/iv_dayornight3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/line_day" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_margin="5.0dip">
+            <Button android:textSize="20.0sp" android:textColor="#ff0066b7" android:id="@id/btn_readjps1" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="上一章" android:layout_weight="1.0" />
+            <Button android:textSize="20.0sp" android:textColor="#ff0066b7" android:id="@id/btn_readjps2" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="下一章" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/showly3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/showly1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/showly2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="11.329987dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:layout_below="@id/read_top" />
+   
+    <include android:id="@id/read_help" layout="@layout/readbookhelp" />
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/pushlayout" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="启动推送通知" android:layout_centerVertical="true" />
+        <CheckBox android:id="@id/set_push" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CustomCheckboxTheme_fangxing" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/keeplightlayout" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <View android:id="@id/line1" android:background="@drawable/xuxian" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="保持屏幕常亮" android:layout_centerVertical="true" />
+        <CheckBox android:id="@id/set_keepScreenOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="keepScreenOn" style="@style/CustomCheckboxTheme_fangxing" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/nightlayout" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <View android:id="@id/line2" android:background="@drawable/xuxian" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="夜间模式" android:layout_centerVertical="true" />
+        <CheckBox android:id="@id/night_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="nightModeOn" style="@style/CustomCheckboxTheme_fangxing" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/update_layout" android:background="@drawable/relativelayout_click_selector" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <View android:id="@id/line3" android:background="@drawable/xuxian" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="软件更新提醒设置" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/clear_sd_layout" android:background="@drawable/relativelayout_click_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="-1.0dip" android:onClick="cleanData">
+        <View android:id="@id/line4" android:background="@drawable/xuxian" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="清理SD卡数据" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/clear_cache_layout" android:background="@drawable/relativelayout_click_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:onClick="cleanCache">
+        <View android:id="@id/line5" android:background="@drawable/xuxian" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="清理手机缓存" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    </RelativeLayout>
+    <View android:id="@id/line6" android:background="@drawable/line_s" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

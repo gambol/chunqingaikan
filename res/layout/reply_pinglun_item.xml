@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/shuping_ly" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <RelativeLayout android:id="@id/pinglun_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/lou" android:background="@drawable/circle_ret_red2" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            <com.twocloo.com.cn.view.CircleImageView android:id="@id/icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/usercentericon" android:layout_below="@id/lou" android:layout_alignParentLeft="true" android:contentDescription="@null" />
+            <RelativeLayout android:id="@id/usernamelayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/icon" android:layout_alignTop="@id/icon">
+                <TextView android:textSize="16.0sp" android:textColor="#ff3bb296" android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/gray_text" android:id="@id/pingluntime" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                <Button android:textSize="14.0sp" android:textColor="#ffff9999" android:id="@id/btn_jubao" android:background="@drawable/pinglun_bg" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="举报 TA     " android:drawableLeft="@drawable/jubao" android:drawablePadding="3.0dip" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_dark_text" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon" android:layout_below="@id/icon" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

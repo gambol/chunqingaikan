@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mainlayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topbar_layout" android:background="@null" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@id/btn_back" android:background="@drawable/back_button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/usercenter_text" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="修改密码" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/usercenter_text" android:id="@id/yonghuming" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户名:" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="" android:layout_toRightOf="@id/yonghuming" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/line1" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/usercenter_text" android:id="@id/yuanmima" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="原密码：" android:layout_centerVertical="true" />
+        <EditText android:textSize="16.0sp" android:textColorHint="#ffb0b0b0" android:layout_gravity="center" android:id="@id/update_oldcode" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:digits="@string/limit_input" android:layout_toRightOf="@id/yuanmima" android:inputType="textPassword" />
+    </RelativeLayout>
+    <View android:id="@id/line2" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/usercenter_text" android:id="@id/xinmima" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="新密码：" android:layout_centerVertical="true" />
+        <EditText android:textSize="16.0sp" android:layout_gravity="center" android:id="@id/update_newcode1" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:digits="@string/limit_input" android:layout_toRightOf="@id/xinmima" android:inputType="textPassword" />
+    </RelativeLayout>
+    <View android:id="@id/line3" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/usercenter_text" android:id="@id/querenxinmima" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="确认密码：" android:layout_centerVertical="true" />
+        <EditText android:textSize="16.0sp" android:layout_gravity="center" android:id="@id/update_newcode2" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:digits="@string/limit_input" android:layout_toRightOf="@id/querenxinmima" android:inputType="textPassword" />
+    </RelativeLayout>
+    <View android:id="@id/line4" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" />
+    <Button android:textSize="18.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/update_over" android:background="@drawable/login_button_selector" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="确认修改" />
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mainlayout" android:background="@drawable/about_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/user_center_top" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_bar">
+                <ImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/about_me_logo" android:layout_centerHorizontal="true" />
+                <RelativeLayout android:id="@id/app" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/logo" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/appname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerVertical="true" />
+                    <TextView android:textColor="@color/gray_text" android:gravity="center_horizontal" android:id="@id/banbenhao" android:background="@drawable/banbenhao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/appname" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:id="@id/kefu1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/qingfeng" android:layout_below="@id/app" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:id="@id/kefu2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/mingyue" android:layout_below="@id/kefu1" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:id="@id/jiaoliuqun" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="交流群：73861320" android:layout_below="@id/kefu2" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:id="@id/wangzhi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="网址：www.2cloo.com" android:layout_below="@id/jiaoliuqun" android:layout_centerHorizontal="true" />
+                <Button android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/btn_jianchagengxin" android:background="@drawable/ruanjiangengxin_button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="检查更新" android:layout_below="@id/wangzhi" android:layout_centerHorizontal="true" />
+                <Button android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/btn_yijianfankui" android:background="@drawable/ruanjiangengxin_button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:text="意见反馈" android:layout_below="@id/btn_jianchagengxin" android:layout_centerHorizontal="true" />
+                <Button android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/btn_pingjiawomen" android:background="@drawable/ruanjiangengxin_button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:text="评价我们" android:layout_below="@id/btn_yijianfankui" android:layout_centerHorizontal="true" />
+                <TextView android:textColor="@color/gray_text" android:gravity="center_horizontal" android:id="@id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/about_us_copyright" android:layout_below="@id/btn_pingjiawomen" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

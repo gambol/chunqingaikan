@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/main_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/grouplayout" />
+    <LinearLayout android:id="@id/grouplayout" android:background="@drawable/menu_bottom_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RadioGroup android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/main_tools" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <RadioButton android:textColor="@color/light_gray_text" android:gravity="bottom|center" android:id="@id/main_bookcity" android:text="@string/bookcity" android:drawableTop="@drawable/main_navigation_bookcity_new" style="@style/main_tab_bottom" />
+            <RadioButton android:textColor="@color/light_gray_text" android:gravity="bottom|center" android:id="@id/main_bookshelf" android:text="@string/bookshelf" android:drawableTop="@drawable/main_navigation_bookshelf_new" style="@style/main_tab_bottom" />
+            <RadioButton android:textColor="@color/light_gray_text" android:gravity="bottom|center" android:id="@id/main_discover" android:text="@string/discover" android:drawableTop="@drawable/main_navigation_discover" style="@style/main_tab_bottom" />
+            <RadioButton android:textColor="@color/light_gray_text" android:gravity="bottom|center" android:id="@id/main_search" android:text="@string/booksearch" android:drawableTop="@drawable/main_navigation_search_normal" style="@style/main_tab_bottom" />
+            <RadioButton android:textColor="@color/light_gray_text" android:gravity="bottom|center" android:id="@id/main_usercenter" android:text="@string/usercenter" android:drawableTop="@drawable/newbookshelf_zhanghu_new" style="@style/main_tab_bottom" />
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,1603 @@
+package com.twocloo.com.cn.activitys; class MyaccountActivity { void a() { int a;
+a=0;// .class public Lcom/twocloo/com/cn/activitys/MyaccountActivity;
+a=0;// .super Landroid/app/Activity;
+a=0;// .source "MyaccountActivity.java"
+a=0;// 
+a=0;// # interfaces
+a=0;// .implements Landroid/view/View$OnClickListener;
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field private baoyueLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;// .field private bitmap:Landroid/graphics/Bitmap;
+a=0;// 
+a=0;// .field private btn_back:Landroid/widget/ImageView;
+a=0;// 
+a=0;// .field private btn_chongzhi:Landroid/widget/Button;
+a=0;// 
+a=0;// .field private chongzhi:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;// .field private chongzhiLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;// .field private dianquanLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;// .field private dianquanTextView:Landroid/widget/TextView;
+a=0;// 
+a=0;// .field private email:Landroid/widget/TextView;
+a=0;// 
+a=0;// .field private handler2:Landroid/os/Handler;
+a=0;// 
+a=0;// .field private huodongLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;// .field private info:Lcom/twocloo/com/cn/threads/SyncUserInfoThread;
+a=0;// 
+a=0;// .field private line0:Landroid/view/View;
+a=0;// 
+a=0;// .field private line1:Landroid/view/View;
+a=0;// 
+a=0;// .field private line2:Landroid/view/View;
+a=0;// 
+a=0;// .field private line3:Landroid/view/View;
+a=0;// 
+a=0;// .field private line4:Landroid/view/View;
+a=0;// 
+a=0;// .field private line5:Landroid/view/View;
+a=0;// 
+a=0;// .field private line6:Landroid/view/View;
+a=0;// 
+a=0;// .field private line7:Landroid/view/View;
+a=0;// 
+a=0;// .field private line8:Landroid/view/View;
+a=0;// 
+a=0;// .field private mInfo:Lcom/tencent/connect/UserInfo;
+a=0;// 
+a=0;// .field private mainLayout:Landroid/widget/LinearLayout;
+a=0;// 
+a=0;// .field private photo:Lcom/twocloo/com/cn/view/CircleImageView;
+a=0;// 
+a=0;// .field private qiandaoLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;// .field private renwuLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;// .field private sex:I
+a=0;// 
+a=0;// .field private shuquanTextView:Landroid/widget/TextView;
+a=0;// 
+a=0;// .field private token:Ljava/lang/String;
+a=0;// 
+a=0;// .field private topLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;// .field private uid:Ljava/lang/String;
+a=0;// 
+a=0;// .field private user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;// .field private userbean:Lcom/twocloo/com/cn/beans/UserCenterNewbean;
+a=0;// 
+a=0;// .field private username:Landroid/widget/TextView;
+a=0;// 
+a=0;// .field private xiaofeiLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;// .field private yuepiaoLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;// .field private yuepiaoTextView:Landroid/widget/TextView;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>()V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 48
+a=0;//     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
+a=0;// 
+a=0;//     .line 53
+a=0;//     #p0=(Reference,Lcom/twocloo/com/cn/activitys/MyaccountActivity;);
+a=0;//     const/4 v0, 0x0
+a=0;// 
+a=0;//     #v0=(Null);
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->bitmap:Landroid/graphics/Bitmap;
+a=0;// 
+a=0;//     .line 66
+a=0;//     const/4 v0, 0x0
+a=0;// 
+a=0;//     iput v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->sex:I
+a=0;// 
+a=0;//     .line 68
+a=0;//     new-instance v0, Lcom/twocloo/com/cn/activitys/MyaccountActivity$1;
+a=0;// 
+a=0;//     #v0=(UninitRef,Lcom/twocloo/com/cn/activitys/MyaccountActivity$1;);
+a=0;//     invoke-direct {v0, p0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity$1;-><init>(Lcom/twocloo/com/cn/activitys/MyaccountActivity;)V
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/twocloo/com/cn/activitys/MyaccountActivity$1;);
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->handler2:Landroid/os/Handler;
+a=0;// 
+a=0;//     .line 48
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$0(Lcom/twocloo/com/cn/activitys/MyaccountActivity;)Lcom/twocloo/com/cn/threads/SyncUserInfoThread;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 59
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->info:Lcom/twocloo/com/cn/threads/SyncUserInfoThread;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/twocloo/com/cn/threads/SyncUserInfoThread;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$1(Lcom/twocloo/com/cn/activitys/MyaccountActivity;Lcom/twocloo/com/cn/beans/UserCenterNewbean;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 60
+a=0;//     iput-object p1, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->userbean:Lcom/twocloo/com/cn/beans/UserCenterNewbean;
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$10(Lcom/twocloo/com/cn/activitys/MyaccountActivity;Landroid/graphics/Bitmap;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 53
+a=0;//     iput-object p1, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->bitmap:Landroid/graphics/Bitmap;
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$11(Lcom/twocloo/com/cn/activitys/MyaccountActivity;)Landroid/graphics/Bitmap;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 53
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->bitmap:Landroid/graphics/Bitmap;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/graphics/Bitmap;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$2(Lcom/twocloo/com/cn/activitys/MyaccountActivity;)Lcom/twocloo/com/cn/beans/UserCenterNewbean;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 60
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->userbean:Lcom/twocloo/com/cn/beans/UserCenterNewbean;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/twocloo/com/cn/beans/UserCenterNewbean;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$3(Lcom/twocloo/com/cn/activitys/MyaccountActivity;)Landroid/widget/TextView;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 51
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->dianquanTextView:Landroid/widget/TextView;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/widget/TextView;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$4(Lcom/twocloo/com/cn/activitys/MyaccountActivity;)Landroid/widget/TextView;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 51
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->yuepiaoTextView:Landroid/widget/TextView;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/widget/TextView;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$5(Lcom/twocloo/com/cn/activitys/MyaccountActivity;)Landroid/widget/TextView;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 51
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->shuquanTextView:Landroid/widget/TextView;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/widget/TextView;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$6(Lcom/twocloo/com/cn/activitys/MyaccountActivity;)Ljava/lang/String;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 52
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->uid:Ljava/lang/String;
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$7(Lcom/twocloo/com/cn/activitys/MyaccountActivity;)Landroid/os/Handler;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 68
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->handler2:Landroid/os/Handler;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/os/Handler;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$8(Lcom/twocloo/com/cn/activitys/MyaccountActivity;)Lcom/twocloo/com/cn/view/CircleImageView;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 58
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->photo:Lcom/twocloo/com/cn/view/CircleImageView;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/twocloo/com/cn/view/CircleImageView;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$9(Lcom/twocloo/com/cn/activitys/MyaccountActivity;)I
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 66
+a=0;//     iget v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->sex:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     return v0
+a=0;// .end method
+a=0;// 
+a=0;// .method private getInfo()V
+a=0;//     .locals 4
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 283
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/twocloo/com/cn/beans/User;);
+a=0;//     if-eqz v0, :cond_0
+a=0;// 
+a=0;//     .line 284
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     invoke-virtual {v0}, Lcom/twocloo/com/cn/beans/User;->getUid()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->uid:Ljava/lang/String;
+a=0;// 
+a=0;//     .line 285
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     invoke-virtual {v0}, Lcom/twocloo/com/cn/beans/User;->getToken()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->token:Ljava/lang/String;
+a=0;// 
+a=0;//     .line 286
+a=0;//     invoke-virtual {p0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->getApplicationContext()Landroid/content/Context;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     if-eqz v0, :cond_0
+a=0;// 
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->uid:Ljava/lang/String;
+a=0;// 
+a=0;//     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     #v0=(Boolean);
+a=0;//     if-nez v0, :cond_0
+a=0;// 
+a=0;//     .line 287
+a=0;//     invoke-virtual {p0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->getApplicationContext()Landroid/content/Context;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/content/Context;);
+a=0;//     invoke-static {v0}, Lcom/twocloo/com/cn/http/HttpComm;->isNetworkAvalible(Landroid/content/Context;)Z
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     #v0=(Boolean);
+a=0;//     if-nez v0, :cond_1
+a=0;// 
+a=0;//     .line 294
+a=0;//     :cond_0
+a=0;//     :goto_0
+a=0;//     #v0=(Conflicted);v1=(Conflicted);v2=(Conflicted);v3=(Conflicted);
+a=0;//     return-void
+a=0;// 
+a=0;//     .line 290
+a=0;//     :cond_1
+a=0;//     #v0=(Boolean);v1=(Uninit);v2=(Uninit);v3=(Uninit);
+a=0;//     new-instance v0, Lcom/twocloo/com/cn/threads/SyncUserInfoThread;
+a=0;// 
+a=0;//     #v0=(UninitRef,Lcom/twocloo/com/cn/threads/SyncUserInfoThread;);
+a=0;//     iget-object v1, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->handler2:Landroid/os/Handler;
+a=0;// 
+a=0;//     #v1=(Reference,Landroid/os/Handler;);
+a=0;//     iget-object v2, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->uid:Ljava/lang/String;
+a=0;// 
+a=0;//     #v2=(Reference,Ljava/lang/String;);
+a=0;//     iget-object v3, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->token:Ljava/lang/String;
+a=0;// 
+a=0;//     #v3=(Reference,Ljava/lang/String;);
+a=0;//     invoke-direct {v0, p0, v1, v2, v3}, Lcom/twocloo/com/cn/threads/SyncUserInfoThread;-><init>(Landroid/app/Activity;Landroid/os/Handler;Ljava/lang/String;Ljava/lang/String;)V
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/twocloo/com/cn/threads/SyncUserInfoThread;);
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->info:Lcom/twocloo/com/cn/threads/SyncUserInfoThread;
+a=0;// 
+a=0;//     .line 291
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->info:Lcom/twocloo/com/cn/threads/SyncUserInfoThread;
+a=0;// 
+a=0;//     invoke-virtual {v0}, Lcom/twocloo/com/cn/threads/SyncUserInfoThread;->start()V
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// .end method
+a=0;// 
+a=0;// .method private initView()V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 152
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->chongzhi_layout1:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->chongzhiLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     .line 153
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->topbar_layout:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->topLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     .line 154
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->btn_chongzhi:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/Button;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->btn_chongzhi:Landroid/widget/Button;
+a=0;// 
+a=0;//     .line 155
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->line1:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line1:Landroid/view/View;
+a=0;// 
+a=0;//     .line 156
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->line0:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line0:Landroid/view/View;
+a=0;// 
+a=0;//     .line 157
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->line2:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line2:Landroid/view/View;
+a=0;// 
+a=0;//     .line 158
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->line3:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line3:Landroid/view/View;
+a=0;// 
+a=0;//     .line 159
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->line4:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line4:Landroid/view/View;
+a=0;// 
+a=0;//     .line 160
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->line5:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line5:Landroid/view/View;
+a=0;// 
+a=0;//     .line 161
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->line6:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line6:Landroid/view/View;
+a=0;// 
+a=0;//     .line 162
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->line7:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line7:Landroid/view/View;
+a=0;// 
+a=0;//     .line 163
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->line8:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line8:Landroid/view/View;
+a=0;// 
+a=0;//     .line 164
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->main_layout:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/LinearLayout;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->mainLayout:Landroid/widget/LinearLayout;
+a=0;// 
+a=0;//     .line 165
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->btn_back:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/ImageView;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->btn_back:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     .line 166
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->user_logo:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Lcom/twocloo/com/cn/view/CircleImageView;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->photo:Lcom/twocloo/com/cn/view/CircleImageView;
+a=0;// 
+a=0;//     .line 167
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->username:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/TextView;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->username:Landroid/widget/TextView;
+a=0;// 
+a=0;//     .line 168
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->user_email:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/TextView;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->email:Landroid/widget/TextView;
+a=0;// 
+a=0;//     .line 169
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->huodong_layout:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->huodongLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     .line 170
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->qiandao_layout:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->qiandaoLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     .line 171
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->dianquan_layout:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->dianquanLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     .line 172
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->renwu_layout:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->renwuLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     .line 173
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->baoyue_layout:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->baoyueLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     .line 174
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->yuepiao_layout:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->yuepiaoLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     .line 175
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->chongzhi_layout:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->chongzhi:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     .line 176
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->xiaofei_layout:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->xiaofeiLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     .line 177
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->yuepiao_count:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/TextView;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->yuepiaoTextView:Landroid/widget/TextView;
+a=0;// 
+a=0;//     .line 178
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->dianquan_count:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/TextView;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->dianquanTextView:Landroid/widget/TextView;
+a=0;// 
+a=0;//     .line 179
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$id;->shuquan_count:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     check-cast v0, Landroid/widget/TextView;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->shuquanTextView:Landroid/widget/TextView;
+a=0;// 
+a=0;//     .line 180
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->huodongLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-virtual {v0, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+a=0;// 
+a=0;//     .line 181
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->qiandaoLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-virtual {v0, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+a=0;// 
+a=0;//     .line 182
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->dianquanLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-virtual {v0, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+a=0;// 
+a=0;//     .line 183
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->renwuLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-virtual {v0, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+a=0;// 
+a=0;//     .line 184
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->baoyueLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-virtual {v0, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+a=0;// 
+a=0;//     .line 185
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->yuepiaoLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-virtual {v0, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+a=0;// 
+a=0;//     .line 186
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->chongzhiLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-virtual {v0, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+a=0;// 
+a=0;//     .line 187
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->chongzhi:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-virtual {v0, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+a=0;// 
+a=0;//     .line 188
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->photo:Lcom/twocloo/com/cn/view/CircleImageView;
+a=0;// 
+a=0;//     invoke-virtual {v0, p0}, Lcom/twocloo/com/cn/view/CircleImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+a=0;// 
+a=0;//     .line 189
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->btn_back:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     invoke-virtual {v0, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+a=0;// 
+a=0;//     .line 190
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->btn_chongzhi:Landroid/widget/Button;
+a=0;// 
+a=0;//     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+a=0;// 
+a=0;//     .line 191
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->xiaofeiLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-virtual {v0, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+a=0;// 
+a=0;//     .line 192
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method private setDayOrNightMode()V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 297
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->mainLayout:Landroid/widget/LinearLayout;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/widget/LinearLayout;);
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setWhiteBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 298
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line1:Landroid/view/View;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setMoreSetFengexianBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 299
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line2:Landroid/view/View;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setNightSetFengexianBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 300
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line3:Landroid/view/View;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setNightSetFengexianBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 301
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line4:Landroid/view/View;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setNightSetFengexianBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 302
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line5:Landroid/view/View;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setNightSetFengexianBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 303
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line6:Landroid/view/View;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setNightSetFengexianBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 304
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line7:Landroid/view/View;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setNightSetFengexianBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 305
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line0:Landroid/view/View;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setNightSetFengexianBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 306
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->line8:Landroid/view/View;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setNightSetFengexianBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 307
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->topLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setTopBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 308
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->huodongLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setItemBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 309
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->qiandaoLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setItemBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 310
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->dianquanLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setItemBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 311
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->baoyueLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setItemBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 312
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->chongzhi:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setItemBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 313
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->xiaofeiLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setItemBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 314
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->renwuLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setItemBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 315
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->yuepiaoLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setItemBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 316
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->chongzhiLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-static {p0, v0}, Lcom/twocloo/com/cn/utils/CommonUtils;->setItemBackgroundByDayOrNight(Landroid/app/Activity;Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 317
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public jdggeSex()V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 338
+a=0;//     const/4 v1, 0x0
+a=0;// 
+a=0;//     #v1=(Null);
+a=0;//     iput v1, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->sex:I
+a=0;// 
+a=0;//     .line 339
+a=0;//     invoke-static {p0}, Lcom/twocloo/com/cn/common/LocalStore;->getUserSex(Landroid/content/Context;)I
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     .line 340
+a=0;//     .local v0, "sexID":I
+a=0;//     #v0=(Integer);
+a=0;//     const/4 v1, 0x1
+a=0;// 
+a=0;//     #v1=(One);
+a=0;//     if-ne v0, v1, :cond_1
+a=0;// 
+a=0;//     .line 341
+a=0;//     sget v1, Lcom/twocloo/com/cn/R$drawable;->usercentericon_nan:I
+a=0;// 
+a=0;//     #v1=(Integer);
+a=0;//     iput v1, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->sex:I
+a=0;// 
+a=0;//     .line 346
+a=0;//     :cond_0
+a=0;//     :goto_0
+a=0;//     return-void
+a=0;// 
+a=0;//     .line 342
+a=0;//     :cond_1
+a=0;//     #v1=(One);
+a=0;//     const/4 v1, 0x2
+a=0;// 
+a=0;//     #v1=(PosByte);
+a=0;//     if-ne v0, v1, :cond_0
+a=0;// 
+a=0;//     .line 343
+a=0;//     sget v1, Lcom/twocloo/com/cn/R$drawable;->usercentericon_nv:I
+a=0;// 
+a=0;//     #v1=(Integer);
+a=0;//     iput v1, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->sex:I
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// .end method
+a=0;// 
+a=0;// .method public onClick(Landroid/view/View;)V
+a=0;//     .locals 7
+a=0;//     .param p1, "v"    # Landroid/view/View;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 196
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->huodongLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     #v4=(Reference,Landroid/widget/RelativeLayout;);
+a=0;//     if-ne p1, v4, :cond_1
+a=0;// 
+a=0;//     .line 197
+a=0;//     new-instance v4, Ljava/lang/StringBuilder;
+a=0;// 
+a=0;//     #v4=(UninitRef,Ljava/lang/StringBuilder;);
+a=0;//     sget-object v5, Lcom/twocloo/com/cn/common/Constants;->HUODONG_DUIHUAN_URL:Ljava/lang/String;
+a=0;// 
+a=0;//     #v5=(Reference,Ljava/lang/String;);
+a=0;//     invoke-static {v5}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v5
+a=0;// 
+a=0;//     invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+a=0;// 
+a=0;//     #v4=(Reference,Ljava/lang/StringBuilder;);
+a=0;//     const-string v5, "&userid="
+a=0;// 
+a=0;//     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     invoke-static {}, Lcom/twocloo/com/cn/activitys/BookApp;->getUser()Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     move-result-object v5
+a=0;// 
+a=0;//     invoke-virtual {v5}, Lcom/twocloo/com/cn/beans/User;->getUid()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v5
+a=0;// 
+a=0;//     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     .line 198
+a=0;//     .local v0, "Url":Ljava/lang/String;
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     new-instance v1, Landroid/content/Intent;
+a=0;// 
+a=0;//     #v1=(UninitRef,Landroid/content/Intent;);
+a=0;//     invoke-virtual {p0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->getApplicationContext()Landroid/content/Context;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     const-class v5, Lcom/twocloo/com/cn/activitys/GeneralActivity;
+a=0;// 
+a=0;//     invoke-direct {v1, v4, v5}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+a=0;// 
+a=0;//     .line 199
+a=0;//     .local v1, "intent":Landroid/content/Intent;
+a=0;//     #v1=(Reference,Landroid/content/Intent;);
+a=0;//     const-string v4, "url"
+a=0;// 
+a=0;//     invoke-virtual {v1, v4, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+a=0;// 
+a=0;//     .line 200
+a=0;//     const-string v4, "title"
+a=0;// 
+a=0;//     const-string v5, "\u6d3b\u52a8\u5151\u6362"
+a=0;// 
+a=0;//     invoke-virtual {v1, v4, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+a=0;// 
+a=0;//     .line 201
+a=0;//     const-string v4, "from"
+a=0;// 
+a=0;//     const-string v5, "push"
+a=0;// 
+a=0;//     invoke-virtual {v1, v4, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+a=0;// 
+a=0;//     .line 202
+a=0;//     const-string v4, "from"
+a=0;// 
+a=0;//     const-string v5, "duijiang"
+a=0;// 
+a=0;//     invoke-virtual {v1, v4, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+a=0;// 
+a=0;//     .line 203
+a=0;//     invoke-virtual {p0, v1}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->startActivity(Landroid/content/Intent;)V
+a=0;// 
+a=0;//     .line 247
+a=0;//     .end local v0    # "Url":Ljava/lang/String;
+a=0;//     .end local v1    # "intent":Landroid/content/Intent;
+a=0;//     :cond_0
+a=0;//     :goto_0
+a=0;//     #v0=(Conflicted);v1=(Conflicted);v2=(Conflicted);v3=(Conflicted);v4=(Conflicted);v5=(Conflicted);v6=(Conflicted);
+a=0;//     return-void
+a=0;// 
+a=0;//     .line 204
+a=0;//     :cond_1
+a=0;//     #v0=(Uninit);v1=(Uninit);v2=(Uninit);v3=(Uninit);v4=(Reference,Landroid/widget/RelativeLayout;);v5=(Uninit);v6=(Uninit);
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->qiandaoLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     if-ne p1, v4, :cond_3
+a=0;// 
+a=0;//     .line 205
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     if-eqz v4, :cond_2
+a=0;// 
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     invoke-virtual {v4}, Lcom/twocloo/com/cn/beans/User;->getUid()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+a=0;// 
+a=0;//     move-result v4
+a=0;// 
+a=0;//     #v4=(Boolean);
+a=0;//     if-nez v4, :cond_2
+a=0;// 
+a=0;//     .line 206
+a=0;//     invoke-static {p0}, Lcom/twocloo/com/cn/utils/CommonUtils;->goSignIn(Landroid/app/Activity;)V
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// 
+a=0;//     .line 208
+a=0;//     :cond_2
+a=0;//     #v4=(Conflicted);
+a=0;//     const-string v4, "SignInActivity"
+a=0;// 
+a=0;//     #v4=(Reference,Ljava/lang/String;);
+a=0;//     invoke-static {p0, v4}, Lcom/twocloo/com/cn/utils/CommonUtils;->goToLogin(Landroid/app/Activity;Ljava/lang/String;)V
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// 
+a=0;//     .line 210
+a=0;//     :cond_3
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->dianquanLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     if-ne p1, v4, :cond_4
+a=0;// 
+a=0;//     .line 211
+a=0;//     new-instance v2, Landroid/content/Intent;
+a=0;// 
+a=0;//     #v2=(UninitRef,Landroid/content/Intent;);
+a=0;//     const-class v4, Lcom/twocloo/com/cn/activitys/OfferWallActivity;
+a=0;// 
+a=0;//     invoke-direct {v2, p0, v4}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+a=0;// 
+a=0;//     .line 212
+a=0;//     .local v2, "offerwallIntent":Landroid/content/Intent;
+a=0;//     #v2=(Reference,Landroid/content/Intent;);
+a=0;//     invoke-virtual {p0, v2}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->startActivity(Landroid/content/Intent;)V
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// 
+a=0;//     .line 213
+a=0;//     .end local v2    # "offerwallIntent":Landroid/content/Intent;
+a=0;//     :cond_4
+a=0;//     #v2=(Uninit);
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->renwuLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     if-eq p1, v4, :cond_0
+a=0;// 
+a=0;//     .line 215
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->baoyueLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     if-ne p1, v4, :cond_6
+a=0;// 
+a=0;//     .line 216
+a=0;//     invoke-virtual {p0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->getApplicationContext()Landroid/content/Context;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     invoke-static {v4}, Lcom/twocloo/com/cn/utils/MySharedPreferences;->getMySharedPreferences(Landroid/content/Context;)Lcom/twocloo/com/cn/utils/MySharedPreferences;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     const-string v5, "newflag"
+a=0;// 
+a=0;//     #v5=(Reference,Ljava/lang/String;);
+a=0;//     const-string v6, "1"
+a=0;// 
+a=0;//     #v6=(Reference,Ljava/lang/String;);
+a=0;//     invoke-virtual {v4, v5, v6}, Lcom/twocloo/com/cn/utils/MySharedPreferences;->setValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+a=0;// 
+a=0;//     .line 217
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     if-eqz v4, :cond_5
+a=0;// 
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     invoke-virtual {v4}, Lcom/twocloo/com/cn/beans/User;->getUid()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+a=0;// 
+a=0;//     move-result v4
+a=0;// 
+a=0;//     #v4=(Boolean);
+a=0;//     if-nez v4, :cond_5
+a=0;// 
+a=0;//     .line 218
+a=0;//     invoke-static {p0}, Lcom/twocloo/com/cn/utils/CommonUtils;->goBaoyue(Landroid/app/Activity;)V
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// 
+a=0;//     .line 220
+a=0;//     :cond_5
+a=0;//     #v4=(Conflicted);
+a=0;//     const-string v4, "LOGINTAG"
+a=0;// 
+a=0;//     #v4=(Reference,Ljava/lang/String;);
+a=0;//     invoke-static {p0, v4}, Lcom/twocloo/com/cn/utils/CommonUtils;->goToLogin(Landroid/app/Activity;Ljava/lang/String;)V
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// 
+a=0;//     .line 222
+a=0;//     :cond_6
+a=0;//     #v5=(Uninit);v6=(Uninit);
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->yuepiaoLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     if-eq p1, v4, :cond_0
+a=0;// 
+a=0;//     .line 224
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->chongzhi:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     if-ne p1, v4, :cond_8
+a=0;// 
+a=0;//     .line 225
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     if-nez v4, :cond_7
+a=0;// 
+a=0;//     .line 226
+a=0;//     const-string v4, ""
+a=0;// 
+a=0;//     invoke-static {p0, v4}, Lcom/twocloo/com/cn/utils/CommonUtils;->goToLogin(Landroid/app/Activity;Ljava/lang/String;)V
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// 
+a=0;//     .line 229
+a=0;//     :cond_7
+a=0;//     const-string v4, "\u5145\u503c\u8bb0\u5f55"
+a=0;// 
+a=0;//     const-string v5, "http://app.2cloo.com/user-user_recharge_detail?token=%s"
+a=0;// 
+a=0;//     #v5=(Reference,Ljava/lang/String;);
+a=0;//     invoke-static {p0, v4, v5}, Lcom/twocloo/com/cn/utils/CommonUtils;->goGeneralActivity(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;)V
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// 
+a=0;//     .line 230
+a=0;//     :cond_8
+a=0;//     #v5=(Uninit);
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->xiaofeiLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     if-ne p1, v4, :cond_a
+a=0;// 
+a=0;//     .line 231
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     if-nez v4, :cond_9
+a=0;// 
+a=0;//     .line 232
+a=0;//     const-string v4, ""
+a=0;// 
+a=0;//     invoke-static {p0, v4}, Lcom/twocloo/com/cn/utils/CommonUtils;->goToLogin(Landroid/app/Activity;Ljava/lang/String;)V
+a=0;// 
+a=0;//     goto/16 :goto_0
+a=0;// 
+a=0;//     .line 235
+a=0;//     :cond_9
+a=0;//     const-string v4, "\u6d88\u8d39\u8bb0\u5f55"
+a=0;// 
+a=0;//     const-string v5, "http://app.2cloo.com/user-user_expend_detail?token=%s"
+a=0;// 
+a=0;//     #v5=(Reference,Ljava/lang/String;);
+a=0;//     invoke-static {p0, v4, v5}, Lcom/twocloo/com/cn/utils/CommonUtils;->goGeneralActivity(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;)V
+a=0;// 
+a=0;//     goto/16 :goto_0
+a=0;// 
+a=0;//     .line 236
+a=0;//     :cond_a
+a=0;//     #v5=(Uninit);
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->photo:Lcom/twocloo/com/cn/view/CircleImageView;
+a=0;// 
+a=0;//     if-ne p1, v4, :cond_b
+a=0;// 
+a=0;//     .line 237
+a=0;//     new-instance v4, Landroid/content/Intent;
+a=0;// 
+a=0;//     #v4=(UninitRef,Landroid/content/Intent;);
+a=0;//     const-class v5, Lcom/twocloo/com/cn/activitys/EditProfileActivity;
+a=0;// 
+a=0;//     #v5=(Reference,Ljava/lang/Class;);
+a=0;//     invoke-direct {v4, p0, v5}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+a=0;// 
+a=0;//     #v4=(Reference,Landroid/content/Intent;);
+a=0;//     invoke-virtual {p0, v4}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->startActivity(Landroid/content/Intent;)V
+a=0;// 
+a=0;//     goto/16 :goto_0
+a=0;// 
+a=0;//     .line 238
+a=0;//     :cond_b
+a=0;//     #v5=(Uninit);
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->chongzhiLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     if-ne p1, v4, :cond_d
+a=0;// 
+a=0;//     .line 239
+a=0;//     invoke-static {}, Lcom/twocloo/com/cn/activitys/BookApp;->getUser()Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     if-eqz v4, :cond_c
+a=0;// 
+a=0;//     invoke-static {}, Lcom/twocloo/com/cn/activitys/BookApp;->getUser()Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     invoke-virtual {v4}, Lcom/twocloo/com/cn/beans/User;->getUid()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     if-eqz v4, :cond_c
+a=0;// 
+a=0;//     .line 240
+a=0;//     new-instance v3, Landroid/content/Intent;
+a=0;// 
+a=0;//     #v3=(UninitRef,Landroid/content/Intent;);
+a=0;//     invoke-virtual {p0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->getApplicationContext()Landroid/content/Context;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     const-class v5, Lcom/twocloo/com/cn/activitys/RechargeWayActivity;
+a=0;// 
+a=0;//     #v5=(Reference,Ljava/lang/Class;);
+a=0;//     invoke-direct {v3, v4, v5}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+a=0;// 
+a=0;//     .line 241
+a=0;//     .local v3, "rechargeIntent":Landroid/content/Intent;
+a=0;//     #v3=(Reference,Landroid/content/Intent;);
+a=0;//     invoke-virtual {p0, v3}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->startActivity(Landroid/content/Intent;)V
+a=0;// 
+a=0;//     goto/16 :goto_0
+a=0;// 
+a=0;//     .line 243
+a=0;//     .end local v3    # "rechargeIntent":Landroid/content/Intent;
+a=0;//     :cond_c
+a=0;//     #v3=(Uninit);v5=(Uninit);
+a=0;//     const-string v4, ""
+a=0;// 
+a=0;//     invoke-static {p0, v4}, Lcom/twocloo/com/cn/utils/CommonUtils;->goToLogin(Landroid/app/Activity;Ljava/lang/String;)V
+a=0;// 
+a=0;//     goto/16 :goto_0
+a=0;// 
+a=0;//     .line 244
+a=0;//     :cond_d
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->btn_back:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     if-ne p1, v4, :cond_0
+a=0;// 
+a=0;//     .line 245
+a=0;//     invoke-virtual {p0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->finish()V
+a=0;// 
+a=0;//     goto/16 :goto_0
+a=0;// .end method
+a=0;// 
+a=0;// .method protected onCreate(Landroid/os/Bundle;)V
+a=0;//     .locals 3
+a=0;//     .param p1, "savedInstanceState"    # Landroid/os/Bundle;
+a=0;// 
+a=0;//     .prologue
+a=0;//     const/16 v2, 0x8
+a=0;// 
+a=0;//     .line 140
+a=0;//     #v2=(PosByte);
+a=0;//     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
+a=0;// 
+a=0;//     .line 141
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$layout;->my_account_activity:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->setContentView(I)V
+a=0;// 
+a=0;//     .line 142
+a=0;//     invoke-static {p0}, Lcom/twocloo/com/cn/common/CloseActivity;->add(Landroid/app/Activity;)V
+a=0;// 
+a=0;//     .line 143
+a=0;//     invoke-direct {p0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->initView()V
+a=0;// 
+a=0;//     .line 144
+a=0;//     invoke-virtual {p0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->jdggeSex()V
+a=0;// 
+a=0;//     .line 145
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$anim;->push_left_in:I
+a=0;// 
+a=0;//     sget v1, Lcom/twocloo/com/cn/R$anim;->push_left_out:I
+a=0;// 
+a=0;//     #v1=(Integer);
+a=0;//     invoke-virtual {p0, v0, v1}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->overridePendingTransition(II)V
+a=0;// 
+a=0;//     .line 146
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->renwuLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/widget/RelativeLayout;);
+a=0;//     invoke-virtual {v0, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
+a=0;// 
+a=0;//     .line 147
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->yuepiaoLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-virtual {v0, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
+a=0;// 
+a=0;//     .line 148
+a=0;//     invoke-virtual {p0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->setTopLayout()V
+a=0;// 
+a=0;//     .line 149
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method protected onDestroy()V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 326
+a=0;//     invoke-super {p0}, Landroid/app/Activity;->onDestroy()V
+a=0;// 
+a=0;//     .line 327
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$anim;->push_right_in:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     sget v1, Lcom/twocloo/com/cn/R$anim;->push_right_out:I
+a=0;// 
+a=0;//     #v1=(Integer);
+a=0;//     invoke-virtual {p0, v0, v1}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->overridePendingTransition(II)V
+a=0;// 
+a=0;//     .line 328
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method protected onPause()V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 333
+a=0;//     invoke-super {p0}, Landroid/app/Activity;->onPause()V
+a=0;// 
+a=0;//     .line 334
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$anim;->push_right_in:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     sget v1, Lcom/twocloo/com/cn/R$anim;->push_right_out:I
+a=0;// 
+a=0;//     #v1=(Integer);
+a=0;//     invoke-virtual {p0, v0, v1}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->overridePendingTransition(II)V
+a=0;// 
+a=0;//     .line 335
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public onResume()V
+a=0;//     .locals 7
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 251
+a=0;//     invoke-static {}, Lcom/twocloo/com/cn/activitys/BookApp;->getUser()Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     #v4=(Reference,Lcom/twocloo/com/cn/beans/User;);
+a=0;//     iput-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     .line 252
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     if-eqz v4, :cond_0
+a=0;// 
+a=0;//     .line 253
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     invoke-virtual {v4}, Lcom/twocloo/com/cn/beans/User;->getUid()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+a=0;// 
+a=0;//     move-result v4
+a=0;// 
+a=0;//     #v4=(Boolean);
+a=0;//     if-nez v4, :cond_0
+a=0;// 
+a=0;//     .line 254
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->username:Landroid/widget/TextView;
+a=0;// 
+a=0;//     #v4=(Reference,Landroid/widget/TextView;);
+a=0;//     iget-object v5, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     #v5=(Reference,Lcom/twocloo/com/cn/beans/User;);
+a=0;//     invoke-virtual {v5}, Lcom/twocloo/com/cn/beans/User;->getUsername()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v5
+a=0;// 
+a=0;//     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+a=0;// 
+a=0;//     .line 255
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->email:Landroid/widget/TextView;
+a=0;// 
+a=0;//     iget-object v5, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     invoke-virtual {v5}, Lcom/twocloo/com/cn/beans/User;->getUid()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v5
+a=0;// 
+a=0;//     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+a=0;// 
+a=0;//     .line 257
+a=0;//     new-instance v2, Ljava/io/File;
+a=0;// 
+a=0;//     #v2=(UninitRef,Ljava/io/File;);
+a=0;//     sget-object v4, Lcom/twocloo/com/cn/common/Constants;->TWOCLOO_USER_ICON_IMGCACHE:Ljava/lang/String;
+a=0;// 
+a=0;//     new-instance v5, Ljava/lang/StringBuilder;
+a=0;// 
+a=0;//     #v5=(UninitRef,Ljava/lang/StringBuilder;);
+a=0;//     iget-object v6, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->user:Lcom/twocloo/com/cn/beans/User;
+a=0;// 
+a=0;//     #v6=(Reference,Lcom/twocloo/com/cn/beans/User;);
+a=0;//     invoke-virtual {v6}, Lcom/twocloo/com/cn/beans/User;->getUid()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v6
+a=0;// 
+a=0;//     invoke-static {v6}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v6
+a=0;// 
+a=0;//     invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+a=0;// 
+a=0;//     #v5=(Reference,Ljava/lang/StringBuilder;);
+a=0;//     const-string v6, "_"
+a=0;// 
+a=0;//     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+a=0;// 
+a=0;//     move-result-object v5
+a=0;// 
+a=0;//     const-string v6, "2clooicon.cach"
+a=0;// 
+a=0;//     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+a=0;// 
+a=0;//     move-result-object v5
+a=0;// 
+a=0;//     invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v5
+a=0;// 
+a=0;//     invoke-direct {v2, v4, v5}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+a=0;// 
+a=0;//     .line 258
+a=0;//     .local v2, "iconFile":Ljava/io/File;
+a=0;//     #v2=(Reference,Ljava/io/File;);
+a=0;//     const/4 v0, 0x0
+a=0;// 
+a=0;//     .line 259
+a=0;//     .local v0, "d":Landroid/graphics/drawable/Drawable;
+a=0;//     #v0=(Null);
+a=0;//     invoke-virtual {v2}, Ljava/io/File;->exists()Z
+a=0;// 
+a=0;//     move-result v4
+a=0;// 
+a=0;//     #v4=(Boolean);
+a=0;//     if-nez v4, :cond_1
+a=0;// 
+a=0;//     .line 260
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->photo:Lcom/twocloo/com/cn/view/CircleImageView;
+a=0;// 
+a=0;//     #v4=(Reference,Lcom/twocloo/com/cn/view/CircleImageView;);
+a=0;//     iget v5, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->sex:I
+a=0;// 
+a=0;//     #v5=(Integer);
+a=0;//     invoke-virtual {v4, v5}, Lcom/twocloo/com/cn/view/CircleImageView;->setImageResource(I)V
+a=0;// 
+a=0;//     .line 275
+a=0;//     .end local v0    # "d":Landroid/graphics/drawable/Drawable;
+a=0;//     .end local v2    # "iconFile":Ljava/io/File;
+a=0;//     :cond_0
+a=0;//     :goto_0
+a=0;//     #v0=(Conflicted);v1=(Conflicted);v2=(Conflicted);v3=(Conflicted);v4=(Conflicted);v5=(Conflicted);v6=(Conflicted);
+a=0;//     invoke-direct {p0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->getInfo()V
+a=0;// 
+a=0;//     .line 276
+a=0;//     invoke-direct {p0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->setDayOrNightMode()V
+a=0;// 
+a=0;//     .line 278
+a=0;//     invoke-super {p0}, Landroid/app/Activity;->onResume()V
+a=0;// 
+a=0;//     .line 279
+a=0;//     return-void
+a=0;// 
+a=0;//     .line 262
+a=0;//     .restart local v0    # "d":Landroid/graphics/drawable/Drawable;
+a=0;//     .restart local v2    # "iconFile":Ljava/io/File;
+a=0;//     :cond_1
+a=0;//     #v0=(Null);v1=(Uninit);v2=(Reference,Ljava/io/File;);v3=(Uninit);v4=(Boolean);v5=(Reference,Ljava/lang/String;);v6=(Reference,Ljava/lang/String;);
+a=0;//     invoke-static {v2}, Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
+a=0;// 
+a=0;//     move-result-object v3
+a=0;// 
+a=0;//     .line 264
+a=0;//     .local v3, "uri":Landroid/net/Uri;
+a=0;//     :try_start_0
+a=0;//     #v3=(Reference,Landroid/net/Uri;);
+a=0;//     invoke-virtual {p0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->getApplicationContext()Landroid/content/Context;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     #v4=(Reference,Landroid/content/Context;);
+a=0;//     invoke-virtual {v4}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     invoke-virtual {v4, v3}, Landroid/content/ContentResolver;->openInputStream(Landroid/net/Uri;)Ljava/io/InputStream;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     const/4 v5, 0x0
+a=0;// 
+a=0;//     #v5=(Null);
+a=0;//     invoke-static {v4, v5}, Landroid/graphics/drawable/Drawable;->createFromStream(Ljava/io/InputStream;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
+a=0;//     :try_end_0
+a=0;//     .catch Ljava/io/FileNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     .line 268
+a=0;//     :goto_1
+a=0;//     #v0=(Reference,Landroid/graphics/drawable/Drawable;);v1=(Conflicted);v4=(Conflicted);v5=(Reference,Ljava/lang/String;);
+a=0;//     iget-object v4, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->photo:Lcom/twocloo/com/cn/view/CircleImageView;
+a=0;// 
+a=0;//     #v4=(Reference,Lcom/twocloo/com/cn/view/CircleImageView;);
+a=0;//     invoke-virtual {v4, v0}, Lcom/twocloo/com/cn/view/CircleImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// 
+a=0;//     .line 265
+a=0;//     :catch_0
+a=0;//     #v0=(Null);v1=(Uninit);v4=(Conflicted);
+a=0;//     move-exception v1
+a=0;// 
+a=0;//     .line 266
+a=0;//     .local v1, "e":Ljava/io/FileNotFoundException;
+a=0;//     #v1=(Reference,Ljava/io/FileNotFoundException;);
+a=0;//     invoke-virtual {v1}, Ljava/io/FileNotFoundException;->printStackTrace()V
+a=0;// 
+a=0;//     goto :goto_1
+a=0;// .end method
+a=0;// 
+a=0;// .method public setTopLayout()V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 320
+a=0;//     invoke-virtual {p0}, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->getApplicationContext()Landroid/content/Context;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     #v1=(Reference,Landroid/content/Context;);
+a=0;//     invoke-static {v1}, Lcom/twocloo/com/cn/common/LocalStore;->getTopBackgroundColor(Landroid/content/Context;)I
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     .line 321
+a=0;//     .local v0, "color":I
+a=0;//     #v0=(Integer);
+a=0;//     iget-object v1, p0, Lcom/twocloo/com/cn/activitys/MyaccountActivity;->topLayout:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-virtual {v1, v0}, Landroid/widget/RelativeLayout;->setBackgroundColor(I)V
+a=0;// 
+a=0;//     .line 322
+a=0;//     return-void
+a=0;// .end method
+}}

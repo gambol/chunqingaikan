@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twocloo.com.cn.view.CircleImageView android:id="@id/user_logo" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@null" android:scaleType="fitXY" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="王二小" />
+    <Button android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/is_guanzhu" android:background="@drawable/circle_ret_chengse" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:button="@null" android:text="关注" />
+</LinearLayout>

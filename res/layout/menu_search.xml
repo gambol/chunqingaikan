@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mainlayout" android:background="@color/main_normal_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_bar" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/include_top_bfbar" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/gosearchlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/top_bar">
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:gravity="center|left" android:id="@id/search_et" android:background="@drawable/input_edit_white" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="8.0dip" android:text="搜索作品" android:drawableLeft="@drawable/main_navigation_search_normal" />
+    </LinearLayout>
+    <com.twocloo.com.cn.beans.WebView android:id="@id/webview" android:background="#ffffffff" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/gosearchlayout" />
+    <RelativeLayout android:id="@id/network_unvaliable" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/gosearchlayout">
+        <include layout="@layout/network_error_layout" />
+    </RelativeLayout>
+</RelativeLayout>

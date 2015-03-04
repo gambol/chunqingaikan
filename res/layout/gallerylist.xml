@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bf_main" android:background="@color/main_normal_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_bar" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/include_top_bfbar" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/top_bar">
+        <RelativeLayout android:id="@id/rl_top" android:background="#fffff8df" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_bookshelf_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/notice_icon" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:ellipsize="marquee" android:gravity="center" android:id="@id/bookshell_notice_tv" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/bookshelf_welcome_to_twocloo" android:singleLine="true" android:layout_toRightOf="@id/iv_bookshelf_notice" android:layout_centerInParent="true" android:marqueeRepeatLimit="marquee_forever" />
+            <ImageView android:id="@id/clear_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/clear_btn" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:contentDescription="@null" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_middle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/rl_top">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.twocloo.com.cn.view.PullRefreshListView android:id="@id/listview" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/listview_selector" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:dividerHeight="0.0dip" android:fastScrollEnabled="false" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Button android:id="@id/gobookcity" android:background="@drawable/addbookbutton" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bf_yy" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/bf_help" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

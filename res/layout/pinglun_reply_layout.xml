@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mainlayout" android:background="@color/main_normal_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topbarlayout" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/include_top_bfbar" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/reply_topic_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/topbarlayout">
+        <com.twocloo.com.cn.view.CircleImageView android:id="@id/icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/usercentericon" android:layout_alignParentLeft="true" android:contentDescription="@null" />
+        <RelativeLayout android:id="@id/usernamelayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/icon" android:layout_alignTop="@id/icon">
+            <TextView android:textSize="16.0sp" android:textColor="#ff3bb296" android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="15.0dip" android:text="" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/gray_text" android:id="@id/pingluntime" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <Button android:textSize="14.0sp" android:textColor="#ffff9999" android:id="@id/btn_jubao" android:background="@drawable/pinglun_bg" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="举报 TA    " android:drawableLeft="@drawable/jubao" android:drawablePadding="3.0dip" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_dark_text" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_toRightOf="@id/icon" android:layout_below="@id/icon" />
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/pinglun_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/content">
+            <RelativeLayout android:id="@id/bottomlayout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/huifu_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sms" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/gray_text" android:id="@id/huifucountTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/huifu_icon" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="#ffececec" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+            <RelativeLayout android:id="@id/supportlayout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/support_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zan1" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/gray_text" android:id="@id/supportTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/support_icon" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/more_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/more_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    </RelativeLayout>
+    <View android:id="@id/line1" android:background="@drawable/line_s" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/reply_topic_layout" />
+    <ListView android:id="@id/replylist" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:scrollingCache="false" android:cacheColorHint="#00000000" android:divider="#ffececec" android:dividerHeight="0.5dip" android:layout_above="@id/line2" android:layout_below="@id/line1" />
+    <LinearLayout android:orientation="vertical" android:id="@id/nulllayout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/line2" android:layout_below="@id/line1">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/cry" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffcccccc" android:gravity="center" android:id="@id/nonetv" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="哎呀，还没有人抢过沙发呢！" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffcccccc" android:layout_gravity="center_horizontal" android:id="@id/qiangshafa" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="秒抢沙发" android:drawableLeft="@drawable/sms" android:drawablePadding="10.0dip" />
+    </LinearLayout>
+    <View android:id="@id/line2" android:background="@drawable/line_s" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_above="@id/reply_layout" />
+    <ScrollView android:orientation="vertical" android:id="@id/reply_layout" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_alignParentBottom="true">
+        <LinearLayout android:id="@id/enter_pinglun" android:background="@drawable/menu_bottom_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="14.0sp" android:layout_gravity="center_vertical" android:id="@id/input_edit" android:background="@drawable/input_edit_white" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:hint="说点什么" android:drawableLeft="@drawable/bianji" android:drawablePadding="5.0dip" android:layout_weight="2.0" />
+            <Button android:textSize="14.0sp" android:textColor="@color/gray_text" android:layout_gravity="center_vertical" android:id="@id/sendbtn" android:background="@drawable/white_button_bg_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="发送" android:layout_weight="6.0" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mianlayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/titlebarlayout" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/include_top_bfbar" />
+    </RelativeLayout>
+    <com.twocloo.com.cn.beans.WebView android:id="@id/webview" android:visibility="visible" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/titlebarlayout" />
+    <RelativeLayout android:id="@id/discover_network_unvaliable" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/titlebarlayout">
+        <include layout="@layout/network_error_layout" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/booklayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/coverlayout" android:background="@drawable/default_cover" android:layout_width="68.0dip" android:layout_height="80.0dip" android:layout_margin="3.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <ImageView android:id="@id/logo" android:layout_width="68.0dip" android:layout_height="80.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="12.0dip" android:textColor="#ffdc5800" android:id="@id/finish" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="-" android:layout_alignTop="@id/coverlayout" android:layout_alignParentRight="true" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff0975cd" android:id="@id/bookname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:layout_marginRight="5.0dip" android:text="-" android:layout_toRightOf="@id/coverlayout" android:layout_alignTop="@id/coverlayout" />
+        <TextView android:textSize="12.0dip" android:textStyle="italic" android:textColor="#ff009900" android:id="@id/totalviews" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="-" android:layout_toRightOf="@id/coverlayout" android:layout_below="@id/bookname" android:layout_alignLeft="@id/bookname" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff666666" android:id="@id/tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text=" 人已看过" android:layout_toRightOf="@id/totalviews" android:layout_below="@id/bookname" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff666666" android:ellipsize="end" android:id="@id/descrition" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:text="-" android:singleLine="true" android:layout_toRightOf="@id/coverlayout" android:layout_alignLeft="@id/totalviews" android:layout_alignBottom="@id/coverlayout" />
+        <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="10.0dip" android:layout_below="@id/descrition" />
+    </RelativeLayout>
+</RelativeLayout>

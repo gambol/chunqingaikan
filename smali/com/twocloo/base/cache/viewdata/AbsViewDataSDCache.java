@@ -1,0 +1,93 @@
+package com.twocloo.base.cache.viewdata; class AbsViewDataSDCache { void a() { int a;
+a=0;// .class public abstract Lcom/twocloo/base/cache/viewdata/AbsViewDataSDCache;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "AbsViewDataSDCache.java"
+a=0;// 
+a=0;// # interfaces
+a=0;// .implements Lcom/twocloo/base/cache/Cache;
+a=0;// 
+a=0;// 
+a=0;// # annotations
+a=0;// .annotation system Ldalvik/annotation/Signature;
+a=0;//     value = {
+a=0;//         "<T:",
+a=0;//         "Ljava/lang/Object;",
+a=0;//         ">",
+a=0;//         "Ljava/lang/Object;",
+a=0;//         "Lcom/twocloo/base/cache/Cache",
+a=0;//         "<TT;>;"
+a=0;//     }
+a=0;// .end annotation
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>()V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 10
+a=0;//     .local p0, "this":Lcom/twocloo/base/cache/viewdata/AbsViewDataSDCache;, "Lcom/twocloo/base/cache/viewdata/AbsViewDataSDCache<TT;>;"
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     #p0=(Reference,Lcom/twocloo/base/cache/viewdata/AbsViewDataSDCache;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public available()Z
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 19
+a=0;//     .local p0, "this":Lcom/twocloo/base/cache/viewdata/AbsViewDataSDCache;, "Lcom/twocloo/base/cache/viewdata/AbsViewDataSDCache<TT;>;"
+a=0;//     invoke-static {}, Lcom/twocloo/base/util/StorageUtils;->externalMemoryAvailable()Z
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     #v0=(Boolean);
+a=0;//     return v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public getAvailableMemorySize()J
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 29
+a=0;//     .local p0, "this":Lcom/twocloo/base/cache/viewdata/AbsViewDataSDCache;, "Lcom/twocloo/base/cache/viewdata/AbsViewDataSDCache<TT;>;"
+a=0;//     invoke-static {}, Lcom/twocloo/base/util/StorageUtils;->getAvailableExternalMemorySize()J
+a=0;// 
+a=0;//     move-result-wide v0
+a=0;// 
+a=0;//     #v0=(LongLo);v1=(LongHi);
+a=0;//     return-wide v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public getRootPath()Ljava/lang/String;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 14
+a=0;//     .local p0, "this":Lcom/twocloo/base/cache/viewdata/AbsViewDataSDCache;, "Lcom/twocloo/base/cache/viewdata/AbsViewDataSDCache<TT;>;"
+a=0;//     invoke-static {}, Lcom/twocloo/base/util/StorageUtils;->externalMemoryRootPath()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public getTotalMemorySize()J
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 24
+a=0;//     .local p0, "this":Lcom/twocloo/base/cache/viewdata/AbsViewDataSDCache;, "Lcom/twocloo/base/cache/viewdata/AbsViewDataSDCache<TT;>;"
+a=0;//     invoke-static {}, Lcom/twocloo/base/util/StorageUtils;->getTotalExternalMemorySize()J
+a=0;// 
+a=0;//     move-result-wide v0
+a=0;// 
+a=0;//     #v0=(LongLo);v1=(LongHi);
+a=0;//     return-wide v0
+a=0;// .end method
+}}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="#ffffffff" android:id="@id/btn_back" android:background="@drawable/back_button_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/title_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip" android:singleLine="true" android:layout_centerVertical="true" />
+    <Button android:textColor="#ffffffff" android:id="@id/btn_readmkr" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="书签" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <Button android:textColor="#ffffffff" android:id="@id/btn_readmkl" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="目录" android:layout_toLeftOf="@id/btn_readmkr" android:layout_centerVertical="true" />
+</RelativeLayout>

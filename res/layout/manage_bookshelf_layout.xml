@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/manage_bookshelf_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_bar" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/include_top_bfbar" />
+    </RelativeLayout>
+    <GridView android:id="@id/bookgridview" android:background="#00000000" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:cacheColorHint="@android:color/transparent" android:horizontalSpacing="10.0dip" android:verticalSpacing="10.0dip" android:columnWidth="100.0dip" android:numColumns="3" android:layout_above="@id/buttonlayout" android:layout_below="@id/top_bar" android:overScrollMode="never" />
+    <LinearLayout android:id="@id/buttonlayout" android:background="@drawable/menu_bottom_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textColor="@color/light_gray_text" android:layout_gravity="center_vertical" android:id="@id/deletebtn" android:background="@drawable/button_light_click_selector" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/arrange_bookshelf_delete" android:drawableLeft="@null" android:layout_weight="1.0" />
+        <Button android:textColor="@color/light_gray_text" android:layout_gravity="center_vertical" android:id="@id/updateallbtn" android:background="@drawable/button_light_click_selector" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/arrange_bookshelf_update_all" android:layout_weight="1.0" />
+        <Button android:textColor="@color/light_gray_text" android:layout_gravity="center_vertical" android:id="@id/canclelbtn" android:background="@drawable/button_light_click_selector" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/arrange_bookshelf_cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

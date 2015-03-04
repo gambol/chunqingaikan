@@ -1,0 +1,60 @@
+package com.lidroid.xutils.util; class LogUtils$CustomLogger { void a() { int a;
+a=0;// .class public interface abstract Lcom/lidroid/xutils/util/LogUtils$CustomLogger;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "LogUtils.java"
+a=0;// 
+a=0;// 
+a=0;// # annotations
+a=0;// .annotation system Ldalvik/annotation/EnclosingClass;
+a=0;//     value = Lcom/lidroid/xutils/util/LogUtils;
+a=0;// .end annotation
+a=0;// 
+a=0;// .annotation system Ldalvik/annotation/InnerClass;
+a=0;//     accessFlags = 0x609
+a=0;//     name = "CustomLogger"
+a=0;// .end annotation
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public abstract d(Ljava/lang/String;Ljava/lang/String;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract e(Ljava/lang/String;Ljava/lang/String;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract i(Ljava/lang/String;Ljava/lang/String;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract v(Ljava/lang/String;Ljava/lang/String;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract v(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract w(Ljava/lang/String;Ljava/lang/String;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract w(Ljava/lang/String;Ljava/lang/Throwable;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract wtf(Ljava/lang/String;Ljava/lang/String;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract wtf(Ljava/lang/String;Ljava/lang/Throwable;)V
+a=0;// .end method
+}}

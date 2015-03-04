@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/containerlayout" android:background="@color/main_normal_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_bar" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/include_top_bfbar" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/novel_settingbb_mcqd" android:background="@drawable/biankuang2" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:id="@id/setbb_tv1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:text="每次启动" android:layout_weight="1.0" />
+        <ImageView android:id="@id/setbb_iv1" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_selector" android:layout_weight="3.0" android:contentDescription="@null" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/novel_settingbb_mt" android:background="@drawable/biankuang2" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="1.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:id="@id/setbb_tv2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:text="每天" android:layout_weight="1.0" />
+        <ImageView android:id="@id/setbb_iv2" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_selector" android:layout_weight="3.0" android:contentDescription="@null" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/novel_settingbb_mz" android:background="@drawable/biankuang2" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="1.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:id="@id/setbb_tv3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:text="每周" />
+        <ImageView android:id="@id/setbb_iv3" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_selector" android:layout_weight="3.0" android:contentDescription="@null" />
+    </LinearLayout>
+</LinearLayout>

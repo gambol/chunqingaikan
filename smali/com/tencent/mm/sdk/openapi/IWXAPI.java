@@ -1,0 +1,36 @@
+package com.tencent.mm.sdk.openapi; class IWXAPI { void a() { int a;
+a=0;// .class public interface abstract Lcom/tencent/mm/sdk/openapi/IWXAPI;
+a=0;// .super Ljava/lang/Object;
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public abstract detach()V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract getWXAppSupportAPI()I
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract handleIntent(Landroid/content/Intent;Lcom/tencent/mm/sdk/openapi/IWXAPIEventHandler;)Z
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract isWXAppInstalled()Z
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract isWXAppSupportAPI()Z
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract openWXApp()Z
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract registerApp(Ljava/lang/String;)Z
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract sendReq(Lcom/tencent/mm/sdk/modelbase/BaseReq;)Z
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract sendResp(Lcom/tencent/mm/sdk/modelbase/BaseResp;)Z
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract unregisterApp()V
+a=0;// .end method
+}}

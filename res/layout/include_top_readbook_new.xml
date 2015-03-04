@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_top_menu" android:background="@drawable/read_menu_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/iv_back" android:background="@drawable/back_button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="8.0dip" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+        <ImageView android:id="@id/menu_btn_mulu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/menu_read_mulu" android:layout_toRightOf="@id/iv_back" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/title_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip" android:singleLine="true" android:layout_centerVertical="true" />
+        <Button android:id="@id/btn_readmkr" android:background="@drawable/select_bookmark_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <Button android:id="@id/btn_share" android:background="@drawable/share_button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_toLeftOf="@id/btn_readmkr" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

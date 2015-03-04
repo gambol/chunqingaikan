@@ -1,0 +1,129 @@
+package android.support.v13.app; class FragmentTabHost$TabInfo { void a() { int a;
+a=0;// .class final Landroid/support/v13/app/FragmentTabHost$TabInfo;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "FragmentTabHost.java"
+a=0;// 
+a=0;// 
+a=0;// # annotations
+a=0;// .annotation system Ldalvik/annotation/EnclosingClass;
+a=0;//     value = Landroid/support/v13/app/FragmentTabHost;
+a=0;// .end annotation
+a=0;// 
+a=0;// .annotation system Ldalvik/annotation/InnerClass;
+a=0;//     accessFlags = 0x18
+a=0;//     name = "TabInfo"
+a=0;// .end annotation
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field private final args:Landroid/os/Bundle;
+a=0;// 
+a=0;// .field private final clss:Ljava/lang/Class;
+a=0;//     .annotation system Ldalvik/annotation/Signature;
+a=0;//         value = {
+a=0;//             "Ljava/lang/Class",
+a=0;//             "<*>;"
+a=0;//         }
+a=0;//     .end annotation
+a=0;// .end field
+a=0;// 
+a=0;// .field private fragment:Landroid/app/Fragment;
+a=0;// 
+a=0;// .field private final tag:Ljava/lang/String;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method constructor <init>(Ljava/lang/String;Ljava/lang/Class;Landroid/os/Bundle;)V
+a=0;//     .locals 0
+a=0;//     .param p1, "_tag"    # Ljava/lang/String;
+a=0;//     .param p3, "_args"    # Landroid/os/Bundle;
+a=0;//     .annotation system Ldalvik/annotation/Signature;
+a=0;//         value = {
+a=0;//             "(",
+a=0;//             "Ljava/lang/String;",
+a=0;//             "Ljava/lang/Class",
+a=0;//             "<*>;",
+a=0;//             "Landroid/os/Bundle;",
+a=0;//             ")V"
+a=0;//         }
+a=0;//     .end annotation
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 59
+a=0;//     .local p2, "_class":Ljava/lang/Class;, "Ljava/lang/Class<*>;"
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     .line 60
+a=0;//     #p0=(Reference,Landroid/support/v13/app/FragmentTabHost$TabInfo;);
+a=0;//     iput-object p1, p0, Landroid/support/v13/app/FragmentTabHost$TabInfo;->tag:Ljava/lang/String;
+a=0;// 
+a=0;//     .line 61
+a=0;//     iput-object p2, p0, Landroid/support/v13/app/FragmentTabHost$TabInfo;->clss:Ljava/lang/Class;
+a=0;// 
+a=0;//     .line 62
+a=0;//     iput-object p3, p0, Landroid/support/v13/app/FragmentTabHost$TabInfo;->args:Landroid/os/Bundle;
+a=0;// 
+a=0;//     .line 63
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$100(Landroid/support/v13/app/FragmentTabHost$TabInfo;)Landroid/app/Fragment;
+a=0;//     .locals 1
+a=0;//     .param p0, "x0"    # Landroid/support/v13/app/FragmentTabHost$TabInfo;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 53
+a=0;//     iget-object v0, p0, Landroid/support/v13/app/FragmentTabHost$TabInfo;->fragment:Landroid/app/Fragment;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/app/Fragment;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$102(Landroid/support/v13/app/FragmentTabHost$TabInfo;Landroid/app/Fragment;)Landroid/app/Fragment;
+a=0;//     .locals 0
+a=0;//     .param p0, "x0"    # Landroid/support/v13/app/FragmentTabHost$TabInfo;
+a=0;//     .param p1, "x1"    # Landroid/app/Fragment;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 53
+a=0;//     iput-object p1, p0, Landroid/support/v13/app/FragmentTabHost$TabInfo;->fragment:Landroid/app/Fragment;
+a=0;// 
+a=0;//     return-object p1
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$200(Landroid/support/v13/app/FragmentTabHost$TabInfo;)Ljava/lang/String;
+a=0;//     .locals 1
+a=0;//     .param p0, "x0"    # Landroid/support/v13/app/FragmentTabHost$TabInfo;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 53
+a=0;//     iget-object v0, p0, Landroid/support/v13/app/FragmentTabHost$TabInfo;->tag:Ljava/lang/String;
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$300(Landroid/support/v13/app/FragmentTabHost$TabInfo;)Ljava/lang/Class;
+a=0;//     .locals 1
+a=0;//     .param p0, "x0"    # Landroid/support/v13/app/FragmentTabHost$TabInfo;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 53
+a=0;//     iget-object v0, p0, Landroid/support/v13/app/FragmentTabHost$TabInfo;->clss:Ljava/lang/Class;
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/Class;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$400(Landroid/support/v13/app/FragmentTabHost$TabInfo;)Landroid/os/Bundle;
+a=0;//     .locals 1
+a=0;//     .param p0, "x0"    # Landroid/support/v13/app/FragmentTabHost$TabInfo;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 53
+a=0;//     iget-object v0, p0, Landroid/support/v13/app/FragmentTabHost$TabInfo;->args:Landroid/os/Bundle;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/os/Bundle;);
+a=0;//     return-object v0
+a=0;// .end method
+}}

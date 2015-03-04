@@ -1,0 +1,371 @@
+package cn.dm.android.a; class a { void a() { int a;
+a=0;// .class public Lcn/dm/android/a/a;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "SourceFile"
+a=0;// 
+a=0;// 
+a=0;// # static fields
+a=0;// .field private static b:Lcn/dm/android/a/a;
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field private a:Lcn/dm/android/f/e;
+a=0;// 
+a=0;// .field private c:Landroid/content/Context;
+a=0;// 
+a=0;// .field private d:Lcn/dm/android/c/c;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method private constructor <init>(Landroid/content/Context;)V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 36
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     .line 23
+a=0;//     #p0=(Reference,Lcn/dm/android/a/a;);
+a=0;//     new-instance v0, Lcn/dm/android/f/e;
+a=0;// 
+a=0;//     #v0=(UninitRef,Lcn/dm/android/f/e;);
+a=0;//     const-class v1, Lcn/dm/android/a/a;
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/lang/Class;);
+a=0;//     invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-direct {v0, v1}, Lcn/dm/android/f/e;-><init>(Ljava/lang/String;)V
+a=0;// 
+a=0;//     #v0=(Reference,Lcn/dm/android/f/e;);
+a=0;//     iput-object v0, p0, Lcn/dm/android/a/a;->a:Lcn/dm/android/f/e;
+a=0;// 
+a=0;//     .line 37
+a=0;//     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     iput-object v0, p0, Lcn/dm/android/a/a;->c:Landroid/content/Context;
+a=0;// 
+a=0;//     .line 39
+a=0;//     new-instance v0, Lcn/dm/android/c/c;
+a=0;// 
+a=0;//     #v0=(UninitRef,Lcn/dm/android/c/c;);
+a=0;//     iget-object v1, p0, Lcn/dm/android/a/a;->c:Landroid/content/Context;
+a=0;// 
+a=0;//     invoke-direct {v0, v1}, Lcn/dm/android/c/c;-><init>(Landroid/content/Context;)V
+a=0;// 
+a=0;//     #v0=(Reference,Lcn/dm/android/c/c;);
+a=0;//     iput-object v0, p0, Lcn/dm/android/a/a;->d:Lcn/dm/android/c/c;
+a=0;// 
+a=0;//     .line 40
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public static a(Landroid/content/Context;)Lcn/dm/android/a/a;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 30
+a=0;//     sget-object v0, Lcn/dm/android/a/a;->b:Lcn/dm/android/a/a;
+a=0;// 
+a=0;//     #v0=(Reference,Lcn/dm/android/a/a;);
+a=0;//     if-nez v0, :cond_0
+a=0;// 
+a=0;//     .line 31
+a=0;//     new-instance v0, Lcn/dm/android/a/a;
+a=0;// 
+a=0;//     #v0=(UninitRef,Lcn/dm/android/a/a;);
+a=0;//     invoke-direct {v0, p0}, Lcn/dm/android/a/a;-><init>(Landroid/content/Context;)V
+a=0;// 
+a=0;//     #v0=(Reference,Lcn/dm/android/a/a;);
+a=0;//     sput-object v0, Lcn/dm/android/a/a;->b:Lcn/dm/android/a/a;
+a=0;// 
+a=0;//     .line 33
+a=0;//     :cond_0
+a=0;//     sget-object v0, Lcn/dm/android/a/a;->b:Lcn/dm/android/a/a;
+a=0;// 
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic a(Lcn/dm/android/a/a;)Lcn/dm/android/f/e;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 22
+a=0;//     iget-object v0, p0, Lcn/dm/android/a/a;->a:Lcn/dm/android/f/e;
+a=0;// 
+a=0;//     #v0=(Reference,Lcn/dm/android/f/e;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic b(Lcn/dm/android/a/a;)Landroid/content/Context;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 22
+a=0;//     iget-object v0, p0, Lcn/dm/android/a/a;->c:Landroid/content/Context;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/content/Context;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method private b(Ljava/lang/String;Ljava/lang/String;)V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 172
+a=0;//     sget-object v0, Lcn/dm/android/c/a;->h:Ljava/lang/String;
+a=0;// 
+a=0;//     .line 173
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     invoke-static {}, Lcn/dm/android/c/f;->a()Lcn/dm/android/model/b;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     #v1=(Reference,Lcn/dm/android/model/b;);
+a=0;//     if-eqz v1, :cond_0
+a=0;// 
+a=0;//     invoke-static {}, Lcn/dm/android/c/f;->a()Lcn/dm/android/model/b;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-virtual {v1}, Lcn/dm/android/model/b;->d()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+a=0;// 
+a=0;//     move-result v1
+a=0;// 
+a=0;//     #v1=(Boolean);
+a=0;//     if-nez v1, :cond_0
+a=0;// 
+a=0;//     .line 175
+a=0;//     invoke-static {}, Lcn/dm/android/c/f;->a()Lcn/dm/android/model/b;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     invoke-virtual {v0}, Lcn/dm/android/model/b;->d()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     .line 177
+a=0;//     :cond_0
+a=0;//     #v1=(Conflicted);
+a=0;//     iget-object v1, p0, Lcn/dm/android/a/a;->d:Lcn/dm/android/c/c;
+a=0;// 
+a=0;//     #v1=(Reference,Lcn/dm/android/c/c;);
+a=0;//     invoke-virtual {v1, v0, p1, p2}, Lcn/dm/android/c/c;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+a=0;// 
+a=0;//     .line 178
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public a()V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 193
+a=0;//     const/4 v0, 0x0
+a=0;// 
+a=0;//     #v0=(Null);
+a=0;//     invoke-static {v0}, Lcn/dm/android/c/f;->a(Lcn/dm/android/model/b;)V
+a=0;// 
+a=0;//     .line 194
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public a(ILcn/dm/android/listener/c;)V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 108
+a=0;//     iget-object v0, p0, Lcn/dm/android/a/a;->d:Lcn/dm/android/c/c;
+a=0;// 
+a=0;//     #v0=(Reference,Lcn/dm/android/c/c;);
+a=0;//     invoke-virtual {v0, p1, p2}, Lcn/dm/android/c/c;->a(ILcn/dm/android/listener/c;)V
+a=0;// 
+a=0;//     .line 109
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public a(Lcn/dm/android/listener/c;)V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 48
+a=0;//     iget-object v0, p0, Lcn/dm/android/a/a;->a:Lcn/dm/android/f/e;
+a=0;// 
+a=0;//     #v0=(Reference,Lcn/dm/android/f/e;);
+a=0;//     const-string v1, "Start to checkConfig"
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/lang/String;);
+a=0;//     invoke-virtual {v0, v1}, Lcn/dm/android/f/e;->b(Ljava/lang/String;)V
+a=0;// 
+a=0;//     .line 49
+a=0;//     invoke-static {}, Lcn/dm/android/c/f;->a()Lcn/dm/android/model/b;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     if-eqz v0, :cond_1
+a=0;// 
+a=0;//     .line 50
+a=0;//     if-eqz p1, :cond_0
+a=0;// 
+a=0;//     .line 52
+a=0;//     new-instance v0, Lcn/dm/android/model/a;
+a=0;// 
+a=0;//     #v0=(UninitRef,Lcn/dm/android/model/a;);
+a=0;//     invoke-static {}, Lcn/dm/android/c/f;->a()Lcn/dm/android/model/b;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-virtual {v1}, Lcn/dm/android/model/b;->c()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-direct {v0, v1}, Lcn/dm/android/model/a;-><init>(Ljava/lang/String;)V
+a=0;// 
+a=0;//     #v0=(Reference,Lcn/dm/android/model/a;);
+a=0;//     invoke-interface {p1, v0}, Lcn/dm/android/listener/c;->a(Lcn/dm/android/model/a;)V
+a=0;// 
+a=0;//     .line 87
+a=0;//     :cond_0
+a=0;//     :goto_0
+a=0;//     return-void
+a=0;// 
+a=0;//     .line 58
+a=0;//     :cond_1
+a=0;//     iget-object v0, p0, Lcn/dm/android/a/a;->d:Lcn/dm/android/c/c;
+a=0;// 
+a=0;//     new-instance v1, Lcn/dm/android/a/a$1;
+a=0;// 
+a=0;//     #v1=(UninitRef,Lcn/dm/android/a/a$1;);
+a=0;//     invoke-direct {v1, p0, p1}, Lcn/dm/android/a/a$1;-><init>(Lcn/dm/android/a/a;Lcn/dm/android/listener/c;)V
+a=0;// 
+a=0;//     #v1=(Reference,Lcn/dm/android/a/a$1;);
+a=0;//     invoke-virtual {v0, v1}, Lcn/dm/android/c/c;->b(Lcn/dm/android/listener/c;)V
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// .end method
+a=0;// 
+a=0;// .method public a(Ljava/lang/String;)V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 186
+a=0;//     iget-object v0, p0, Lcn/dm/android/a/a;->c:Landroid/content/Context;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/content/Context;);
+a=0;//     invoke-static {v0, p1}, Lcn/dm/android/c/f;->a(Landroid/content/Context;Ljava/lang/String;)V
+a=0;// 
+a=0;//     .line 187
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public a(Ljava/lang/String;Lcn/dm/android/listener/c;)V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 122
+a=0;//     iget-object v0, p0, Lcn/dm/android/a/a;->a:Lcn/dm/android/f/e;
+a=0;// 
+a=0;//     #v0=(Reference,Lcn/dm/android/f/e;);
+a=0;//     const-string v1, "Start to get offer list"
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/lang/String;);
+a=0;//     invoke-virtual {v0, v1}, Lcn/dm/android/f/e;->b(Ljava/lang/String;)V
+a=0;// 
+a=0;//     .line 123
+a=0;//     iget-object v0, p0, Lcn/dm/android/a/a;->d:Lcn/dm/android/c/c;
+a=0;// 
+a=0;//     invoke-virtual {v0, p1, p2}, Lcn/dm/android/c/c;->a(Ljava/lang/String;Lcn/dm/android/listener/c;)V
+a=0;// 
+a=0;//     .line 124
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public a(Ljava/lang/String;Ljava/lang/String;)V
+a=0;//     .locals 3
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 164
+a=0;//     iget-object v0, p0, Lcn/dm/android/a/a;->a:Lcn/dm/android/f/e;
+a=0;// 
+a=0;//     #v0=(Reference,Lcn/dm/android/f/e;);
+a=0;//     new-instance v1, Ljava/lang/StringBuilder;
+a=0;// 
+a=0;//     #v1=(UninitRef,Ljava/lang/StringBuilder;);
+a=0;//     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/lang/StringBuilder;);
+a=0;//     const-string v2, "Start to do report:"
+a=0;// 
+a=0;//     #v2=(Reference,Ljava/lang/String;);
+a=0;//     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-virtual {v0, v1}, Lcn/dm/android/f/e;->b(Ljava/lang/String;)V
+a=0;// 
+a=0;//     .line 165
+a=0;//     invoke-direct {p0, p1, p2}, Lcn/dm/android/a/a;->b(Ljava/lang/String;Ljava/lang/String;)V
+a=0;// 
+a=0;//     .line 166
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public b(Lcn/dm/android/listener/c;)V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 95
+a=0;//     iget-object v0, p0, Lcn/dm/android/a/a;->d:Lcn/dm/android/c/c;
+a=0;// 
+a=0;//     #v0=(Reference,Lcn/dm/android/c/c;);
+a=0;//     invoke-virtual {v0, p1}, Lcn/dm/android/c/c;->a(Lcn/dm/android/listener/c;)V
+a=0;// 
+a=0;//     .line 96
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public b(Ljava/lang/String;Lcn/dm/android/listener/c;)V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 139
+a=0;//     iget-object v0, p0, Lcn/dm/android/a/a;->d:Lcn/dm/android/c/c;
+a=0;// 
+a=0;//     #v0=(Reference,Lcn/dm/android/c/c;);
+a=0;//     invoke-virtual {v0, p1, p2}, Lcn/dm/android/c/c;->c(Ljava/lang/String;Lcn/dm/android/listener/c;)V
+a=0;// 
+a=0;//     .line 140
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public c(Ljava/lang/String;Lcn/dm/android/listener/c;)V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 152
+a=0;//     iget-object v0, p0, Lcn/dm/android/a/a;->d:Lcn/dm/android/c/c;
+a=0;// 
+a=0;//     #v0=(Reference,Lcn/dm/android/c/c;);
+a=0;//     invoke-virtual {v0, p1, p2}, Lcn/dm/android/c/c;->b(Ljava/lang/String;Lcn/dm/android/listener/c;)V
+a=0;// 
+a=0;//     .line 153
+a=0;//     return-void
+a=0;// .end method
+}}

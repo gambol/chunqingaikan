@@ -1,0 +1,40 @@
+package com.twocloo.com.cn.view; class PageWidget { void a() { int a;
+a=0;// .class public abstract Lcom/twocloo/com/cn/view/PageWidget;
+a=0;// .super Landroid/view/View;
+a=0;// .source "PageWidget.java"
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>(Landroid/content/Context;)V
+a=0;//     .locals 0
+a=0;//     .param p1, "context"    # Landroid/content/Context;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 17
+a=0;//     invoke-direct {p0, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
+a=0;// 
+a=0;//     .line 18
+a=0;//     #p0=(Reference,Lcom/twocloo/com/cn/view/PageWidget;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public abstract abortAnimation()V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract calcCornerXY(FF)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract cgbg(I)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract doTouchEvent(Landroid/view/MotionEvent;)Z
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract isDragToRight()Z
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract setBitmaps(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)V
+a=0;// .end method
+}}

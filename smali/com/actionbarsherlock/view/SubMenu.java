@@ -1,0 +1,37 @@
+package com.actionbarsherlock.view; class SubMenu { void a() { int a;
+a=0;// .class public interface abstract Lcom/actionbarsherlock/view/SubMenu;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "SubMenu.java"
+a=0;// 
+a=0;// # interfaces
+a=0;// .implements Lcom/actionbarsherlock/view/Menu;
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public abstract clearHeader()V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract getItem()Lcom/actionbarsherlock/view/MenuItem;
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract setHeaderIcon(I)Lcom/actionbarsherlock/view/SubMenu;
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract setHeaderIcon(Landroid/graphics/drawable/Drawable;)Lcom/actionbarsherlock/view/SubMenu;
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract setHeaderTitle(I)Lcom/actionbarsherlock/view/SubMenu;
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract setHeaderTitle(Ljava/lang/CharSequence;)Lcom/actionbarsherlock/view/SubMenu;
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract setHeaderView(Landroid/view/View;)Lcom/actionbarsherlock/view/SubMenu;
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract setIcon(I)Lcom/actionbarsherlock/view/SubMenu;
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract setIcon(Landroid/graphics/drawable/Drawable;)Lcom/actionbarsherlock/view/SubMenu;
+a=0;// .end method
+}}

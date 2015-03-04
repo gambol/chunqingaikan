@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sharelistlayout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/titlelayout" android:background="@drawable/yuepiao_tuijian_day_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/orange_text" android:gravity="center|left" android:id="@id/title" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_title" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttonlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:baselineAligned="false">
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:gravity="center" android:id="@id/share_sina" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sina" android:drawableTop="@drawable/share_sina_weibo" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:gravity="center" android:id="@id/share_qq" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qqzone" android:drawableTop="@drawable/share_qqzone" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:gravity="center" android:id="@id/share_wechatpengyouquan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wechatpengyouquan" android:drawableTop="@drawable/share_weixin_pengyouquan" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:gravity="center" android:id="@id/share_wechatsession" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wechatsession" android:drawableTop="@drawable/share_weixin_session" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

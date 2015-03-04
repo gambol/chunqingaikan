@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mainlayout" android:background="@color/main_normal_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_bar" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/include_top_bfbar" />
+    </RelativeLayout>
+    <ScrollView android:id="@id/scrollview" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_bar">
+        <RelativeLayout android:id="@id/selectmoneylayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:id="@id/tishitv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/select_money" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/moneylist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/tishitv">
+                <Button android:textSize="16.0sp" android:textColor="@color/gray_text" android:gravity="center" android:id="@id/two" android:background="@drawable/button_light_gray_shape_selector" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:text="2元" android:layout_weight="1.0" />
+                <Button android:textSize="16.0sp" android:textColor="@color/gray_text" android:gravity="center" android:id="@id/ten" android:background="@drawable/button_light_gray_shape_selector" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="10元" android:layout_weight="1.0" />
+                <Button android:textSize="16.0sp" android:textColor="@color/gray_text" android:gravity="center" android:id="@id/twenty" android:background="@drawable/button_light_gray_shape_selector" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:text="20元" android:layout_weight="1.0" />
+                <Button android:textSize="16.0sp" android:textColor="@color/gray_text" android:gravity="center" android:id="@id/thirty" android:background="@drawable/button_light_gray_shape_selector" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:text="30元" android:layout_weight="1.0" />
+                <Button android:textSize="16.0sp" android:textColor="@color/gray_text" android:gravity="center" android:id="@id/fifity" android:background="@drawable/button_light_gray_shape_selector" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="50元" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:id="@id/tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="5.0dip" android:text="@string/enter_telephone_number" android:layout_below="@id/moneylist" />
+            <EditText android:textColor="@color/gray_text" android:id="@id/teledit" android:background="@drawable/input_edit_white" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_below="@id/tv" />
+            <Button android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/goPay" android:background="@drawable/red_button_click_selector" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="5.0dip" android:text="@string/go_recharge" android:layout_below="@id/teledit" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/gray_text" android:id="@id/wenxintishi" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/cu_recharge_shuoming" android:layout_below="@id/goPay" android:lineSpacingExtra="4.0dip" />
+            <RelativeLayout android:id="@id/kefulayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/wenxintishi">
+                <include layout="@layout/about_me" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

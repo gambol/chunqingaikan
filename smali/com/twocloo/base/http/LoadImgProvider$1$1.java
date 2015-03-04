@@ -1,0 +1,96 @@
+package com.twocloo.base.http; class LoadImgProvider$1$1 { void a() { int a;
+a=0;// .class Lcom/twocloo/base/http/LoadImgProvider$1$1;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "LoadImgProvider.java"
+a=0;// 
+a=0;// # interfaces
+a=0;// .implements Ljava/lang/Runnable;
+a=0;// 
+a=0;// 
+a=0;// # annotations
+a=0;// .annotation system Ldalvik/annotation/EnclosingMethod;
+a=0;//     value = Lcom/twocloo/base/http/LoadImgProvider$1;->run()V
+a=0;// .end annotation
+a=0;// 
+a=0;// .annotation system Ldalvik/annotation/InnerClass;
+a=0;//     accessFlags = 0x0
+a=0;//     name = null
+a=0;// .end annotation
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field final synthetic this$1:Lcom/twocloo/base/http/LoadImgProvider$1;
+a=0;// 
+a=0;// .field private final synthetic val$bm:Landroid/graphics/Bitmap;
+a=0;// 
+a=0;// .field private final synthetic val$imageUrl:Ljava/lang/String;
+a=0;// 
+a=0;// .field private final synthetic val$iv:Landroid/widget/ImageView;
+a=0;// 
+a=0;// .field private final synthetic val$scaleType:Landroid/widget/ImageView$ScaleType;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method constructor <init>(Lcom/twocloo/base/http/LoadImgProvider$1;Landroid/widget/ImageView;Landroid/widget/ImageView$ScaleType;Landroid/graphics/Bitmap;Ljava/lang/String;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 1
+a=0;//     iput-object p1, p0, Lcom/twocloo/base/http/LoadImgProvider$1$1;->this$1:Lcom/twocloo/base/http/LoadImgProvider$1;
+a=0;// 
+a=0;//     iput-object p2, p0, Lcom/twocloo/base/http/LoadImgProvider$1$1;->val$iv:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     iput-object p3, p0, Lcom/twocloo/base/http/LoadImgProvider$1$1;->val$scaleType:Landroid/widget/ImageView$ScaleType;
+a=0;// 
+a=0;//     iput-object p4, p0, Lcom/twocloo/base/http/LoadImgProvider$1$1;->val$bm:Landroid/graphics/Bitmap;
+a=0;// 
+a=0;//     iput-object p5, p0, Lcom/twocloo/base/http/LoadImgProvider$1$1;->val$imageUrl:Ljava/lang/String;
+a=0;// 
+a=0;//     .line 172
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     #p0=(Reference,Lcom/twocloo/base/http/LoadImgProvider$1$1;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public run()V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 176
+a=0;//     iget-object v0, p0, Lcom/twocloo/base/http/LoadImgProvider$1$1;->val$iv:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/widget/ImageView;);
+a=0;//     iget-object v1, p0, Lcom/twocloo/base/http/LoadImgProvider$1$1;->val$scaleType:Landroid/widget/ImageView$ScaleType;
+a=0;// 
+a=0;//     #v1=(Reference,Landroid/widget/ImageView$ScaleType;);
+a=0;//     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+a=0;// 
+a=0;//     .line 178
+a=0;//     iget-object v0, p0, Lcom/twocloo/base/http/LoadImgProvider$1$1;->val$iv:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     iget-object v1, p0, Lcom/twocloo/base/http/LoadImgProvider$1$1;->val$bm:Landroid/graphics/Bitmap;
+a=0;// 
+a=0;//     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+a=0;// 
+a=0;//     .line 182
+a=0;//     iget-object v0, p0, Lcom/twocloo/base/http/LoadImgProvider$1$1;->this$1:Lcom/twocloo/base/http/LoadImgProvider$1;
+a=0;// 
+a=0;//     invoke-static {v0}, Lcom/twocloo/base/http/LoadImgProvider$1;->access$0(Lcom/twocloo/base/http/LoadImgProvider$1;)Lcom/twocloo/base/http/LoadImgProvider;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     invoke-static {v0}, Lcom/twocloo/base/http/LoadImgProvider;->access$2(Lcom/twocloo/base/http/LoadImgProvider;)Ljava/util/Set;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     iget-object v1, p0, Lcom/twocloo/base/http/LoadImgProvider$1$1;->val$imageUrl:Ljava/lang/String;
+a=0;// 
+a=0;//     invoke-interface {v0, v1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
+a=0;// 
+a=0;//     .line 183
+a=0;//     return-void
+a=0;// .end method
+}}

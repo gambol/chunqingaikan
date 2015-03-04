@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/top_bar" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_centerVertical="true">
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_tab_one" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="sa" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_tab_two" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="sb" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_tab_three" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="sc" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_tab_four" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="sd" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_tab_five" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="sd" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_tab_six" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="sd" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_tab_seven" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="sd" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_tab_eight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="sd" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center_horizontal" android:id="@id/iv_bottom_line" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="wrap_content">
+                <ImageView android:background="@drawable/menu_divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="matrix" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/mainlayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.twocloo.com.cn.beans.ViewPager android:layout_gravity="center" android:id="@id/vPager" android:visibility="visible" android:persistentDrawingCache="animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:flipInterval="30" android:layout_weight="1.0" />
+        <RelativeLayout android:id="@id/citybook_network_unvaliable" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/network_error_layout" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

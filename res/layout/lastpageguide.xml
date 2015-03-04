@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/webview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/l_network_unvaliable" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/online_error" android:layout_centerInParent="true" />
+        <Button android:id="@id/retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_retry" android:layout_below="@id/iv_network" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

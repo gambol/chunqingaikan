@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/readbook_help" android:background="#c8737373" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/read_help_left" android:layout_width="35.0dip" android:layout_height="fill_parent" android:layout_margin="25.0dip" android:text="点击或拖动进入上一页" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="30.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/read_help_right" android:layout_width="35.0dip" android:layout_height="fill_parent" android:layout_margin="25.0dip" android:text="点击或拖动进入下一页" android:layout_alignParentRight="true" />
+    <View android:background="#ffffffff" android:layout_width="2.0dip" android:layout_height="200.0dip" android:layout_centerHorizontal="true" />
+    <View android:id="@id/readhelp_heng" android:background="#ffffffff" android:layout_width="148.0dip" android:layout_height="0.100000024dip" android:layout_marginTop="200.0dip" android:layout_centerHorizontal="true" />
+    <View android:id="@id/readhelp_heng2" android:background="#ffffffff" android:layout_width="148.0dip" android:layout_height="0.100000024dip" android:layout_marginBottom="200.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <View android:id="@id/readhelp_shu" android:background="#ffffffff" android:layout_width="0.100000024dip" android:layout_height="260.0dip" android:layout_toRightOf="@id/read_help_left" android:layout_above="@id/readhelp_heng2" android:layout_below="@id/readhelp_heng" android:layout_centerVertical="true" />
+    <View android:id="@id/readhelp_shu2" android:background="#ffffffff" android:layout_width="0.100000024dip" android:layout_height="260.0dip" android:layout_toLeftOf="@id/read_help_right" android:layout_above="@id/readhelp_heng2" android:layout_below="@id/readhelp_heng" android:layout_centerVertical="true" />
+    <View android:background="#ffffffff" android:layout_width="2.0dip" android:layout_height="200.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="30.0sp" android:textColor="#ffffffff" android:gravity="center" android:background="#c8515151" android:layout_width="310.0dip" android:layout_height="560.0dip" android:text="点击弹出\n菜单" android:layout_toLeftOf="@id/readhelp_shu2" android:layout_toRightOf="@id/readhelp_shu" android:layout_above="@id/readhelp_heng2" android:layout_below="@id/readhelp_heng" />
+</RelativeLayout>

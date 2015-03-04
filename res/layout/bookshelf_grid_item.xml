@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bfitem_yly1" style="@style/style_bookshelf_yy2320">
+        <Button android:id="@id/bfitem_img1" style="@style/style_bookshelf_btn320" />
+        <ImageView android:id="@id/bfitem_up1" android:src="@drawable/imgupdate" android:contentDescription="@null" style="@style/style_bookshelf_update3" />
+        <RelativeLayout android:id="@id/bfitem_yy1" android:background="#af5e5e5e" style="@style/style_bookshelf_yy320">
+            <TextView android:text="下载中" style="@style/style_txtx" />
+            <ProgressBar android:id="@id/bfitem_pro1" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyleHorizontal" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="13.0dip" android:textColor="#ff0961a9" android:ellipsize="end" android:id="@id/bfitem_t1" android:text="书本名字" android:singleLine="true" android:layout_below="@id/bfitem_yly1" style="@style/style_bookshelf_txt" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff666666" android:id="@id/bfitem_t11" android:text="尚未下载" android:layout_below="@id/bfitem_t1" style="@style/style_bookshelf_txt" />
+    <ImageView android:id="@id/bfitem_d1" android:visibility="gone" android:contentDescription="@null" style="@style/style_bookshelf_delete" />
+</RelativeLayout>

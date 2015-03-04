@@ -1,0 +1,81 @@
+package com.tencent.mm.sdk.modelbase; class BaseReq { void a() { int a;
+a=0;// .class public abstract Lcom/tencent/mm/sdk/modelbase/BaseReq;
+a=0;// .super Ljava/lang/Object;
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field public openId:Ljava/lang/String;
+a=0;// 
+a=0;// .field public transaction:Ljava/lang/String;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>()V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     #p0=(Reference,Lcom/tencent/mm/sdk/modelbase/BaseReq;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public abstract checkArgs()Z
+a=0;// .end method
+a=0;// 
+a=0;// .method public fromBundle(Landroid/os/Bundle;)V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     const-string v0, "_wxapi_basereq_transaction"
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/tencent/mm/sdk/modelbase/BaseReq;->transaction:Ljava/lang/String;
+a=0;// 
+a=0;//     const-string v0, "_wxapi_basereq_openid"
+a=0;// 
+a=0;//     invoke-virtual {p1, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/tencent/mm/sdk/modelbase/BaseReq;->openId:Ljava/lang/String;
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract getType()I
+a=0;// .end method
+a=0;// 
+a=0;// .method public toBundle(Landroid/os/Bundle;)V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     const-string v0, "_wxapi_command_type"
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     invoke-virtual {p0}, Lcom/tencent/mm/sdk/modelbase/BaseReq;->getType()I
+a=0;// 
+a=0;//     move-result v1
+a=0;// 
+a=0;//     #v1=(Integer);
+a=0;//     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
+a=0;// 
+a=0;//     const-string v0, "_wxapi_basereq_transaction"
+a=0;// 
+a=0;//     iget-object v1, p0, Lcom/tencent/mm/sdk/modelbase/BaseReq;->transaction:Ljava/lang/String;
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/lang/String;);
+a=0;//     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+a=0;// 
+a=0;//     const-string v0, "_wxapi_basereq_openid"
+a=0;// 
+a=0;//     iget-object v1, p0, Lcom/tencent/mm/sdk/modelbase/BaseReq;->openId:Ljava/lang/String;
+a=0;// 
+a=0;//     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+}}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="s666">#ff666666</item>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="dark">#ff000000</item>
+    <item type="drawable" name="top_bule">#ff0066b8</item>
+    <item type="drawable" name="night_model_background">#ff131617</item>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/main_navigation_background" android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/radioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/menu_btn1" android:text="推荐" style="@style/style_menu_bottom_radiobutton" />
+        <RadioButton android:id="@id/menu_btn2" android:text="排行" style="@style/style_menu_bottom_radiobutton" />
+        <RadioButton android:id="@id/menu_btn3" android:text="新书" style="@style/style_menu_bottom_radiobutton" />
+        <RadioButton android:id="@id/menu_btn4" android:text="分类" style="@style/style_menu_bottom_radiobutton" />
+        <RadioButton android:id="@id/menu_btn5" android:text="搜索" style="@style/style_menu_bottom_radiobutton" />
+    </RadioGroup>
+</LinearLayout>

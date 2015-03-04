@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mark_item_rl" android:background="@drawable/mkitem_bg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:id="@id/mark_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="第5章  冷雪浇花端" android:singleLine="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff777777" android:id="@id/mark_item_jj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="他一心经营着慕容家的事业，操心着慕容雪的心事……" android:singleLine="true" android:layout_toLeftOf="@id/bt_delete" android:layout_below="@id/mark_item_title" />
+    <TextView android:textSize="10.0sp" android:textColor="#ff727171" android:id="@id/mark_item_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2012-1-25 09:50" android:layout_below="@id/mark_item_jj" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="10.0sp" android:textColor="#ff727171" android:id="@id/mark_item_p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="[1.1%]" android:layout_below="@id/mark_item_jj" android:layout_alignParentRight="true" />
+    <Button android:id="@id/bt_delete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="删除" android:layout_above="@id/mark_item_p" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

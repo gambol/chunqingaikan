@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mainlayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/user_center_top" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/publish_pinglun" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="发表" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RadioButton android:textColor="@color/usercenter_text" android:id="@id/btn_like" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:checked="false" android:button="@null" android:text="推荐一下 " android:drawableLeft="@drawable/radiobutton_islike_selector" android:drawablePadding="10.0dip" android:layout_weight="1.0" android:layout_below="@id/top_bar" android:layout_alignParentRight="true" />
+    <EditText android:id="@id/edit_pinglun" android:background="@drawable/input_edit_white" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:hint="随便发表点什么吧" android:layout_below="@id/btn_like" />
+</RelativeLayout>

@@ -1,0 +1,99 @@
+package net.slidingmenu.tools.b.a.i.a; class m { void a() { int a;
+a=0;// .class Lnet/slidingmenu/tools/b/a/i/a/m;
+a=0;// .super Ljava/lang/Object;
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field private a:Lnet/slidingmenu/tools/b/a/i/a/k;
+a=0;// 
+a=0;// .field private b:F
+a=0;// 
+a=0;// .field private c:I
+a=0;// 
+a=0;// .field private d:Landroid/graphics/drawable/Drawable;
+a=0;// 
+a=0;// .field private e:I
+a=0;// 
+a=0;// .field private f:I
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method private constructor <init>(Lnet/slidingmenu/tools/b/a/i/a/k;)V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     const/4 v1, 0x0
+a=0;// 
+a=0;//     #v1=(Null);
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     #p0=(Reference,Lnet/slidingmenu/tools/b/a/i/a/m;);
+a=0;//     const/high16 v0, -0x40800000    # -1.0f
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     iput v0, p0, Lnet/slidingmenu/tools/b/a/i/a/m;->b:F
+a=0;// 
+a=0;//     const/4 v0, -0x1
+a=0;// 
+a=0;//     #v0=(Byte);
+a=0;//     iput v0, p0, Lnet/slidingmenu/tools/b/a/i/a/m;->c:I
+a=0;// 
+a=0;//     iput v1, p0, Lnet/slidingmenu/tools/b/a/i/a/m;->e:I
+a=0;// 
+a=0;//     const/16 v0, 0x96
+a=0;// 
+a=0;//     #v0=(PosShort);
+a=0;//     invoke-static {v0, v1, v1, v1}, Landroid/graphics/Color;->argb(IIII)I
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     iput v0, p0, Lnet/slidingmenu/tools/b/a/i/a/m;->f:I
+a=0;// 
+a=0;//     iput-object p1, p0, Lnet/slidingmenu/tools/b/a/i/a/m;->a:Lnet/slidingmenu/tools/b/a/i/a/k;
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method synthetic constructor <init>(Lnet/slidingmenu/tools/b/a/i/a/k;Lnet/slidingmenu/tools/b/a/i/a/l;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     invoke-direct {p0, p1}, Lnet/slidingmenu/tools/b/a/i/a/m;-><init>(Lnet/slidingmenu/tools/b/a/i/a/k;)V
+a=0;// 
+a=0;//     #p0=(Reference,Lnet/slidingmenu/tools/b/a/i/a/m;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public a(F)Lnet/slidingmenu/tools/b/a/i/a/m;
+a=0;//     .locals 0
+a=0;// 
+a=0;//     iput p1, p0, Lnet/slidingmenu/tools/b/a/i/a/m;->b:F
+a=0;// 
+a=0;//     return-object p0
+a=0;// .end method
+a=0;// 
+a=0;// .method public a(I)Lnet/slidingmenu/tools/b/a/i/a/m;
+a=0;//     .locals 0
+a=0;// 
+a=0;//     iput p1, p0, Lnet/slidingmenu/tools/b/a/i/a/m;->c:I
+a=0;// 
+a=0;//     return-object p0
+a=0;// .end method
+a=0;// 
+a=0;// .method public a(Landroid/graphics/drawable/Drawable;)Lnet/slidingmenu/tools/b/a/i/a/m;
+a=0;//     .locals 0
+a=0;// 
+a=0;//     iput-object p1, p0, Lnet/slidingmenu/tools/b/a/i/a/m;->d:Landroid/graphics/drawable/Drawable;
+a=0;// 
+a=0;//     return-object p0
+a=0;// .end method
+a=0;// 
+a=0;// .method public b(I)Lnet/slidingmenu/tools/b/a/i/a/m;
+a=0;//     .locals 0
+a=0;// 
+a=0;//     iput p1, p0, Lnet/slidingmenu/tools/b/a/i/a/m;->e:I
+a=0;// 
+a=0;//     return-object p0
+a=0;// .end method
+}}

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fenlei">
+        <item>古代言情</item>
+        <item>都市言情</item>
+        <item>穿越架空</item>
+        <item>魔幻仙缘</item>
+        <item>婚姻职场</item>
+        <item>武侠仙侠</item>
+        <item>都市小说</item>
+    </string-array>
+    <string-array name="color">
+        <item>\#000000</item>
+        <item>\#F31111</item>
+        <item>\#7b11f2</item>
+        <item>\#c41a7a</item>
+        <item>\#752ec5</item>
+        <item>\#666666</item>
+        <item>\#2ad953</item>
+    </string-array>
+    <string-array name="zwcolor">
+        <item>\#000000</item>
+        <item>\#492f14</item>
+        <item>\#333333</item>
+        <item>\#2d463e</item>
+        <item>\#323232</item>
+        <item>\#666666</item>
+        <item>\#666666</item>
+    </string-array>
+    <string-array name="orcolor">
+        <item>\#b7b4ad</item>
+        <item>\#8f6d4b</item>
+        <item>\#999999</item>
+        <item>\#a0bab3</item>
+        <item>\#323232</item>
+        <item>\#666666</item>
+        <item>\#666666</item>
+    </string-array>
+    <string-array name="word">
+        <item>升级</item>
+        <item>豪门</item>
+        <item>吸血鬼</item>
+        <item>青梅</item>
+        <item>反串</item>
+        <item>惊悚</item>
+        <item>无限流</item>
+        <item>热血</item>
+        <item>帝王</item>
+        <item>美女</item>
+        <item>推理</item>
+        <item>扮猪吃虎</item>
+        <item>凄美</item>
+        <item>轻小说</item>
+        <item>宫斗</item>
+        <item>帅哥</item>
+        <item>励志</item>
+    </string-array>
+    <string-array name="pay_area">
+        <item>省份名称</item>
+        <item>北京</item>
+        <item>天津</item>
+        <item>上海</item>
+        <item>重庆</item>
+        <item>河北</item>
+        <item>河南</item>
+        <item>云南</item>
+        <item>辽宁</item>
+        <item>黑龙江</item>
+        <item>湖南</item>
+        <item>安徽</item>
+        <item>山东</item>
+        <item>新疆</item>
+        <item>江苏</item>
+        <item>浙江</item>
+        <item>江西</item>
+        <item>湖北</item>
+        <item>广西</item>
+        <item>甘肃</item>
+        <item>山西</item>
+        <item>内蒙古</item>
+        <item>陕西</item>
+        <item>吉林</item>
+        <item>福建</item>
+        <item>贵州</item>
+        <item>广东</item>
+        <item>青海</item>
+        <item>西藏</item>
+        <item>四川</item>
+        <item>宁夏</item>
+        <item>海南</item>
+        <item>台湾</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="channel_partner">
+        <item>anzhi</item>
+        <item>by_360</item>
+    </string-array>
+    <string-array name="red_packet_success_msg">
+        <item>感谢您的打赏，您的支持是我写作的动力！轻轻地道声：谢谢啦，快乐每一天！</item>
+        <item>自从俺得到你地打赏，好像在漫漫地黑暗中见到了光明，在无涯地沙漠中得到了清泉，在山石中发现了一枝鲜花，俺真是太感谢你了！</item>
+        <item>打赏滚滚来，码字天天在！</item>
+        <item>您的心意我一直记在心里，您的支持和鼓励一直以来都是我的码字动力。祝快乐每一天！</item>
+        <item>打赏、打赏，我爱打赏，天天向上！</item>
+        <item>谢谢亲给我的打赏，您的支持是我写作的最大动力，我会继续努力写出更多好作品。阅读愉快！</item>
+        <item>打赏最给力，真心感谢您！祝开开心心每一天！</item>
+        <item>谢谢您的支持和订阅，您的心意我全记心里！谢谢~~~~~~</item>
+        <item>打赏倍给力，灵感无限ing！</item>
+        <item>打赏者，有肉吃，有帅哥（MM）泡，出门有钱钱捡！谢谢谢谢！</item>
+        <item>谢谢亲对我的支持，有您的支持我才会一直走下去……</item>
+        <item>你是我的宝贝，你是我的花，谢谢你对我的打赏，谢谢你的支持和订阅。</item>
+        <item>谢谢您一直以来对我们的关心！愿所有的幸福都追随着您，祝你身体健康，万事如意！</item>
+        <item>在忙碌交织的岁月里我会珍惜您给的这份支持，我也在此轻轻地道一声祝福，只愿温馨的小窗口，捎去我衷心的祝福，我的作品因你而美丽，感谢这一路上有你！</item>
+        <item>在我努力码字的日子里，是你的鼓励给我更大的动力，真心地说声：谢谢！</item>
+        <item>对您的感激千言万语也无法表达，对您的祝福百十万年也不会改变——快乐每一天！</item>
+        <item>没有什么华丽的语言，没有什么豪言话语，但是我对你的感谢不会减少一分。</item>
+    </string-array>
+    <string-array name="month_ticket_success_msg">
+        <item>感谢您的投票，您的支持是我写作的动力！轻轻地道声：谢谢啦，快乐每一天！</item>
+        <item>您的心意我一直记在心里，您的支持和鼓励一直以来都是我的码字动力。祝快乐每一天！</item>
+        <item>谢谢亲给我投的月票，您的支持是我写作的最大动力，我会继续努力写出更多好作品。阅读愉快！</item>
+        <item>月票最给力，真心感谢您！</item>
+        <item>谢谢您的支持和订阅，您的心意我全记心里！谢谢~~~~~~</item>
+        <item>投月票者，有肉吃，有帅哥（MM）泡，出门有钱钱捡！谢谢谢谢！</item>
+        <item>谢谢亲对我的支持，有您的支持我才会一直走下去……</item>
+    </string-array>
+</resources>

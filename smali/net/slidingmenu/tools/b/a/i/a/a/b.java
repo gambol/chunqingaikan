@@ -1,0 +1,52 @@
+package net.slidingmenu.tools.b.a.i.a.a; class b { void a() { int a;
+a=0;// .class Lnet/slidingmenu/tools/b/a/i/a/a/b;
+a=0;// .super Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field private a:Lnet/slidingmenu/tools/b/a/i/a/a/a;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method constructor <init>(Landroid/content/Context;Lnet/slidingmenu/tools/b/a/i/a/a/a;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     invoke-direct {p0, p1}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
+a=0;// 
+a=0;//     #p0=(Reference,Lnet/slidingmenu/tools/b/a/i/a/a/b;);
+a=0;//     iput-object p2, p0, Lnet/slidingmenu/tools/b/a/i/a/a/b;->a:Lnet/slidingmenu/tools/b/a/i/a/a/a;
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method protected onLayout(ZIIII)V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     invoke-super/range {p0 .. p5}, Landroid/widget/RelativeLayout;->onLayout(ZIIII)V
+a=0;// 
+a=0;//     iget-object v0, p0, Lnet/slidingmenu/tools/b/a/i/a/a/b;->a:Lnet/slidingmenu/tools/b/a/i/a/a/a;
+a=0;// 
+a=0;//     #v0=(Reference,Lnet/slidingmenu/tools/b/a/i/a/a/a;);
+a=0;//     invoke-virtual {v0}, Lnet/slidingmenu/tools/b/a/i/a/a/a;->c()V
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method protected onMeasure(II)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     invoke-super {p0, p1, p2}, Landroid/widget/RelativeLayout;->onMeasure(II)V
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method protected onRestoreInstanceState(Landroid/os/Parcelable;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     invoke-super {p0, p1}, Landroid/widget/RelativeLayout;->onRestoreInstanceState(Landroid/os/Parcelable;)V
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+}}

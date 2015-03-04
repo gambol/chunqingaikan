@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twocloo.com.cn.view.MyScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.twocloo.com.cn.view.HorizontalListView android:id="@id/HorizontalListView" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="60.0dip" />
+        </LinearLayout>
+    </com.twocloo.com.cn.view.MyScrollView>
+</LinearLayout>

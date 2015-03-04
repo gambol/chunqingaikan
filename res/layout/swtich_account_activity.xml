@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/qiehuan_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/btn_back_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/btn_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/back_button_selector" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="40.0dip" android:src="@drawable/cloo_logo" android:layout_below="@id/btn_back_layout" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/zhuce_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="50.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="16.0sp" android:textColor="@color/white" android:gravity="left" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="还没账号" android:layout_weight="1.0" />
+        <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/zhuce" android:background="@drawable/register" android:layout_width="0.0dip" android:layout_height="40.0dip" android:text="注册" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/qq_login" android:background="@drawable/circle_ret_qq" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="15.0dip" android:layout_above="@id/wechat_login">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/qq" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="QQ登录" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/wechat_login" android:background="@drawable/circle_ret_wechat" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="15.0dip" android:layout_above="@id/ercenglou_layout">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/weixin" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="微信登录" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/ercenglou_layout" android:background="@drawable/circle_ret_ercenglou" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="20.0dip" android:layout_above="@id/zhuce_layout">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/cloo" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="二层楼登录" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

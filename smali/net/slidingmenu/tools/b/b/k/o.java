@@ -1,0 +1,96 @@
+package net.slidingmenu.tools.b.b.k; class o { void a() { int a;
+a=0;// .class public Lnet/slidingmenu/tools/b/b/k/o;
+a=0;// .super Ljava/lang/Object;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public static a(Landroid/content/Context;)Landroid/app/NotificationManager;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     const-string v0, "notification"
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     check-cast v0, Landroid/app/NotificationManager;
+a=0;// 
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public static b(Landroid/content/Context;)Landroid/telephony/TelephonyManager;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     const-string v0, "phone"
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     check-cast v0, Landroid/telephony/TelephonyManager;
+a=0;// 
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public static c(Landroid/content/Context;)Landroid/net/wifi/WifiManager;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     const-string v0, "wifi"
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     check-cast v0, Landroid/net/wifi/WifiManager;
+a=0;// 
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public static d(Landroid/content/Context;)Landroid/view/WindowManager;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     const-string v0, "window"
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     check-cast v0, Landroid/view/WindowManager;
+a=0;// 
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public static e(Landroid/content/Context;)Landroid/app/AlarmManager;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     const-string v0, "alarm"
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     check-cast v0, Landroid/app/AlarmManager;
+a=0;// 
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public static f(Landroid/content/Context;)Landroid/app/ActivityManager;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     const-string v0, "activity"
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     check-cast v0, Landroid/app/ActivityManager;
+a=0;// 
+a=0;//     return-object v0
+a=0;// .end method
+}}

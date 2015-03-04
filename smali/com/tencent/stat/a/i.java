@@ -1,0 +1,109 @@
+package com.tencent.stat.a; class i { void a() { int a;
+a=0;// .class public Lcom/tencent/stat/a/i;
+a=0;// .super Lcom/tencent/stat/a/e;
+a=0;// 
+a=0;// 
+a=0;// # static fields
+a=0;// .field private static a:Ljava/lang/String;
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field private l:Ljava/lang/String;
+a=0;// 
+a=0;// .field private m:Ljava/lang/String;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method static constructor <clinit>()V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     const/4 v0, 0x0
+a=0;// 
+a=0;//     #v0=(Null);
+a=0;//     sput-object v0, Lcom/tencent/stat/a/i;->a:Ljava/lang/String;
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public constructor <init>(Landroid/content/Context;I)V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     const/4 v0, 0x0
+a=0;// 
+a=0;//     #v0=(Null);
+a=0;//     invoke-direct {p0, p1, p2}, Lcom/tencent/stat/a/e;-><init>(Landroid/content/Context;I)V
+a=0;// 
+a=0;//     #p0=(Reference,Lcom/tencent/stat/a/i;);
+a=0;//     iput-object v0, p0, Lcom/tencent/stat/a/i;->l:Ljava/lang/String;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/tencent/stat/a/i;->m:Ljava/lang/String;
+a=0;// 
+a=0;//     invoke-static {p1}, Lcom/tencent/stat/common/k;->p(Landroid/content/Context;)Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     iput-object v0, p0, Lcom/tencent/stat/a/i;->l:Ljava/lang/String;
+a=0;// 
+a=0;//     sget-object v0, Lcom/tencent/stat/a/i;->a:Ljava/lang/String;
+a=0;// 
+a=0;//     if-nez v0, :cond_0
+a=0;// 
+a=0;//     invoke-static {p1}, Lcom/tencent/stat/common/k;->m(Landroid/content/Context;)Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     sput-object v0, Lcom/tencent/stat/a/i;->a:Ljava/lang/String;
+a=0;// 
+a=0;//     :cond_0
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public a()Lcom/tencent/stat/a/f;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     sget-object v0, Lcom/tencent/stat/a/f;->h:Lcom/tencent/stat/a/f;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/tencent/stat/a/f;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public a(Ljava/lang/String;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     iput-object p1, p0, Lcom/tencent/stat/a/i;->m:Ljava/lang/String;
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public a(Lorg/json/JSONObject;)Z
+a=0;//     .locals 2
+a=0;// 
+a=0;//     const-string v0, "op"
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     sget-object v1, Lcom/tencent/stat/a/i;->a:Ljava/lang/String;
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/lang/String;);
+a=0;//     invoke-static {p1, v0, v1}, Lcom/tencent/stat/common/k;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;)V
+a=0;// 
+a=0;//     const-string v0, "cn"
+a=0;// 
+a=0;//     iget-object v1, p0, Lcom/tencent/stat/a/i;->l:Ljava/lang/String;
+a=0;// 
+a=0;//     invoke-static {p1, v0, v1}, Lcom/tencent/stat/common/k;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/String;)V
+a=0;// 
+a=0;//     const-string v0, "sp"
+a=0;// 
+a=0;//     iget-object v1, p0, Lcom/tencent/stat/a/i;->m:Ljava/lang/String;
+a=0;// 
+a=0;//     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+a=0;// 
+a=0;//     const/4 v0, 0x1
+a=0;// 
+a=0;//     #v0=(One);
+a=0;//     return v0
+a=0;// .end method
+}}

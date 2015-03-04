@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl1" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textColor="#ffffffff" android:id="@id/novel_mulu_back" android:background="@drawable/back_button_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/bf_radioGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <RadioButton android:textColor="#ffffffff" android:gravity="center" android:id="@id/novel_mulu_gybs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:text="关于本书" />
+            <RadioButton android:textColor="#ffffffff" android:gravity="center" android:id="@id/novel_mulu_mulu" android:layout_width="54.0dip" android:layout_height="30.0dip" android:checked="true" android:button="@null" android:text="目录" />
+            <RadioButton android:textColor="#ffffffff" android:gravity="center" android:id="@id/novel_mulu_shuqian" android:layout_width="54.0dip" android:layout_height="30.0dip" android:button="@null" android:text="书签" />
+        </RadioGroup>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@id/linearLayout1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:layout_below="@id/rl1">
+        <ImageView android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="26.0px" android:textColor="#ff000000" android:gravity="center" android:id="@id/novel_item_detail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        <ImageView android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/linearLayout2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/linearLayout1">
+        <TextView android:textSize="17.0px" android:textColor="#ff6e6e6e" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="作者：" />
+        <TextView android:textSize="17.0px" android:textColor="#ff6e6e6e" android:id="@id/novel_sbxxy_mulu_author" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="17.0px" android:textColor="#ff6e6e6e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:text="状态：" />
+        <TextView android:textSize="17.0px" android:textColor="#ff6e6e6e" android:id="@id/novel_sbxxy_mulu_status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/linearLayout3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="13.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="13.0dip" android:layout_above="@id/rl2" android:layout_below="@id/linearLayout2">
+        <ListView android:id="@id/novel_sbxxy_mulu_lv" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="@drawable/xuxian" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

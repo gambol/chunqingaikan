@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topbar_layout" android:background="@null" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@id/btn_back" android:background="@drawable/back_button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/usercenter_text" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="个性标签" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/usercenter_text" android:id="@id/complete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="完成" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ScrollView android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:text="我的标签" />
+            <com.twocloo.com.cn.view.CustomGridView android:id="@id/my_biaoqian_customGridView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:listSelector="@null" android:horizontalSpacing="20.0dip" android:verticalSpacing="10.0dip" android:numColumns="4" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:text="可同时选择最多四个标签" />
+            <com.twocloo.com.cn.view.CustomGridView android:id="@id/biaoqian_customGridView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:listSelector="@null" android:horizontalSpacing="20.0dip" android:verticalSpacing="10.0dip" android:numColumns="4" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:text="还没有满意的，快来自己贴标签吧（最多4个）" />
+            <Button android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/add_zidingyi_label" android:background="@drawable/xuxiankuang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:text="添加自定义标签" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

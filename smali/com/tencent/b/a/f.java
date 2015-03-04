@@ -1,0 +1,166 @@
+package com.tencent.b.a; class f { void a() { int a;
+a=0;// .class public abstract Lcom/tencent/b/a/f;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "ProGuard"
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field private volatile a:I
+a=0;// 
+a=0;// .field private volatile b:Z
+a=0;// 
+a=0;// .field private c:Lcom/tencent/b/a/e;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>()V
+a=0;//     .locals 3
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 28
+a=0;//     const/16 v0, 0x3f
+a=0;// 
+a=0;//     #v0=(PosByte);
+a=0;//     const/4 v1, 0x1
+a=0;// 
+a=0;//     #v1=(One);
+a=0;//     sget-object v2, Lcom/tencent/b/a/e;->a:Lcom/tencent/b/a/e;
+a=0;// 
+a=0;//     #v2=(Reference,Lcom/tencent/b/a/e;);
+a=0;//     invoke-direct {p0, v0, v1, v2}, Lcom/tencent/b/a/f;-><init>(IZLcom/tencent/b/a/e;)V
+a=0;// 
+a=0;//     .line 29
+a=0;//     #p0=(Reference,Lcom/tencent/b/a/f;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public constructor <init>(IZLcom/tencent/b/a/e;)V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 40
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     .line 18
+a=0;//     #p0=(Reference,Lcom/tencent/b/a/f;);
+a=0;//     const/16 v0, 0x3f
+a=0;// 
+a=0;//     #v0=(PosByte);
+a=0;//     iput v0, p0, Lcom/tencent/b/a/f;->a:I
+a=0;// 
+a=0;//     .line 19
+a=0;//     const/4 v0, 0x1
+a=0;// 
+a=0;//     #v0=(One);
+a=0;//     iput-boolean v0, p0, Lcom/tencent/b/a/f;->b:Z
+a=0;// 
+a=0;//     .line 21
+a=0;//     sget-object v0, Lcom/tencent/b/a/e;->a:Lcom/tencent/b/a/e;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/tencent/b/a/e;);
+a=0;//     iput-object v0, p0, Lcom/tencent/b/a/f;->c:Lcom/tencent/b/a/e;
+a=0;// 
+a=0;//     .line 41
+a=0;//     invoke-virtual {p0, p1}, Lcom/tencent/b/a/f;->a(I)V
+a=0;// 
+a=0;//     .line 42
+a=0;//     invoke-virtual {p0, p2}, Lcom/tencent/b/a/f;->a(Z)V
+a=0;// 
+a=0;//     .line 43
+a=0;//     invoke-virtual {p0, p3}, Lcom/tencent/b/a/f;->a(Lcom/tencent/b/a/e;)V
+a=0;// 
+a=0;//     .line 44
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public a(I)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 158
+a=0;//     iput p1, p0, Lcom/tencent/b/a/f;->a:I
+a=0;// 
+a=0;//     .line 159
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method protected abstract a(ILjava/lang/Thread;JLjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public a(Lcom/tencent/b/a/e;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 204
+a=0;//     iput-object p1, p0, Lcom/tencent/b/a/f;->c:Lcom/tencent/b/a/e;
+a=0;// 
+a=0;//     .line 205
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public a(Z)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 181
+a=0;//     iput-boolean p1, p0, Lcom/tencent/b/a/f;->b:Z
+a=0;// 
+a=0;//     .line 182
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public b(ILjava/lang/Thread;JLjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 73
+a=0;//     invoke-virtual {p0}, Lcom/tencent/b/a/f;->d()Z
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     #v0=(Boolean);
+a=0;//     if-eqz v0, :cond_0
+a=0;// 
+a=0;//     .line 76
+a=0;//     iget v0, p0, Lcom/tencent/b/a/f;->a:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-static {v0, p1}, Lcom/tencent/b/c/c$a;->a(II)Z
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     #v0=(Boolean);
+a=0;//     if-eqz v0, :cond_0
+a=0;// 
+a=0;//     .line 79
+a=0;//     invoke-virtual/range {p0 .. p7}, Lcom/tencent/b/a/f;->a(ILjava/lang/Thread;JLjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+a=0;// 
+a=0;//     .line 82
+a=0;//     :cond_0
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public d()Z
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 169
+a=0;//     iget-boolean v0, p0, Lcom/tencent/b/a/f;->b:Z
+a=0;// 
+a=0;//     #v0=(Boolean);
+a=0;//     return v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public e()Lcom/tencent/b/a/e;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 192
+a=0;//     iget-object v0, p0, Lcom/tencent/b/a/f;->c:Lcom/tencent/b/a/e;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/tencent/b/a/e;);
+a=0;//     return-object v0
+a=0;// .end method
+}}

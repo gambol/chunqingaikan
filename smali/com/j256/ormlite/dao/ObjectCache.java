@@ -1,0 +1,105 @@
+package com.j256.ormlite.dao; class ObjectCache { void a() { int a;
+a=0;// .class public interface abstract Lcom/j256/ormlite/dao/ObjectCache;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "ObjectCache.java"
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public abstract clear(Ljava/lang/Class;)V
+a=0;//     .annotation system Ldalvik/annotation/Signature;
+a=0;//         value = {
+a=0;//             "<T:",
+a=0;//             "Ljava/lang/Object;",
+a=0;//             ">(",
+a=0;//             "Ljava/lang/Class",
+a=0;//             "<TT;>;)V"
+a=0;//         }
+a=0;//     .end annotation
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract clearAll()V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract get(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+a=0;//     .annotation system Ldalvik/annotation/Signature;
+a=0;//         value = {
+a=0;//             "<T:",
+a=0;//             "Ljava/lang/Object;",
+a=0;//             "ID:",
+a=0;//             "Ljava/lang/Object;",
+a=0;//             ">(",
+a=0;//             "Ljava/lang/Class",
+a=0;//             "<TT;>;TID;)TT;"
+a=0;//         }
+a=0;//     .end annotation
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract put(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/Object;)V
+a=0;//     .annotation system Ldalvik/annotation/Signature;
+a=0;//         value = {
+a=0;//             "<T:",
+a=0;//             "Ljava/lang/Object;",
+a=0;//             "ID:",
+a=0;//             "Ljava/lang/Object;",
+a=0;//             ">(",
+a=0;//             "Ljava/lang/Class",
+a=0;//             "<TT;>;TID;TT;)V"
+a=0;//         }
+a=0;//     .end annotation
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract registerClass(Ljava/lang/Class;)V
+a=0;//     .annotation system Ldalvik/annotation/Signature;
+a=0;//         value = {
+a=0;//             "<T:",
+a=0;//             "Ljava/lang/Object;",
+a=0;//             ">(",
+a=0;//             "Ljava/lang/Class",
+a=0;//             "<TT;>;)V"
+a=0;//         }
+a=0;//     .end annotation
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract remove(Ljava/lang/Class;Ljava/lang/Object;)V
+a=0;//     .annotation system Ldalvik/annotation/Signature;
+a=0;//         value = {
+a=0;//             "<T:",
+a=0;//             "Ljava/lang/Object;",
+a=0;//             "ID:",
+a=0;//             "Ljava/lang/Object;",
+a=0;//             ">(",
+a=0;//             "Ljava/lang/Class",
+a=0;//             "<TT;>;TID;)V"
+a=0;//         }
+a=0;//     .end annotation
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract size(Ljava/lang/Class;)I
+a=0;//     .annotation system Ldalvik/annotation/Signature;
+a=0;//         value = {
+a=0;//             "<T:",
+a=0;//             "Ljava/lang/Object;",
+a=0;//             ">(",
+a=0;//             "Ljava/lang/Class",
+a=0;//             "<TT;>;)I"
+a=0;//         }
+a=0;//     .end annotation
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract sizeAll()I
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract updateId(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+a=0;//     .annotation system Ldalvik/annotation/Signature;
+a=0;//         value = {
+a=0;//             "<T:",
+a=0;//             "Ljava/lang/Object;",
+a=0;//             "ID:",
+a=0;//             "Ljava/lang/Object;",
+a=0;//             ">(",
+a=0;//             "Ljava/lang/Class",
+a=0;//             "<TT;>;TID;TID;)TT;"
+a=0;//         }
+a=0;//     .end annotation
+a=0;// .end method
+}}

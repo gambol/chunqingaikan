@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mainlayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/user_center_top" />
+    </LinearLayout>
+    <ScrollView android:id="@id/scroll" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_bar">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+            <EditText android:textSize="14.0sp" android:id="@id/name_edit" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:hint="@string/zhanghao_hint" />
+            <View android:id="@id/line1" android:background="#bbacacac" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/name_edit" android:layout_centerHorizontal="true" />
+            <EditText android:textSize="14.0sp" android:id="@id/password_edit" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:hint="@string/password_hint" android:inputType="textPassword" />
+            <View android:id="@id/line2" android:background="#bbacacac" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/password_edit" android:layout_centerHorizontal="true" />
+            <EditText android:textSize="14.0sp" android:id="@id/confirmpsd_edit" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:hint="@string/confirm_password_hint" android:inputType="textPassword" />
+            <View android:id="@id/line3" android:background="#bbacacac" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/confirmpsd_edit" android:layout_centerHorizontal="true" />
+            <EditText android:textSize="14.0sp" android:id="@id/phone_edit" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:hint="@string/phone_number_hint" android:inputType="phone" />
+            <View android:id="@id/line4" android:background="#bbacacac" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/phone_edit" android:layout_centerHorizontal="true" />
+            <EditText android:textSize="14.0sp" android:id="@id/nickname_edit" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:hint="昵称" android:maxLength="6" />
+            <View android:id="@id/line5" android:background="#bbacacac" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/nickname_edit" android:layout_centerHorizontal="true" />
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/privacylayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <CheckBox android:gravity="center" android:id="@id/read_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" style="@style/CustomCheckboxTheme" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/gray_text" android:id="@id/haveread_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/i_have_read" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff34ad8f" android:id="@id/privacy_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text="@string/pravicy" />
+            </LinearLayout>
+            <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/registerConfirmBtn" android:background="@drawable/gray_button" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" android:text="@string/regist_submit" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+package cn.dm.a.c; class a { void a() { int a;
+a=0;// .class public interface abstract Lcn/dm/a/c/a;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "SourceFile"
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public abstract onDownloadCancel(Lcn/dm/a/a/a;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onDownloadFailed(Lcn/dm/a/a/a;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onDownloadPause(Lcn/dm/a/a/a;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onDownloadResume(Lcn/dm/a/a/a;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onDownloadStart(Lcn/dm/a/a/a;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onDownloadSuccess(Lcn/dm/a/a/a;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onDownloadWaiting(Lcn/dm/a/a/a;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onInstallSuccess(Lcn/dm/a/a/a;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onProgressChange(Lcn/dm/a/a/a;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onUninstallSuccess(Lcn/dm/a/a/a;)V
+a=0;// .end method
+}}

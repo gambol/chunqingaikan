@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="abs__action_bar_home_description">Navigate home</string>
+    <string name="abs__action_bar_up_description">Navigate up</string>
+    <string name="abs__action_menu_overflow_description">More options</string>
+    <string name="abs__action_mode_done">Done</string>
+    <string name="abs__activity_chooser_view_see_all">See all...</string>
+    <string name="abs__activity_chooser_view_dialog_title_default">Select activity</string>
+    <string name="abs__share_action_provider_share_with">Share with...</string>
+    <string name="abs__activitychooserview_choose_application">Choose an application</string>
+    <string name="abs__shareactionprovider_share_with">Share with</string>
+    <string name="abs__shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abs__searchview_description_search">Search</string>
+    <string name="abs__searchview_description_query">Search query</string>
+    <string name="abs__searchview_description_clear">Clear query</string>
+    <string name="abs__searchview_description_submit">Submit query</string>
+    <string name="abs__searchview_description_voice">Voice search</string>
+    <string name="ensure">确定</string>
+    <string name="cacel">取消</string>
+    <string name="check_sign_failed">您的订单信息已被非法篡改。</string>
+    <string name="db_name">cloo_orm.db</string>
+    <string name="db_version">2</string>
+    <string name="common_dialog_title">温馨提示</string>
+    <string name="common_loading_msg">加载中，请稍等...</string>
+    <string name="confirm_install_hint">安装提示</string>
+    <string name="confirm_install">"为保证您的交易安全，需要您安装中国移动话付宝安全支付插件，才能进行付款。
+
+点击确定，立即安装。"</string>
+    <string name="qihoo_app_name">union</string>
+    <string name="qihoo_action_settings">Settings</string>
+    <string name="qihoo_title_back">返回</string>
+    <string name="qihoo_title">精品推荐</string>
+    <string name="qihoo_loading_no_data">哎呀！服务哥翘班啦！</string>
+    <string name="qihoo_loading_not_in_union">当前APP尚未纳入联盟</string>
+    <string name="qihoo_loading_installed_all">敬请期待更多精品</string>
+    <string name="qihoo_loading_no_net"><big>联网失败，点击屏幕刷新</big>"
+
+"<smail>请检查网络设置后重新尝试联网</smail>"
+
+"</string>
+    <string name="qihoo_loading">正在获取...</string>
+    <string name="qihoo_loading_net_config">网络设置</string>
+    <string name="qihoo_download_count">%1$s次下载</string>
+    <string name="qihoo_download_10_thousand">%1$1.0f万次下载</string>
+    <string name="weibo_oauth_regiseter">应用授权</string>
+    <string name="website">http://www.mob.com</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="yixin_client_inavailable">目前您的易信版本过低或未安装易信，需要安装易信才能使用</string>
+    <string name="line_client_inavailable">目前您的Line版本过低或未安装易信，需要安装Line才能使用</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="tencentweibo">腾讯微博</string>
+    <string name="qzone">QQ空间</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechatmoments">微信朋友圈</string>
+    <string name="wechatfavorite">微信收藏</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="renren">人人网</string>
+    <string name="kaixin">开心网</string>
+    <string name="email">邮件</string>
+    <string name="shortmessage">信息</string>
+    <string name="sohumicroblog">搜狐微博</string>
+    <string name="sohusuishenkan">搜狐随身看</string>
+    <string name="neteasemicroblog">网易微博</string>
+    <string name="douban">豆瓣</string>
+    <string name="youdao">有道云笔记</string>
+    <string name="evernote">印象笔记</string>
+    <string name="linkedin">领英</string>
+    <string name="googleplus">Google+</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="qq">QQ</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="flickr">Flickr</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="vkontakte">VK</string>
+    <string name="instagram">Instagram</string>
+    <string name="yixin">易信</string>
+    <string name="yixinmoments">易信朋友圈</string>
+    <string name="mingdao">明道</string>
+    <string name="line">Line</string>
+    <string name="share_to_qzone">分享到QQ空间</string>
+    <string name="share_to_qq">分享到QQ</string>
+    <string name="mingdao_share_content">网页分享</string>
+    <string name="share_to_mingdao">分享到明道</string>
+    <string name="share_to_qzone_default">来自%s的分享</string>
+    <string name="use_login_button">请改用“登录”按钮</string>
+    <string name="apptype">client</string>
+    <string name="insertbookid">-1</string>
+    <string name="insertbookname">二层楼书院</string>
+    <string name="umeng_app_key">549239fdfd98c57c85002954</string>
+    <string name="app_name">纯爱小说吧</string>
+    <string name="channel">baidu</string>
+    <string name="channel_type">1</string>
+    <string name="insertbookids" />
+    <string name="youmi_channel" />
+    <string name="wanpu_channel">default</string>
+    <string name="limit_input">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="consume_phone2_tv22">3、在收到“订购成功”的短信后请点击下面按钮查看包月状态，10分钟后状态未更新，可能掉单，请联系客服。</string>
+    <string name="consume_phone2_tv3">"温馨提示：
+1.目前暂不支持中国移动大众卡用户使用本方式。手机号码仅用作订购服务，请放心填写。
+2.目前xx网手机订购包月阅读服务是通过搜狐公司提供的“焦点新闻”服务来获得的，资费15/月（不含通讯费）。
+3.每个月的服务时间按自然月计算。例如：您在3月15日开通服务，服务只享受到月底，即3月31日。
+4.服务到期后，次月1日，如您不进行退订，服务可继续使用，并将自动扣除下月费用。
+5.根据运营商等合作伙伴要求，每月我们将向您下发来自发送号码：10666666不多于15条短信产品信息，其内容为优秀的作品推荐和新闻资讯。（注：您接收到的信息将不再收取任何费用），成功接收全部信息是正常使用您在所定制服务的必要条件。请保持手机畅通且能正常接收短信。"</string>
+    <string name="person_center_frendly">一键绑定手机号，方便您找回用户名和密码。</string>
+    <string name="bind_phone_confirm_msg">"点击确定按钮，直接绑定！
+请放心绑定，xx网不会把您的手机号泄漏给任何第三方。
+海外用户暂不支持此服务。"</string>
+    <string name="unbind_phone_confirm_msg">点击确定按钮，解除绑定！</string>
+    <string name="forget_password_confirm_msg">点击确定按钮，找回密码！</string>
+    <string name="updateInfo_frendly">"友情提醒：
+请输入正确的手机号和邮箱号，如果忘记密码，将以任意一个作为凭证找回。
+手机号码仅用来找回密码，不会为您绑定任何服务，不会泄露您的手机号，请放心填写。"</string>
+    <string name="forget_password_content_bottom_tv">%s。</string>
+    <string name="forget_password_msg">请使用您绑定的手机编辑短信“&lt;font color=#ff6600>xxxx#mm&lt;/font>”发送到 &lt;font color=#ff6600>12114&lt;/font>，根据短信提示便可重设密码。本手机找回密码，请点击下面按钮直接找回。</string>
+    <string name="reg_confirm">"点击确定按钮，马上注册！
+请放心注册，xx网不会把您的手机号泄漏给任何第三方。
+海外用户暂不支持短信注册，请手动直接注册。"</string>
+    <string name="person_center_bottom_unbind_tv">注：1、您已绑定了手机号%s，随时可用已绑定的手机发短信“&lt;font color=#ff6600>xx阅读#mm&lt;/font>”到 &lt;font color=#ff6600>12114&lt;/font>，根据提示重设密码。&lt;br/> 2、如果您需要更换新的绑定号码，请先&lt;font color=#0066CC>&lt;U>点这里解除绑定&lt;/U>&lt;/font>，然后再用新号码重新绑定。</string>
+    <string name="unbind_phone_msg">请使用您绑定的手机编辑短信“&lt;font color=#ff6600>xx阅读#jb&lt;/font>”发送到&lt;font color=#ff6600>12114&lt;/font>，便可解除绑定！本手机解绑，请点击下面按钮直接解除。</string>
+    <string name="forget_password_personcenter_modify_bind_tv">您已绑定了手机号%s，随时可用已绑定的手机发短信“&lt;font color=#ff6600>xxxx#mm&lt;/font>”到&lt;font color=#ff6600>12114&lt;/font>，根据提示重设密码。</string>
+    <string name="forget_password_personcenter_modify_unbind_tv">注：1、绑定手机号不需要任何费用，您只需要支付由运营商收取的标准短信费。 &lt;br/> 2、手机号仅用于您找回用户名和密码，小说阅读网不会透露给任何第三方。 &lt;br/> 3、海外手机用户暂不支持此服务。&lt;br/></string>
+    <string name="network_err">网络不给力，请检查网络</string>
+    <string name="vip_reading_err">章节内容没下载，请联网后阅读！</string>
+    <string name="login">登录</string>
+    <string name="login_hint">请选择以下方式进行登录</string>
+    <string name="auth_site_mode">授权页面方式</string>
+    <string name="sso_mode">SSO方式</string>
+    <string name="password_flow_mode">用户名密码方式</string>
+    <string name="upload_photo">上传照片</string>
+    <string name="logout">登出</string>
+    <string name="view_log">查看Log</string>
+    <string name="user_info_group">用户信息</string>
+    <string name="logined_user_info">登录用户信息</string>
+    <string name="logined_user_info_api">getCurrentUserInfo</string>
+    <string name="albums_info">相册信息</string>
+    <string name="albums_info_api">getAlbums</string>
+    <string name="users_getinfo">获取指定uid用户信息</string>
+    <string name="users_getinfo_api">users.getInfo</string>
+    <string name="friends_get">获取当前用户好友uid列表</string>
+    <string name="friends_get_api">friends.get</string>
+    <string name="friends_get_friends">获取当前用户好友列表</string>
+    <string name="friends_get_friends_api">friends.getFriends</string>
+    <string name="publish_group">发布内容</string>
+    <string name="publish_status">状态</string>
+    <string name="publish_status_api">publishStatus</string>
+    <string name="publish_feed">新鲜事</string>
+    <string name="publish_feed_api">publishFeed</string>
+    <string name="publish_photo">照片</string>
+    <string name="publish_photo_api">uploadPhoto</string>
+    <string name="create_album">新建相册</string>
+    <string name="create_album_api">createAlbum</string>
+    <string name="one_click_publish_group">一键发布</string>
+    <string name="one_click_status">状态</string>
+    <string name="one_click_status_api">publishStatus</string>
+    <string name="one_click_photo">照片</string>
+    <string name="one_click_photo_api">publishPhoto</string>
+    <string name="one_click_album">新建相册</string>
+    <string name="one_click_album_api">createAlbum</string>
+    <string name="dialog_group">Dialog</string>
+    <string name="dialog_feed">Feed Dialog</string>
+    <string name="dialog_feed_api">publishFeed</string>
+    <string name="dialog_status">Status Dialog</string>
+    <string name="dialog_status_api">publishStatus</string>
+    <string name="logined_user_info_invoke">Renren.getUserInfo</string>
+    <string name="albums_info_invoke">Renren.getAlbums</string>
+    <string name="publish_status_invoke">Renren.publishStatus</string>
+    <string name="publish_feed_invoke">Renren.publishFeed</string>
+    <string name="publish_photo_invoke">Renren.publishPhoto</string>
+    <string name="one_click_status_invoke">Renren.publishStatusWithActivity</string>
+    <string name="one_click_photo_invoke">Renren.publishPhotoWithActivity</string>
+    <string name="dialog_feed_invoke">Renren.feedWidget</string>
+    <string name="dialog_status_invoke">Renren.statusWidget</string>
+    <string name="create_album_invoke">Renren.createAlbum</string>
+    <string name="one_click_album_invoke">Renren.createAlbumWithActivity</string>
+    <string name="users_getinfo_invoke">Renren.getUsersInfo</string>
+    <string name="friends_get_invoke">Renren.friends.get</string>
+    <string name="friends_get_friends_invoke">Renren.friends.getFriends</string>
+    <string name="auth_failed">验证失败</string>
+    <string name="status_pub_title">发布状态</string>
+    <string name="status_label">状态</string>
+    <string name="status_pub_button">发布</string>
+    <string name="response_result">返回结果</string>
+    <string name="clear_log">清空</string>
+    <string name="get_back">返回</string>
+    <string name="log_title">log记录</string>
+    <string name="run">运行</string>
+    <string name="renren_demo_status_hint">你正在干嘛？</string>
+    <string name="downloading">正在下载...</string>
+    <string name="uploading">正在上传图片...</string>
+    <string name="post_record_empty_content">请输入内容</string>
+    <string name="post_record_success">分享成功！</string>
+    <string name="post_record_fail">分享失败！</string>
+    <string name="loading_photo">正在加载图片...</string>
+    <string name="getting_logged_in_user">正在获取用户UID...</string>
+    <string name="task_failed">请求的任务失败</string>
+    <string name="task_failed_arg_err">传入的参数错误，请检查代码</string>
+    <string name="task_failed_network_err">网络不给力，请重试</string>
+    <string name="net_err_need_check_msg">网络不给力，请检查网络</string>
+    <string name="task_cancel_auth_success">取消授权成功</string>
+    <string name="task_failed_class_cast_err">Java换型错误，请检查代码</string>
+    <string name="task_failed_json_parse_err">JSON解析错误，请检查代码</string>
+    <string name="task_failed_malformed_url_err">错误的 URL，请检查请求的URL</string>
+    <string name="task_failed_encoder_err">字符串转换失败，请检查代码</string>
+    <string name="json_upload_photo_result">返回结果(JSON格式)</string>
+    <string name="sms_send_to">10666666</string>
+    <string name="sms_body_name">sms_body</string>
+    <string name="sms_body_content">MO</string>
+    <string name="sms_body_content_quit">如需退订，请用手机发短信&lt;font color=\"#FB8233\">QMO&lt;/font>到10666666即可。原WAP站包月用户请发送短信&lt;font color=\"#FB8233\">QXW&lt;/font>到10666666退订包月服务。</string>
+    <string name="sms_instruct">手机邮件</string>
+    <string name="sms_consume_desc">&lt;font color=\"#FB8233\">15/月&lt;/font>&lt;font color=\"#000\">（按照自然月计，不含通讯费。广东移动10元/月， 其他地区均15月/月）。 &lt;br>支持移动、联通、电信手机。暂不支持：&lt;/font> &lt;font color=\"#FB8233\">云南、福建、河南、山西、吉林、宁夏六个省份移动用户&lt;/font> &lt;font color=\"#000\">，以及&lt;/font>&lt;font color=\"#FB8233\">云南、福建、河南、 西藏、陕西、浙江六个省份联通 &lt;/font> &lt;font color=\"#000\">用户。&lt;br>手机号码仅用来订购服务，请放心填写。&lt;/font></string>
+    <string name="notice_desc">&lt;p>亲：&lt;/p> &lt;p>　　Android客户端掀起阅读狂潮！&lt;/p> &lt;p>　　&lt;font color=#ff6600>即日起，至2013年12月31日 24:00止&lt;/font>，只要用您的这款手机注册并登录成功，&lt;font color=#ff6600>即享60天免费畅阅所有小说特权&lt;/font>！所有章节都免费，统统免费，畅阅无极限！&lt;/p> &lt;p>　　每部手机都可以享受一次特权，还等什么呢？&lt;/p></string>
+    <string name="alipay_app">支付宝客户端支付</string>
+    <string name="alipay_wap">支付宝网页支付&lt;br/>&lt;font color=#A6A6A6>支持银行卡支付，无需登陆&lt;/font></string>
+    <string name="xinyongka_app">信用卡支付&lt;br/>&lt;font color=#A6A6A6>支持银行卡支付，支付更安全&lt;/font></string>
+    <string name="cunchuka_app">储蓄卡支付&lt;br/>&lt;font color=#A6A6A6>支持银行卡支付，支付更安全&lt;/font></string>
+    <string name="ad_id">a6d693e575bb4c9399e9f53698a1c616</string>
+    <string name="last_read_share_content_limit">还可以输入%s个字</string>
+    <string name="last_read_share_content">《%s》小说完美结局，意犹未尽，愿亲与我一起享受此书的阅读快感。http://t.2cloo.com</string>
+    <string name="readbook_share_content">喧嚣的世界，找个安静的角落阅读%s，文风优美，情节精彩，推荐各位亲一起阅读。</string>
+    <string name="bookinfo_share_content">我正在阅读《%s》小说，剧情精彩，主角够味！推荐各位亲一起阅读。http://t.2cloo.com</string>
+    <string name="book_vip_share_content">此书不看非君子，《%s》小说精彩无限，真的很不错！推荐大家使用android客户端一起阅读。 http://t.2cloo.com/d</string>
+    <string name="login_share_content">我正在使用小说阅读网android客户端/iphone客户端，数十万部热门小说等你来看：言情、穿越、武侠、仙侠、推理、灵异、军事、校园等。 http://t.2cloo.com/d</string>
+    <string name="bookshelf_share_content">我正在阅读《%s》小说，剧情非常精彩，推荐给大家一起阅读。http://t.2cloo.com/d</string>
+    <string name="bookshelf">书架</string>
+    <string name="bookcity">书城</string>
+    <string name="usercenter">账户</string>
+    <string name="discover">发现</string>
+    <string name="booksearch">搜索</string>
+    <string name="paihang">排行</string>
+    <string name="bookcity_girl">女生</string>
+    <string name="bookcity_male">男生</string>
+    <string name="bookcity_school">校园</string>
+    <string name="network_ungelivable">网络不给力</string>
+    <string name="network_retry">重试</string>
+    <string name="network_cancel">取消</string>
+    <string name="vip_auto">订阅成功</string>
+    <string name="vip_auto_contents">&lt;font color=#ff0000>订阅与自动订阅设置成功&lt;/font>&lt;br/>以后将不再出现订阅流程，系统将在您阅读时扣除相应的阅读币，同时为您节省更多流量和时间!&lt;br/>如需取消，请到&lt;font color=#ff9933>“用户中心”&lt;/font> - &lt;font color=#ff9933>“我的订阅”&lt;/font>里取消！&lt;br/>祝您阅读愉快!</string>
+    <string name="pay_msg_verify_info_msg">"1. 请回复二次确认短信，确保付费成功
+2.验证需要网络，请开启网络
+3.您可以点击目录章节查询验证结果
+4.若1小时内没有验证成功，将变回VIP章节
+5.验证不成功代表没有扣费，您可使用其他方式进行付费"</string>
+    <string name="delete_confirm">"删除作品的同时也删除本地相关文件。
+确定要删除此作品？"</string>
+    <string name="loading_text">数据加载中，请稍后。</string>
+    <string name="bookshelf_empty">"您的书架太空了！
+马上到书城瞧一瞧吧！！！
+喜欢的别忘加入书架哦！！！"</string>
+    <string name="bookshelf_not_subscribe">您还没有订阅过VIP章节哦!</string>
+    <string name="bookshelf_welcome_to_twocloo">欢迎来到二层楼书院，签到获取书券！</string>
+    <string name="bookshelf_last_read">上次阅读</string>
+    <string name="bookshelf_title">我的书架</string>
+    <string name="bookshelf_ordered">我的订阅</string>
+    <string name="bookshelf_fence">我的分册</string>
+    <string name="bookshelf_synchronized">同步书架</string>
+    <string name="arrange_bookshelf_title">整理书架</string>
+    <string name="arrange_bookshelf_cancel">取消</string>
+    <string name="arrange_bookshelf_done">完成</string>
+    <string name="arrange_bookshelf_selecte_all">全选</string>
+    <string name="arrange_bookshelf_cancel_selecte_all">取消全选</string>
+    <string name="arrange_bookshelf_delete">删除所选</string>
+    <string name="arrange_bookshelf_update_all">更新所选</string>
+    <string name="arrange_bookshelf_delete_success">书架删除同步成功</string>
+    <string name="arrange_bookshelf_delete_failed">书架删除同步失败</string>
+    <string name="arrange_bookshelf_none_book">书架上没有书了</string>
+    <string name="arrange_bookshelf_selecte_book">请选择作品</string>
+    <string name="about_us_copyright">"Copyright © 2014-2015 二层楼书院
+版权所有"</string>
+    <string name="about_us_versioncode">版本：</string>
+    <string name="about_us_channel">渠道：</string>
+    <string name="qingfeng">书童清风：3063942735</string>
+    <string name="mingyue">书童明月：3062275899</string>
+    <string name="mulu_back">返回</string>
+    <string name="mulu_about_book">关于本书</string>
+    <string name="mulu_book_mulu">目录</string>
+    <string name="mulu_bookmark">书签</string>
+    <string name="mulu_author">作者：</string>
+    <string name="mulu_status">状态：</string>
+    <string name="mulu_clear">清除</string>
+    <string name="mulu_not_mark">本书暂无书签!</string>
+    <string name="novel_sbxxy_title">书籍详情</string>
+    <string name="novel_sbxxy_type">类型：</string>
+    <string name="novel_sbxxy_zishu">字数：</string>
+    <string name="novel_sbxxy_source">来源：</string>
+    <string name="novel_sbxxy_free_button">开始阅读</string>
+    <string name="novel_sbxxy_buy_button">下载</string>
+    <string name="novel_sbxxy_latest_chapter">最新章节：</string>
+    <string name="novel_sbxxy_jianjie">简介</string>
+    <string name="novel_sbxxy_mulu">目录</string>
+    <string name="novel_sbxxy_pinglun">评论</string>
+    <string name="novel_sbxxy_read_count">阅读:</string>
+    <string name="novel_sbxxy_tuijian_count">推荐</string>
+    <string name="novel_sbxxy_shoucang_count">打赏</string>
+    <string name="novel_sbxxy_join_the_bookshelf">加入书架</string>
+    <string name="novel_sbxxy_piliang_dingyue">批量订阅</string>
+    <string name="novel_sbxxy_quanben_order">全本下载</string>
+    <string name="novel_sbxxy_rewards">打赏作者</string>
+    <string name="novel_sbxxy_monthly">投月票</string>
+    <string name="novel_sbxxy_allbooks">全部作品...</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+    <string name="user_center_title">个人中心</string>
+    <string name="user_center_unlogin">未登录</string>
+    <string name="zhanghu_yue">账户余额：</string>
+    <string name="monetary_unit">点券 +</string>
+    <string name="shuquan">书券</string>
+    <string name="recharge">充值</string>
+    <string name="yuepiao">我的月票</string>
+    <string name="tuijianpiao">我的推荐票</string>
+    <string name="baoyue">优惠包月</string>
+    <string name="cosume_record">消费记录</string>
+    <string name="recharge_record">充值记录</string>
+    <string name="modify_password">修改密码</string>
+    <string name="settings">设 置</string>
+    <string name="appraise">评价我们</string>
+    <string name="feedback">意见反馈</string>
+    <string name="guide">使用帮助</string>
+    <string name="about_us">关于我们</string>
+    <string name="wonderful_app">精彩应用</string>
+    <string name="offers_text">免费获取点券</string>
+    <string name="sign_text">签到免费获取书券</string>
+    <string name="login_tishi">登录后享受更多便利</string>
+    <string name="zhanghao">账号：手机/邮箱/个性账户</string>
+    <string name="password">密码：6-10位字母或数字</string>
+    <string name="i_have_read">我已阅读</string>
+    <string name="pravicy">《隐私和服务条款》</string>
+    <string name="login_text">登录</string>
+    <string name="register">注册账户</string>
+    <string name="find_password">找回密码</string>
+    <string name="other_login">使用第三方账号登录</string>
+    <string name="zhanghao_hint">用户名</string>
+    <string name="password_hint">密码</string>
+    <string name="confirm_password_hint">确认密码</string>
+    <string name="phone_number_hint">手机号码：很重要，用于找回账号密码</string>
+    <string name="regist_submit">提交</string>
+    <string name="pravicy_title">隐私和服务条款</string>
+    <string name="modify_title">修改资料</string>
+    <string name="modify_username">修改用户名</string>
+    <string name="modify_tele">修改手机号</string>
+    <string name="user_icon">头像</string>
+    <string name="user_id">用户ID</string>
+    <string name="modify_photo">修改头像</string>
+    <string name="user_name">用户名</string>
+    <string name="phone_number">手机号</string>
+    <string name="loginout">退出登录</string>
+    <string name="cancle">取消</string>
+    <string name="save">保存</string>
+    <string name="take_photo">用手机拍照</string>
+    <string name="from_photo_album">从手机相册选取</string>
+    <string name="read_setting">设置</string>
+    <string name="read_night">夜间</string>
+    <string name="read_day">日间</string>
+    <string name="read_dashang">打赏</string>
+    <string name="read_more">更多</string>
+    <string name="read_theme">主题</string>
+    <string name="read_textsize">字号</string>
+    <string name="read_light">亮度</string>
+    <string name="go_book_detailed">查看书籍详情</string>
+    <string name="down_all_chapters">下载全部可读章节</string>
+    <string name="order_all_chapters">订阅全部可读章节</string>
+    <string name="pinglun_interaction">评论互动</string>
+    <string name="auto_order">自动订阅</string>
+    <string name="good_job">写得好！赏你</string>
+    <string name="fifty_text">消灭零打赏，望早日成神！</string>
+    <string name="hundred_text">含个棒棒糖努力写，望早日成神！</string>
+    <string name="five_hundred_text">喝罐红牛抓紧更，望早日成神！</string>
+    <string name="one_thousad_text">喝两罐红牛抓紧更，望早日成神！</string>
+    <string name="custom_text">赞一个，苟富贵莫相忘！</string>
+    <string name="fifty">50点券</string>
+    <string name="one_hundred">100点券</string>
+    <string name="five_hundred">500点券</string>
+    <string name="one_thousand">1000点券</string>
+    <string name="custom_count_hint">请输入数字</string>
+    <string name="share">二层楼书院，全民文学的探路者！下载链接：http://apk.2cloo.com/2cloo_2clwap.apk，更多精彩，请登录(主站)：http://www.2cloo.com，(手机站)：http://t.2cloo.com</string>
+    <string name="share_title">分享到(每日分享到朋友圈，送20书券)</string>
+    <string name="sina">新浪微博</string>
+    <string name="qqzone">QQ空间</string>
+    <string name="wechatpengyouquan">微信朋友圈</string>
+    <string name="wechatsession">微信好友</string>
+    <string name="select_money">请选择充值金额</string>
+    <string name="select_other_money">选择其他金额</string>
+    <string name="enter_money">请输入整数金额</string>
+    <string name="go_recharge">立即充值</string>
+    <string name="wenxintishi">温馨提示</string>
+    <string name="conversion_ratio">1、兑换比例1:100，充值10元获得1000点券</string>
+    <string name="alipay_recharge">"2、使用支付宝充值，过程安全、放心、便捷
+3、支付成功后，您可以前往“账户”查看余额"</string>
+    <string name="alipay_wap_recharge">"2、支持支付宝网页版、银行储蓄卡、信用卡支付充值
+3、支付成功后，您可以前往“账户”查看余额"</string>
+    <string name="enter_telephone_number">输入手机号</string>
+    <string name="cu_recharge_shuoming">"1、充值金额将从手机话费中扣除
+2、将通过短信验证码确认完成充值;
+3、兑换比例1:50,充值10元获得500点券"</string>
+    <string name="cm_recharge_shuoming">"1、充值金额将从手机话费中扣除
+2、兑换比例1:50,充值10元获得500点券
+3、支付过程中请保持网络畅通"</string>
+    <string name="latest_recharge_way">最近使用</string>
+    <string name="all_recharge_way">选择充值方式</string>
+    <string name="alipay">支付宝充值</string>
+    <string name="yidong">移动充值</string>
+    <string name="liantong">联通充值</string>
+    <string name="dianxin">电信充值</string>
+    <string name="weixin">微信充值</string>
+    <string name="alipay_wangyin">银联充值</string>
+    <string name="wechat_recharge">"1、兑换比例1:100，充值10元获得1000点券
+2、微信充值，过程安全、放心、便捷
+3、支付成功后，您可以前往“账户”查看余额"</string>
+    <string name="fence_sbxxy_tishi">"温馨提示：
+1.分册作品只支持整册购买,不支持单章订阅!
+2.分册均一价500阅读币/册（20万字）,购买后可重复阅读!
+3.已购买的分册会自动加入书架并下载,下载后即可离线阅读!
+4.分册和原著独立，购买后需到分册页面阅读!
+5.一次购买全部分册，总价再打9折!"</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_push">PushActivity</string>
+    <string name="title_activity_campaign">CampaignActivity</string>
+    <string name="auth_cancel">授权操作已取消</string>
+    <string name="auth_error">"授权操作遇到错误，请阅读Logcat输出; 
+ 如微信登录，需要微信客户端"</string>
+    <string name="auth_complete">授权成功，正在跳转登录操作…</string>
+    <string name="title_activity_wei_xinlogin">WeiXinloginActivity</string>
+    <string name="title_activity_text">TextActivity</string>
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg">微信支付结果：%s</string>
+    <string name="title_activity_book_shelf_avtivity">BookShelfAvtivity</string>
+    <string name="title_activity_tidy_book_shelf">TidyBookShelfActivity</string>
+    <string name="mysubscription">我的订阅</string>
+    <string name="string_huodongduihuan">活动兑换</string>
+    <string name="errcode_success">分享成功</string>
+    <string name="errcode_cancel">取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unknown">发送返回</string>
+    <string name="errcode_auth_success">授权成功</string>
+    <string name="title_activity_pinglun">PinglunActivity</string>
+    <string name="title_activity_publish_pinglun">PublishPinglunActivity</string>
+    <string name="title_activity_mu_lu">MuLuActivity</string>
+</resources>

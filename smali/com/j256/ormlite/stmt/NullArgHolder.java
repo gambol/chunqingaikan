@@ -1,0 +1,136 @@
+package com.j256.ormlite.stmt; class NullArgHolder { void a() { int a;
+a=0;// .class public Lcom/j256/ormlite/stmt/NullArgHolder;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "NullArgHolder.java"
+a=0;// 
+a=0;// # interfaces
+a=0;// .implements Lcom/j256/ormlite/stmt/ArgumentHolder;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>()V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 14
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     .line 16
+a=0;//     #p0=(Reference,Lcom/j256/ormlite/stmt/NullArgHolder;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public getColumnName()Ljava/lang/String;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 19
+a=0;//     const-string v0, "null-holder"
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public getFieldType()Lcom/j256/ormlite/field/FieldType;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 48
+a=0;//     const/4 v0, 0x0
+a=0;// 
+a=0;//     #v0=(Null);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public getSqlArgValue()Ljava/lang/Object;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 39
+a=0;//     const/4 v0, 0x0
+a=0;// 
+a=0;//     #v0=(Null);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public getSqlType()Lcom/j256/ormlite/field/SqlType;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 44
+a=0;//     sget-object v0, Lcom/j256/ormlite/field/SqlType;->STRING:Lcom/j256/ormlite/field/SqlType;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/j256/ormlite/field/SqlType;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public setMetaInfo(Lcom/j256/ormlite/field/FieldType;)V
+a=0;//     .locals 0
+a=0;//     .param p1, "fieldType"    # Lcom/j256/ormlite/field/FieldType;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 32
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public setMetaInfo(Ljava/lang/String;)V
+a=0;//     .locals 0
+a=0;//     .param p1, "columnName"    # Ljava/lang/String;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 28
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public setMetaInfo(Ljava/lang/String;Lcom/j256/ormlite/field/FieldType;)V
+a=0;//     .locals 0
+a=0;//     .param p1, "columnName"    # Ljava/lang/String;
+a=0;//     .param p2, "fieldType"    # Lcom/j256/ormlite/field/FieldType;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 36
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public setValue(Ljava/lang/Object;)V
+a=0;//     .locals 3
+a=0;//     .param p1, "value"    # Ljava/lang/Object;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 23
+a=0;//     new-instance v0, Ljava/lang/UnsupportedOperationException;
+a=0;// 
+a=0;//     #v0=(UninitRef,Ljava/lang/UnsupportedOperationException;);
+a=0;//     new-instance v1, Ljava/lang/StringBuilder;
+a=0;// 
+a=0;//     #v1=(UninitRef,Ljava/lang/StringBuilder;);
+a=0;//     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/lang/StringBuilder;);
+a=0;//     const-string v2, "Cannot set null on "
+a=0;// 
+a=0;//     #v2=(Reference,Ljava/lang/String;);
+a=0;//     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+a=0;// 
+a=0;//     move-result-object v2
+a=0;// 
+a=0;//     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/UnsupportedOperationException;);
+a=0;//     throw v0
+a=0;// .end method
+}}

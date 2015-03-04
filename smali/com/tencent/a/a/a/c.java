@@ -1,0 +1,112 @@
+package com.tencent.a.a.a; class c { void a() { int a;
+a=0;// .class public Lcom/tencent/a/a/a/c;
+a=0;// .super Ljava/lang/Object;
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field public a:Ljava/lang/String;
+a=0;// 
+a=0;// .field public b:Ljava/lang/String;
+a=0;// 
+a=0;// .field public c:Ljava/lang/String;
+a=0;// 
+a=0;// .field public d:D
+a=0;// 
+a=0;// .field public e:D
+a=0;// 
+a=0;// .field public f:D
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>(Lcom/tencent/a/a/a/c;)V
+a=0;//     .locals 3
+a=0;// 
+a=0;//     const/4 v2, 0x0
+a=0;// 
+a=0;//     #v2=(Null);
+a=0;//     const-wide/16 v0, 0x0
+a=0;// 
+a=0;//     #v0=(LongLo);v1=(LongHi);
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     #p0=(Reference,Lcom/tencent/a/a/a/c;);
+a=0;//     iput-object v2, p0, Lcom/tencent/a/a/a/c;->a:Ljava/lang/String;
+a=0;// 
+a=0;//     iput-object v2, p0, Lcom/tencent/a/a/a/c;->b:Ljava/lang/String;
+a=0;// 
+a=0;//     iput-object v2, p0, Lcom/tencent/a/a/a/c;->c:Ljava/lang/String;
+a=0;// 
+a=0;//     iput-wide v0, p0, Lcom/tencent/a/a/a/c;->d:D
+a=0;// 
+a=0;//     iput-wide v0, p0, Lcom/tencent/a/a/a/c;->e:D
+a=0;// 
+a=0;//     iput-wide v0, p0, Lcom/tencent/a/a/a/c;->f:D
+a=0;// 
+a=0;//     iget-object v0, p1, Lcom/tencent/a/a/a/c;->a:Ljava/lang/String;
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     iput-object v0, p0, Lcom/tencent/a/a/a/c;->a:Ljava/lang/String;
+a=0;// 
+a=0;//     iget-object v0, p1, Lcom/tencent/a/a/a/c;->b:Ljava/lang/String;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/tencent/a/a/a/c;->b:Ljava/lang/String;
+a=0;// 
+a=0;//     iget-object v0, p1, Lcom/tencent/a/a/a/c;->c:Ljava/lang/String;
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/tencent/a/a/a/c;->c:Ljava/lang/String;
+a=0;// 
+a=0;//     iget-wide v0, p1, Lcom/tencent/a/a/a/c;->d:D
+a=0;// 
+a=0;//     #v0=(DoubleLo);v1=(DoubleHi);
+a=0;//     iput-wide v0, p0, Lcom/tencent/a/a/a/c;->d:D
+a=0;// 
+a=0;//     iget-wide v0, p1, Lcom/tencent/a/a/a/c;->e:D
+a=0;// 
+a=0;//     iput-wide v0, p0, Lcom/tencent/a/a/a/c;->e:D
+a=0;// 
+a=0;//     iget-wide v0, p1, Lcom/tencent/a/a/a/c;->f:D
+a=0;// 
+a=0;//     iput-wide v0, p0, Lcom/tencent/a/a/a/c;->f:D
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)V
+a=0;//     .locals 3
+a=0;// 
+a=0;//     const/4 v2, 0x0
+a=0;// 
+a=0;//     #v2=(Null);
+a=0;//     const-wide/16 v0, 0x0
+a=0;// 
+a=0;//     #v0=(LongLo);v1=(LongHi);
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     #p0=(Reference,Lcom/tencent/a/a/a/c;);
+a=0;//     iput-object v2, p0, Lcom/tencent/a/a/a/c;->a:Ljava/lang/String;
+a=0;// 
+a=0;//     iput-object v2, p0, Lcom/tencent/a/a/a/c;->b:Ljava/lang/String;
+a=0;// 
+a=0;//     iput-object v2, p0, Lcom/tencent/a/a/a/c;->c:Ljava/lang/String;
+a=0;// 
+a=0;//     iput-wide v0, p0, Lcom/tencent/a/a/a/c;->d:D
+a=0;// 
+a=0;//     iput-wide v0, p0, Lcom/tencent/a/a/a/c;->e:D
+a=0;// 
+a=0;//     iput-wide v0, p0, Lcom/tencent/a/a/a/c;->f:D
+a=0;// 
+a=0;//     iput-object p1, p0, Lcom/tencent/a/a/a/c;->a:Ljava/lang/String;
+a=0;// 
+a=0;//     iput-object p2, p0, Lcom/tencent/a/a/a/c;->b:Ljava/lang/String;
+a=0;// 
+a=0;//     iput-object p3, p0, Lcom/tencent/a/a/a/c;->c:Ljava/lang/String;
+a=0;// 
+a=0;//     iput-wide p4, p0, Lcom/tencent/a/a/a/c;->d:D
+a=0;// 
+a=0;//     iput-wide p6, p0, Lcom/tencent/a/a/a/c;->e:D
+a=0;// 
+a=0;//     iput-wide p8, p0, Lcom/tencent/a/a/a/c;->f:D
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+}}

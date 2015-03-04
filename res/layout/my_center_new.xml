@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mainLayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.twocloo.com.cn.view.MyScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/login_layout" android:background="@drawable/user_bg" android:layout_width="fill_parent" android:layout_height="200.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <com.twocloo.com.cn.view.CircleImageView android:id="@id/user_logo" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/usercentericon_nan" android:scaleType="fitXY" />
+                    <Button android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/user_name" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="木子" />
+                </LinearLayout>
+                <ImageView android:id="@id/img_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:src="@drawable/back_button_selector" />
+                <Button android:textColor="@color/white" android:id="@id/support_count" android:background="@drawable/zan_bg" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="321" android:drawableLeft="@drawable/zan" android:layout_alignParentRight="true" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true">
+                    <Button android:textColor="@color/white" android:id="@id/btn_guanzhu" android:background="@drawable/changfangti2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="关注 2" android:layout_weight="1.0" />
+                    <Button android:textColor="@color/white" android:id="@id/btn_fensi" android:background="@drawable/changfangti1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="粉丝 3434" android:layout_weight="1.0" />
+                    <Button android:textColor="@color/white" android:id="@id/btn_add_friend" android:background="@drawable/changfangti2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="邀请好友" android:layout_weight="1.0" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+                <Button android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/user_set" android:background="@null" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:text=" 编辑个人资料" android:drawableLeft="@drawable/bianji" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:text="最近看过我的人" />
+            <com.twocloo.com.cn.view.HorizontalListView android:id="@id/HorizontalListView" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:text="我的相册" />
+            <com.twocloo.com.cn.view.CustomGridView android:id="@id/phpto_gridview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:horizontalSpacing="10.0dip" android:verticalSpacing="10.0dip" android:numColumns="3" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:text="我的标签" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip">
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/biaotian1" android:background="@drawable/circle_ret_chengse" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="萌萌哒" />
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/biaotian2" android:background="@drawable/circle_ret_green" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="女神" />
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/biaotian3" android:background="@drawable/circle_ret_red" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="宅" />
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/biaotian4" android:background="@drawable/circle_ret_blue" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="减肥" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:text="我的阅读" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip">
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/yuedu1" android:background="@drawable/shuqian3" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="狼性总裁，不做你的女人" />
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/yuedu2" android:background="@drawable/shuqian2" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="傲世九重天" />
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/yuedu3" android:background="@drawable/shutian1" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="捡个杀手做老婆 " />
+            </LinearLayout>
+        </LinearLayout>
+    </com.twocloo.com.cn.view.MyScrollView>
+</LinearLayout>

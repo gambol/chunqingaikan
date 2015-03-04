@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mainlayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/user_center_top" />
+    </RelativeLayout>
+    <ListView android:id="@id/search_listView" android:visibility="visible" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="@drawable/line_q" />
+    <LinearLayout android:orientation="vertical" android:id="@id/nulllayout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/line2" android:layout_below="@id/line1">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="30.0dip" android:src="@drawable/cry" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffcccccc" android:gravity="center" android:id="@id/nonetv" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="不好意思，没有搜索到您需要的书籍" />
+    </LinearLayout>
+</LinearLayout>

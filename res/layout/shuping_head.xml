@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/shuping_zong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="本书评论" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textColor="#ff000000" android:id="@id/more_pinglun" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="更多" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

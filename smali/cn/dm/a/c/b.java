@@ -1,0 +1,31 @@
+package cn.dm.a.c; class b { void a() { int a;
+a=0;// .class public interface abstract Lcn/dm/a/c/b;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "SourceFile"
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public abstract a(Ljava/lang/String;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract b(Lcn/dm/a/a/a;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract b(Ljava/lang/String;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract c(Lcn/dm/a/a/a;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract d(Lcn/dm/a/a/a;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract e(Lcn/dm/a/a/a;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract f()Z
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract g()Z
+a=0;// .end method
+}}

@@ -1,0 +1,442 @@
+package com.google.gson; class JsonObject { void a() { int a;
+a=0;// .class public final Lcom/google/gson/JsonObject;
+a=0;// .super Lcom/google/gson/JsonElement;
+a=0;// .source "JsonObject.java"
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field private final members:Lcom/google/gson/internal/LinkedTreeMap;
+a=0;//     .annotation system Ldalvik/annotation/Signature;
+a=0;//         value = {
+a=0;//             "Lcom/google/gson/internal/LinkedTreeMap",
+a=0;//             "<",
+a=0;//             "Ljava/lang/String;",
+a=0;//             "Lcom/google/gson/JsonElement;",
+a=0;//             ">;"
+a=0;//         }
+a=0;//     .end annotation
+a=0;// .end field
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>()V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 32
+a=0;//     invoke-direct {p0}, Lcom/google/gson/JsonElement;-><init>()V
+a=0;// 
+a=0;//     .line 33
+a=0;//     #p0=(Reference,Lcom/google/gson/JsonObject;);
+a=0;//     new-instance v0, Lcom/google/gson/internal/LinkedTreeMap;
+a=0;// 
+a=0;//     #v0=(UninitRef,Lcom/google/gson/internal/LinkedTreeMap;);
+a=0;//     invoke-direct {v0}, Lcom/google/gson/internal/LinkedTreeMap;-><init>()V
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/internal/LinkedTreeMap;);
+a=0;//     iput-object v0, p0, Lcom/google/gson/JsonObject;->members:Lcom/google/gson/internal/LinkedTreeMap;
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method private createJsonElement(Ljava/lang/Object;)Lcom/google/gson/JsonElement;
+a=0;//     .locals 1
+a=0;//     .param p1, "value"    # Ljava/lang/Object;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 122
+a=0;//     if-nez p1, :cond_0
+a=0;// 
+a=0;//     sget-object v0, Lcom/google/gson/JsonNull;->INSTANCE:Lcom/google/gson/JsonNull;
+a=0;// 
+a=0;//     :goto_0
+a=0;//     #v0=(Reference,Ujava/lang/Object;);
+a=0;//     return-object v0
+a=0;// 
+a=0;//     :cond_0
+a=0;//     #v0=(Uninit);
+a=0;//     new-instance v0, Lcom/google/gson/JsonPrimitive;
+a=0;// 
+a=0;//     #v0=(UninitRef,Lcom/google/gson/JsonPrimitive;);
+a=0;//     invoke-direct {v0, p1}, Lcom/google/gson/JsonPrimitive;-><init>(Ljava/lang/Object;)V
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/JsonPrimitive;);
+a=0;//     goto :goto_0
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public add(Ljava/lang/String;Lcom/google/gson/JsonElement;)V
+a=0;//     .locals 1
+a=0;//     .param p1, "property"    # Ljava/lang/String;
+a=0;//     .param p2, "value"    # Lcom/google/gson/JsonElement;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 54
+a=0;//     if-nez p2, :cond_0
+a=0;// 
+a=0;//     .line 55
+a=0;//     sget-object p2, Lcom/google/gson/JsonNull;->INSTANCE:Lcom/google/gson/JsonNull;
+a=0;// 
+a=0;//     .line 57
+a=0;//     :cond_0
+a=0;//     iget-object v0, p0, Lcom/google/gson/JsonObject;->members:Lcom/google/gson/internal/LinkedTreeMap;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/internal/LinkedTreeMap;);
+a=0;//     invoke-virtual {v0, p1, p2}, Lcom/google/gson/internal/LinkedTreeMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+a=0;// 
+a=0;//     .line 58
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public addProperty(Ljava/lang/String;Ljava/lang/Boolean;)V
+a=0;//     .locals 1
+a=0;//     .param p1, "property"    # Ljava/lang/String;
+a=0;//     .param p2, "value"    # Ljava/lang/Boolean;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 101
+a=0;//     invoke-direct {p0, p2}, Lcom/google/gson/JsonObject;->createJsonElement(Ljava/lang/Object;)Lcom/google/gson/JsonElement;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/JsonElement;);
+a=0;//     invoke-virtual {p0, p1, v0}, Lcom/google/gson/JsonObject;->add(Ljava/lang/String;Lcom/google/gson/JsonElement;)V
+a=0;// 
+a=0;//     .line 102
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public addProperty(Ljava/lang/String;Ljava/lang/Character;)V
+a=0;//     .locals 1
+a=0;//     .param p1, "property"    # Ljava/lang/String;
+a=0;//     .param p2, "value"    # Ljava/lang/Character;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 112
+a=0;//     invoke-direct {p0, p2}, Lcom/google/gson/JsonObject;->createJsonElement(Ljava/lang/Object;)Lcom/google/gson/JsonElement;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/JsonElement;);
+a=0;//     invoke-virtual {p0, p1, v0}, Lcom/google/gson/JsonObject;->add(Ljava/lang/String;Lcom/google/gson/JsonElement;)V
+a=0;// 
+a=0;//     .line 113
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public addProperty(Ljava/lang/String;Ljava/lang/Number;)V
+a=0;//     .locals 1
+a=0;//     .param p1, "property"    # Ljava/lang/String;
+a=0;//     .param p2, "value"    # Ljava/lang/Number;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 90
+a=0;//     invoke-direct {p0, p2}, Lcom/google/gson/JsonObject;->createJsonElement(Ljava/lang/Object;)Lcom/google/gson/JsonElement;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/JsonElement;);
+a=0;//     invoke-virtual {p0, p1, v0}, Lcom/google/gson/JsonObject;->add(Ljava/lang/String;Lcom/google/gson/JsonElement;)V
+a=0;// 
+a=0;//     .line 91
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public addProperty(Ljava/lang/String;Ljava/lang/String;)V
+a=0;//     .locals 1
+a=0;//     .param p1, "property"    # Ljava/lang/String;
+a=0;//     .param p2, "value"    # Ljava/lang/String;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 79
+a=0;//     invoke-direct {p0, p2}, Lcom/google/gson/JsonObject;->createJsonElement(Ljava/lang/Object;)Lcom/google/gson/JsonElement;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/JsonElement;);
+a=0;//     invoke-virtual {p0, p1, v0}, Lcom/google/gson/JsonObject;->add(Ljava/lang/String;Lcom/google/gson/JsonElement;)V
+a=0;// 
+a=0;//     .line 80
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method bridge synthetic deepCopy()Lcom/google/gson/JsonElement;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 32
+a=0;//     invoke-virtual {p0}, Lcom/google/gson/JsonObject;->deepCopy()Lcom/google/gson/JsonObject;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/JsonObject;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method deepCopy()Lcom/google/gson/JsonObject;
+a=0;//     .locals 5
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 38
+a=0;//     new-instance v2, Lcom/google/gson/JsonObject;
+a=0;// 
+a=0;//     #v2=(UninitRef,Lcom/google/gson/JsonObject;);
+a=0;//     invoke-direct {v2}, Lcom/google/gson/JsonObject;-><init>()V
+a=0;// 
+a=0;//     .line 39
+a=0;//     .local v2, "result":Lcom/google/gson/JsonObject;
+a=0;//     #v2=(Reference,Lcom/google/gson/JsonObject;);
+a=0;//     iget-object v3, p0, Lcom/google/gson/JsonObject;->members:Lcom/google/gson/internal/LinkedTreeMap;
+a=0;// 
+a=0;//     #v3=(Reference,Lcom/google/gson/internal/LinkedTreeMap;);
+a=0;//     invoke-virtual {v3}, Lcom/google/gson/internal/LinkedTreeMap;->entrySet()Ljava/util/Set;
+a=0;// 
+a=0;//     move-result-object v3
+a=0;// 
+a=0;//     invoke-interface {v3}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     .local v1, "i$":Ljava/util/Iterator;
+a=0;//     :goto_0
+a=0;//     #v0=(Conflicted);v1=(Reference,Ljava/util/Iterator;);v4=(Conflicted);
+a=0;//     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+a=0;// 
+a=0;//     move-result v3
+a=0;// 
+a=0;//     #v3=(Boolean);
+a=0;//     if-eqz v3, :cond_0
+a=0;// 
+a=0;//     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/Object;);
+a=0;//     check-cast v0, Ljava/util/Map$Entry;
+a=0;// 
+a=0;//     .line 40
+a=0;//     .local v0, "entry":Ljava/util/Map$Entry;, "Ljava/util/Map$Entry<Ljava/lang/String;Lcom/google/gson/JsonElement;>;"
+a=0;//     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v3
+a=0;// 
+a=0;//     #v3=(Reference,Ljava/lang/Object;);
+a=0;//     check-cast v3, Ljava/lang/String;
+a=0;// 
+a=0;//     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     #v4=(Reference,Ljava/lang/Object;);
+a=0;//     check-cast v4, Lcom/google/gson/JsonElement;
+a=0;// 
+a=0;//     invoke-virtual {v4}, Lcom/google/gson/JsonElement;->deepCopy()Lcom/google/gson/JsonElement;
+a=0;// 
+a=0;//     move-result-object v4
+a=0;// 
+a=0;//     invoke-virtual {v2, v3, v4}, Lcom/google/gson/JsonObject;->add(Ljava/lang/String;Lcom/google/gson/JsonElement;)V
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// 
+a=0;//     .line 42
+a=0;//     .end local v0    # "entry":Ljava/util/Map$Entry;, "Ljava/util/Map$Entry<Ljava/lang/String;Lcom/google/gson/JsonElement;>;"
+a=0;//     :cond_0
+a=0;//     #v0=(Conflicted);v3=(Boolean);v4=(Conflicted);
+a=0;//     return-object v2
+a=0;// .end method
+a=0;// 
+a=0;// .method public entrySet()Ljava/util/Set;
+a=0;//     .locals 1
+a=0;//     .annotation system Ldalvik/annotation/Signature;
+a=0;//         value = {
+a=0;//             "()",
+a=0;//             "Ljava/util/Set",
+a=0;//             "<",
+a=0;//             "Ljava/util/Map$Entry",
+a=0;//             "<",
+a=0;//             "Ljava/lang/String;",
+a=0;//             "Lcom/google/gson/JsonElement;",
+a=0;//             ">;>;"
+a=0;//         }
+a=0;//     .end annotation
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 132
+a=0;//     iget-object v0, p0, Lcom/google/gson/JsonObject;->members:Lcom/google/gson/internal/LinkedTreeMap;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/internal/LinkedTreeMap;);
+a=0;//     invoke-virtual {v0}, Lcom/google/gson/internal/LinkedTreeMap;->entrySet()Ljava/util/Set;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public equals(Ljava/lang/Object;)Z
+a=0;//     .locals 2
+a=0;//     .param p1, "o"    # Ljava/lang/Object;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 187
+a=0;//     if-eq p1, p0, :cond_0
+a=0;// 
+a=0;//     instance-of v0, p1, Lcom/google/gson/JsonObject;
+a=0;// 
+a=0;//     #v0=(Boolean);
+a=0;//     if-eqz v0, :cond_1
+a=0;// 
+a=0;//     check-cast p1, Lcom/google/gson/JsonObject;
+a=0;// 
+a=0;//     .end local p1    # "o":Ljava/lang/Object;
+a=0;//     iget-object v0, p1, Lcom/google/gson/JsonObject;->members:Lcom/google/gson/internal/LinkedTreeMap;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/internal/LinkedTreeMap;);
+a=0;//     iget-object v1, p0, Lcom/google/gson/JsonObject;->members:Lcom/google/gson/internal/LinkedTreeMap;
+a=0;// 
+a=0;//     #v1=(Reference,Lcom/google/gson/internal/LinkedTreeMap;);
+a=0;//     invoke-virtual {v0, v1}, Lcom/google/gson/internal/LinkedTreeMap;->equals(Ljava/lang/Object;)Z
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     #v0=(Boolean);
+a=0;//     if-eqz v0, :cond_1
+a=0;// 
+a=0;//     :cond_0
+a=0;//     #v0=(Conflicted);v1=(Conflicted);
+a=0;//     const/4 v0, 0x1
+a=0;// 
+a=0;//     :goto_0
+a=0;//     #v0=(Boolean);
+a=0;//     return v0
+a=0;// 
+a=0;//     :cond_1
+a=0;//     const/4 v0, 0x0
+a=0;// 
+a=0;//     #v0=(Null);
+a=0;//     goto :goto_0
+a=0;// .end method
+a=0;// 
+a=0;// .method public get(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+a=0;//     .locals 1
+a=0;//     .param p1, "memberName"    # Ljava/lang/String;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 152
+a=0;//     iget-object v0, p0, Lcom/google/gson/JsonObject;->members:Lcom/google/gson/internal/LinkedTreeMap;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/internal/LinkedTreeMap;);
+a=0;//     invoke-virtual {v0, p1}, Lcom/google/gson/internal/LinkedTreeMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     check-cast v0, Lcom/google/gson/JsonElement;
+a=0;// 
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public getAsJsonArray(Ljava/lang/String;)Lcom/google/gson/JsonArray;
+a=0;//     .locals 1
+a=0;//     .param p1, "memberName"    # Ljava/lang/String;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 172
+a=0;//     iget-object v0, p0, Lcom/google/gson/JsonObject;->members:Lcom/google/gson/internal/LinkedTreeMap;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/internal/LinkedTreeMap;);
+a=0;//     invoke-virtual {v0, p1}, Lcom/google/gson/internal/LinkedTreeMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     check-cast v0, Lcom/google/gson/JsonArray;
+a=0;// 
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public getAsJsonObject(Ljava/lang/String;)Lcom/google/gson/JsonObject;
+a=0;//     .locals 1
+a=0;//     .param p1, "memberName"    # Ljava/lang/String;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 182
+a=0;//     iget-object v0, p0, Lcom/google/gson/JsonObject;->members:Lcom/google/gson/internal/LinkedTreeMap;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/internal/LinkedTreeMap;);
+a=0;//     invoke-virtual {v0, p1}, Lcom/google/gson/internal/LinkedTreeMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     check-cast v0, Lcom/google/gson/JsonObject;
+a=0;// 
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public getAsJsonPrimitive(Ljava/lang/String;)Lcom/google/gson/JsonPrimitive;
+a=0;//     .locals 1
+a=0;//     .param p1, "memberName"    # Ljava/lang/String;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 162
+a=0;//     iget-object v0, p0, Lcom/google/gson/JsonObject;->members:Lcom/google/gson/internal/LinkedTreeMap;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/internal/LinkedTreeMap;);
+a=0;//     invoke-virtual {v0, p1}, Lcom/google/gson/internal/LinkedTreeMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     check-cast v0, Lcom/google/gson/JsonPrimitive;
+a=0;// 
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public has(Ljava/lang/String;)Z
+a=0;//     .locals 1
+a=0;//     .param p1, "memberName"    # Ljava/lang/String;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 142
+a=0;//     iget-object v0, p0, Lcom/google/gson/JsonObject;->members:Lcom/google/gson/internal/LinkedTreeMap;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/internal/LinkedTreeMap;);
+a=0;//     invoke-virtual {v0, p1}, Lcom/google/gson/internal/LinkedTreeMap;->containsKey(Ljava/lang/Object;)Z
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     #v0=(Boolean);
+a=0;//     return v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public hashCode()I
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 193
+a=0;//     iget-object v0, p0, Lcom/google/gson/JsonObject;->members:Lcom/google/gson/internal/LinkedTreeMap;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/internal/LinkedTreeMap;);
+a=0;//     invoke-virtual {v0}, Lcom/google/gson/internal/LinkedTreeMap;->hashCode()I
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     return v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public remove(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+a=0;//     .locals 1
+a=0;//     .param p1, "property"    # Ljava/lang/String;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 68
+a=0;//     iget-object v0, p0, Lcom/google/gson/JsonObject;->members:Lcom/google/gson/internal/LinkedTreeMap;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/google/gson/internal/LinkedTreeMap;);
+a=0;//     invoke-virtual {v0, p1}, Lcom/google/gson/internal/LinkedTreeMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     check-cast v0, Lcom/google/gson/JsonElement;
+a=0;// 
+a=0;//     return-object v0
+a=0;// .end method
+}}

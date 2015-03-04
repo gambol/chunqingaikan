@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/booklayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/coverlayout" android:background="@drawable/default_cover" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true" style="@style/style_bookshelf_btn320" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/uncheckedcoverlayout" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true" style="@style/style_bookshelf_btn320" />
+        <TextView android:textSize="13.0sp" android:textColor="#ff0975cd" android:ellipsize="end" android:gravity="center" android:id="@id/bookname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="---" android:singleLine="true" android:layout_below="@id/coverlayout" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:gravity="center" android:id="@id/unread" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="---" android:layout_below="@id/bookname" android:layout_centerHorizontal="true" />
+        <CheckBox android:id="@id/checkbox" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/coverlayout" android:layout_alignRight="@id/coverlayout" style="@style/CustomCheckboxTheme" />
+    </RelativeLayout>
+</RelativeLayout>

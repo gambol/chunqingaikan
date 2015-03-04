@@ -1,0 +1,91 @@
+package com.tencent.connect.avatar; class ImageActivity$1 { void a() { int a;
+a=0;// .class Lcom/tencent/connect/avatar/ImageActivity$1;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "ProGuard"
+a=0;// 
+a=0;// # interfaces
+a=0;// .implements Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
+a=0;// 
+a=0;// 
+a=0;// # annotations
+a=0;// .annotation system Ldalvik/annotation/EnclosingMethod;
+a=0;//     value = Lcom/tencent/connect/avatar/ImageActivity;->b()V
+a=0;// .end annotation
+a=0;// 
+a=0;// .annotation system Ldalvik/annotation/InnerClass;
+a=0;//     accessFlags = 0x0
+a=0;//     name = null
+a=0;// .end annotation
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field final synthetic a:Lcom/tencent/connect/avatar/ImageActivity;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method constructor <init>(Lcom/tencent/connect/avatar/ImageActivity;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 359
+a=0;//     iput-object p1, p0, Lcom/tencent/connect/avatar/ImageActivity$1;->a:Lcom/tencent/connect/avatar/ImageActivity;
+a=0;// 
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     #p0=(Reference,Lcom/tencent/connect/avatar/ImageActivity$1;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public onGlobalLayout()V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 362
+a=0;//     iget-object v0, p0, Lcom/tencent/connect/avatar/ImageActivity$1;->a:Lcom/tencent/connect/avatar/ImageActivity;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/tencent/connect/avatar/ImageActivity;);
+a=0;//     iget-object v0, v0, Lcom/tencent/connect/avatar/ImageActivity;->a:Landroid/widget/RelativeLayout;
+a=0;// 
+a=0;//     invoke-virtual {v0}, Landroid/widget/RelativeLayout;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     invoke-virtual {v0, p0}, Landroid/view/ViewTreeObserver;->removeGlobalOnLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
+a=0;// 
+a=0;//     .line 364
+a=0;//     iget-object v0, p0, Lcom/tencent/connect/avatar/ImageActivity$1;->a:Lcom/tencent/connect/avatar/ImageActivity;
+a=0;// 
+a=0;//     iget-object v1, p0, Lcom/tencent/connect/avatar/ImageActivity$1;->a:Lcom/tencent/connect/avatar/ImageActivity;
+a=0;// 
+a=0;//     #v1=(Reference,Lcom/tencent/connect/avatar/ImageActivity;);
+a=0;//     invoke-static {v1}, Lcom/tencent/connect/avatar/ImageActivity;->a(Lcom/tencent/connect/avatar/ImageActivity;)Lcom/tencent/connect/avatar/b;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-virtual {v1}, Lcom/tencent/connect/avatar/b;->a()Landroid/graphics/Rect;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-static {v0, v1}, Lcom/tencent/connect/avatar/ImageActivity;->a(Lcom/tencent/connect/avatar/ImageActivity;Landroid/graphics/Rect;)Landroid/graphics/Rect;
+a=0;// 
+a=0;//     .line 367
+a=0;//     iget-object v0, p0, Lcom/tencent/connect/avatar/ImageActivity$1;->a:Lcom/tencent/connect/avatar/ImageActivity;
+a=0;// 
+a=0;//     invoke-static {v0}, Lcom/tencent/connect/avatar/ImageActivity;->c(Lcom/tencent/connect/avatar/ImageActivity;)Lcom/tencent/connect/avatar/c;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     iget-object v1, p0, Lcom/tencent/connect/avatar/ImageActivity$1;->a:Lcom/tencent/connect/avatar/ImageActivity;
+a=0;// 
+a=0;//     invoke-static {v1}, Lcom/tencent/connect/avatar/ImageActivity;->b(Lcom/tencent/connect/avatar/ImageActivity;)Landroid/graphics/Rect;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     invoke-virtual {v0, v1}, Lcom/tencent/connect/avatar/c;->a(Landroid/graphics/Rect;)V
+a=0;// 
+a=0;//     .line 381
+a=0;//     return-void
+a=0;// .end method
+}}

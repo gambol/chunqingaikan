@@ -1,0 +1,163 @@
+package com.tencent.open; class PKDialog$JsListener { void a() { int a;
+a=0;// .class Lcom/tencent/open/PKDialog$JsListener;
+a=0;// .super Lcom/tencent/open/a$b;
+a=0;// .source "ProGuard"
+a=0;// 
+a=0;// 
+a=0;// # annotations
+a=0;// .annotation system Ldalvik/annotation/EnclosingClass;
+a=0;//     value = Lcom/tencent/open/PKDialog;
+a=0;// .end annotation
+a=0;// 
+a=0;// .annotation system Ldalvik/annotation/InnerClass;
+a=0;//     accessFlags = 0x2
+a=0;//     name = "JsListener"
+a=0;// .end annotation
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field final synthetic this$0:Lcom/tencent/open/PKDialog;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method private constructor <init>(Lcom/tencent/open/PKDialog;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 223
+a=0;//     iput-object p1, p0, Lcom/tencent/open/PKDialog$JsListener;->this$0:Lcom/tencent/open/PKDialog;
+a=0;// 
+a=0;//     invoke-direct {p0}, Lcom/tencent/open/a$b;-><init>()V
+a=0;// 
+a=0;//     #p0=(Reference,Lcom/tencent/open/PKDialog$JsListener;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method synthetic constructor <init>(Lcom/tencent/open/PKDialog;Lcom/tencent/open/PKDialog$1;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 223
+a=0;//     invoke-direct {p0, p1}, Lcom/tencent/open/PKDialog$JsListener;-><init>(Lcom/tencent/open/PKDialog;)V
+a=0;// 
+a=0;//     #p0=(Reference,Lcom/tencent/open/PKDialog$JsListener;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public onCancel(Ljava/lang/String;)V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 234
+a=0;//     iget-object v0, p0, Lcom/tencent/open/PKDialog$JsListener;->this$0:Lcom/tencent/open/PKDialog;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/tencent/open/PKDialog;);
+a=0;//     invoke-static {v0}, Lcom/tencent/open/PKDialog;->access$200(Lcom/tencent/open/PKDialog;)Landroid/os/Handler;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     const/4 v1, 0x2
+a=0;// 
+a=0;//     #v1=(PosByte);
+a=0;//     invoke-virtual {v0, v1, p1}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     invoke-virtual {v0}, Landroid/os/Message;->sendToTarget()V
+a=0;// 
+a=0;//     .line 235
+a=0;//     iget-object v0, p0, Lcom/tencent/open/PKDialog$JsListener;->this$0:Lcom/tencent/open/PKDialog;
+a=0;// 
+a=0;//     invoke-virtual {v0}, Lcom/tencent/open/PKDialog;->dismiss()V
+a=0;// 
+a=0;//     .line 236
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public onComplete(Ljava/lang/String;)V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 227
+a=0;//     iget-object v0, p0, Lcom/tencent/open/PKDialog$JsListener;->this$0:Lcom/tencent/open/PKDialog;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/tencent/open/PKDialog;);
+a=0;//     invoke-static {v0}, Lcom/tencent/open/PKDialog;->access$200(Lcom/tencent/open/PKDialog;)Landroid/os/Handler;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     const/4 v1, 0x1
+a=0;// 
+a=0;//     #v1=(One);
+a=0;//     invoke-virtual {v0, v1, p1}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     invoke-virtual {v0}, Landroid/os/Message;->sendToTarget()V
+a=0;// 
+a=0;//     .line 228
+a=0;//     const-string v0, "onComplete"
+a=0;// 
+a=0;//     invoke-static {v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+a=0;// 
+a=0;//     .line 229
+a=0;//     iget-object v0, p0, Lcom/tencent/open/PKDialog$JsListener;->this$0:Lcom/tencent/open/PKDialog;
+a=0;// 
+a=0;//     invoke-virtual {v0}, Lcom/tencent/open/PKDialog;->dismiss()V
+a=0;// 
+a=0;//     .line 230
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public onLoad(Ljava/lang/String;)V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 250
+a=0;//     iget-object v0, p0, Lcom/tencent/open/PKDialog$JsListener;->this$0:Lcom/tencent/open/PKDialog;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/tencent/open/PKDialog;);
+a=0;//     invoke-static {v0}, Lcom/tencent/open/PKDialog;->access$200(Lcom/tencent/open/PKDialog;)Landroid/os/Handler;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     const/4 v1, 0x4
+a=0;// 
+a=0;//     #v1=(PosByte);
+a=0;//     invoke-virtual {v0, v1, p1}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     invoke-virtual {v0}, Landroid/os/Message;->sendToTarget()V
+a=0;// 
+a=0;//     .line 251
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public showMsg(Ljava/lang/String;)V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 240
+a=0;//     iget-object v0, p0, Lcom/tencent/open/PKDialog$JsListener;->this$0:Lcom/tencent/open/PKDialog;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/tencent/open/PKDialog;);
+a=0;//     invoke-static {v0}, Lcom/tencent/open/PKDialog;->access$200(Lcom/tencent/open/PKDialog;)Landroid/os/Handler;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     const/4 v1, 0x3
+a=0;// 
+a=0;//     #v1=(PosByte);
+a=0;//     invoke-virtual {v0, v1, p1}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     invoke-virtual {v0}, Landroid/os/Message;->sendToTarget()V
+a=0;// 
+a=0;//     .line 241
+a=0;//     return-void
+a=0;// .end method
+}}

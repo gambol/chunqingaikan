@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/rl_dibu" android:background="@drawable/read_menu_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/radioGroup" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <RadioButton android:textColor="@color/light_gray_text" android:id="@id/menu_btn_settings" android:text="@string/read_setting" android:drawableTop="@drawable/menu_read_settings_normal" style="@style/style_read_radiobutton" />
+        <RadioButton android:textColor="@color/light_gray_text" android:id="@id/menu_btn_dayornight" android:text="@string/read_night" android:drawableTop="@drawable/menu_read_night_normal" style="@style/style_read_radiobutton" />
+        <RadioButton android:textColor="@color/light_gray_text" android:id="@id/menu_btn_dashang" android:text="@string/read_dashang" android:drawableTop="@drawable/menu_read_dashang_normal" style="@style/style_read_radiobutton" />
+        <RadioButton android:textColor="@color/light_gray_text" android:id="@id/menu_btn_more" android:text="@string/read_more" android:drawableTop="@drawable/menu_read_more_normal" style="@style/style_read_radiobutton" />
+        <RadioButton android:textColor="#ffffffff" android:id="@id/menu_btn5" android:visibility="gone" android:text="" style="@style/style_read_radiobutton" />
+        <RadioButton android:textColor="#ffffffff" android:id="@id/menu_btn1" android:visibility="gone" style="@style/style_read_radiobutton" />
+    </RadioGroup>
+</LinearLayout>

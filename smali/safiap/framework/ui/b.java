@@ -1,0 +1,139 @@
+package safiap.framework.ui; class b { void a() { int a;
+a=0;// .class final Lsafiap/framework/ui/b;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "SourceFile"
+a=0;// 
+a=0;// # interfaces
+a=0;// .implements Landroid/content/ServiceConnection;
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field private synthetic a:Lsafiap/framework/ui/UpdateHintActivity;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method constructor <init>(Lsafiap/framework/ui/UpdateHintActivity;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 531
+a=0;//     iput-object p1, p0, Lsafiap/framework/ui/b;->a:Lsafiap/framework/ui/UpdateHintActivity;
+a=0;// 
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     #p0=(Reference,Lsafiap/framework/ui/b;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public final onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
+a=0;//     .locals 3
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 535
+a=0;//     iget-object v0, p0, Lsafiap/framework/ui/b;->a:Lsafiap/framework/ui/UpdateHintActivity;
+a=0;// 
+a=0;//     #v0=(Reference,Lsafiap/framework/ui/UpdateHintActivity;);
+a=0;//     invoke-static {v0}, Lsafiap/framework/ui/UpdateHintActivity;->e(Lsafiap/framework/ui/UpdateHintActivity;)Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/lang/String;);
+a=0;//     monitor-enter v1
+a=0;// 
+a=0;//     .line 536
+a=0;//     :try_start_0
+a=0;//     iget-object v0, p0, Lsafiap/framework/ui/b;->a:Lsafiap/framework/ui/UpdateHintActivity;
+a=0;// 
+a=0;//     invoke-static {p2}, Lsafiap/framework/sdk/ISAFFramework$Stub;->asInterface(Landroid/os/IBinder;)Lsafiap/framework/sdk/ISAFFramework;
+a=0;// 
+a=0;//     move-result-object v2
+a=0;// 
+a=0;//     #v2=(Reference,Lsafiap/framework/sdk/ISAFFramework;);
+a=0;//     invoke-static {v0, v2}, Lsafiap/framework/ui/UpdateHintActivity;->a(Lsafiap/framework/ui/UpdateHintActivity;Lsafiap/framework/sdk/ISAFFramework;)Lsafiap/framework/sdk/ISAFFramework;
+a=0;// 
+a=0;//     .line 537
+a=0;//     invoke-static {}, Lsafiap/framework/ui/UpdateHintActivity;->a()Lsafiap/framework/util/MyLogger;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     const-string v2, "UpdateHintActivity onServiceConnected"
+a=0;// 
+a=0;//     invoke-virtual {v0, v2}, Lsafiap/framework/util/MyLogger;->d(Ljava/lang/String;)V
+a=0;// 
+a=0;//     .line 539
+a=0;//     :goto_0
+a=0;//     iget-object v0, p0, Lsafiap/framework/ui/b;->a:Lsafiap/framework/ui/UpdateHintActivity;
+a=0;// 
+a=0;//     invoke-static {v0}, Lsafiap/framework/ui/UpdateHintActivity;->f(Lsafiap/framework/ui/UpdateHintActivity;)Ljava/util/Queue;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     invoke-interface {v0}, Ljava/util/Queue;->isEmpty()Z
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     #v0=(Boolean);
+a=0;//     if-nez v0, :cond_0
+a=0;// 
+a=0;//     .line 540
+a=0;//     iget-object v0, p0, Lsafiap/framework/ui/b;->a:Lsafiap/framework/ui/UpdateHintActivity;
+a=0;// 
+a=0;//     #v0=(Reference,Lsafiap/framework/ui/UpdateHintActivity;);
+a=0;//     invoke-static {v0}, Lsafiap/framework/ui/UpdateHintActivity;->f(Lsafiap/framework/ui/UpdateHintActivity;)Ljava/util/Queue;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     invoke-interface {v0}, Ljava/util/Queue;->poll()Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     check-cast v0, Ljava/lang/String;
+a=0;// 
+a=0;//     .line 541
+a=0;//     iget-object v2, p0, Lsafiap/framework/ui/b;->a:Lsafiap/framework/ui/UpdateHintActivity;
+a=0;// 
+a=0;//     invoke-static {v2, v0}, Lsafiap/framework/ui/UpdateHintActivity;->b(Lsafiap/framework/ui/UpdateHintActivity;Ljava/lang/String;)V
+a=0;//     :try_end_0
+a=0;//     .catchall {:try_start_0 .. :try_end_0} :catchall_0
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// 
+a=0;//     .line 543
+a=0;//     :catchall_0
+a=0;//     #v0=(Conflicted);v2=(Conflicted);
+a=0;//     move-exception v0
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/Throwable;);
+a=0;//     monitor-exit v1
+a=0;// 
+a=0;//     throw v0
+a=0;// 
+a=0;//     :cond_0
+a=0;//     :try_start_1
+a=0;//     #v0=(Boolean);v2=(Reference,Ujava/lang/Object;);
+a=0;//     monitor-exit v1
+a=0;//     :try_end_1
+a=0;//     .catchall {:try_start_1 .. :try_end_1} :catchall_0
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public final onServiceDisconnected(Landroid/content/ComponentName;)V
+a=0;//     .locals 2
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 548
+a=0;//     iget-object v0, p0, Lsafiap/framework/ui/b;->a:Lsafiap/framework/ui/UpdateHintActivity;
+a=0;// 
+a=0;//     #v0=(Reference,Lsafiap/framework/ui/UpdateHintActivity;);
+a=0;//     const/4 v1, 0x0
+a=0;// 
+a=0;//     #v1=(Null);
+a=0;//     invoke-static {v0, v1}, Lsafiap/framework/ui/UpdateHintActivity;->a(Lsafiap/framework/ui/UpdateHintActivity;Lsafiap/framework/sdk/ISAFFramework;)Lsafiap/framework/sdk/ISAFFramework;
+a=0;// 
+a=0;//     .line 549
+a=0;//     return-void
+a=0;// .end method
+}}

@@ -1,0 +1,204 @@
+package com.twocloo.com.cn.fragment; class ImageFragment { void a() { int a;
+a=0;// .class public Lcom/twocloo/com/cn/fragment/ImageFragment;
+a=0;// .super Landroid/support/v4/app/Fragment;
+a=0;// .source "ImageFragment.java"
+a=0;// 
+a=0;// 
+a=0;// # annotations
+a=0;// .annotation build Landroid/annotation/SuppressLint;
+a=0;//     value = {
+a=0;//         "ValidFragment"
+a=0;//     }
+a=0;// .end annotation
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field private Url:Ljava/lang/String;
+a=0;// 
+a=0;// .field private id:I
+a=0;// 
+a=0;// .field private imageView:Landroid/widget/ImageView;
+a=0;// 
+a=0;// .field private title:Ljava/lang/String;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>()V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 30
+a=0;//     invoke-direct {p0}, Landroid/support/v4/app/Fragment;-><init>()V
+a=0;// 
+a=0;//     .line 31
+a=0;//     #p0=(Reference,Lcom/twocloo/com/cn/fragment/ImageFragment;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public constructor <init>(ILjava/lang/String;Ljava/lang/String;)V
+a=0;//     .locals 0
+a=0;//     .param p1, "id"    # I
+a=0;//     .param p2, "Url"    # Ljava/lang/String;
+a=0;//     .param p3, "title"    # Ljava/lang/String;
+a=0;//     .annotation build Landroid/annotation/SuppressLint;
+a=0;//         value = {
+a=0;//             "ValidFragment"
+a=0;//         }
+a=0;//     .end annotation
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 23
+a=0;//     invoke-direct {p0}, Landroid/support/v4/app/Fragment;-><init>()V
+a=0;// 
+a=0;//     .line 24
+a=0;//     #p0=(Reference,Lcom/twocloo/com/cn/fragment/ImageFragment;);
+a=0;//     iput p1, p0, Lcom/twocloo/com/cn/fragment/ImageFragment;->id:I
+a=0;// 
+a=0;//     .line 25
+a=0;//     iput-object p2, p0, Lcom/twocloo/com/cn/fragment/ImageFragment;->Url:Ljava/lang/String;
+a=0;// 
+a=0;//     .line 26
+a=0;//     iput-object p3, p0, Lcom/twocloo/com/cn/fragment/ImageFragment;->title:Ljava/lang/String;
+a=0;// 
+a=0;//     .line 27
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$0(Lcom/twocloo/com/cn/fragment/ImageFragment;)Ljava/lang/String;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 19
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/fragment/ImageFragment;->Url:Ljava/lang/String;
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method static synthetic access$1(Lcom/twocloo/com/cn/fragment/ImageFragment;)Ljava/lang/String;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 20
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/fragment/ImageFragment;->title:Ljava/lang/String;
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public static getImageFragment(ILjava/lang/String;Ljava/lang/String;)Lcom/twocloo/com/cn/fragment/ImageFragment;
+a=0;//     .locals 1
+a=0;//     .param p0, "id"    # I
+a=0;//     .param p1, "Url"    # Ljava/lang/String;
+a=0;//     .param p2, "title"    # Ljava/lang/String;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 34
+a=0;//     new-instance v0, Lcom/twocloo/com/cn/fragment/ImageFragment;
+a=0;// 
+a=0;//     #v0=(UninitRef,Lcom/twocloo/com/cn/fragment/ImageFragment;);
+a=0;//     invoke-direct {v0}, Lcom/twocloo/com/cn/fragment/ImageFragment;-><init>()V
+a=0;// 
+a=0;//     .line 35
+a=0;//     .local v0, "imageFragment":Lcom/twocloo/com/cn/fragment/ImageFragment;
+a=0;//     #v0=(Reference,Lcom/twocloo/com/cn/fragment/ImageFragment;);
+a=0;//     iput p0, v0, Lcom/twocloo/com/cn/fragment/ImageFragment;->id:I
+a=0;// 
+a=0;//     .line 36
+a=0;//     iput-object p1, v0, Lcom/twocloo/com/cn/fragment/ImageFragment;->Url:Ljava/lang/String;
+a=0;// 
+a=0;//     .line 37
+a=0;//     iput-object p2, v0, Lcom/twocloo/com/cn/fragment/ImageFragment;->title:Ljava/lang/String;
+a=0;// 
+a=0;//     .line 38
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public onActivityCreated(Landroid/os/Bundle;)V
+a=0;//     .locals 2
+a=0;//     .param p1, "savedInstanceState"    # Landroid/os/Bundle;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 51
+a=0;//     invoke-super {p0, p1}, Landroid/support/v4/app/Fragment;->onActivityCreated(Landroid/os/Bundle;)V
+a=0;// 
+a=0;//     .line 52
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/fragment/ImageFragment;->imageView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/widget/ImageView;);
+a=0;//     if-eqz v0, :cond_0
+a=0;// 
+a=0;//     .line 54
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/fragment/ImageFragment;->imageView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     new-instance v1, Lcom/twocloo/com/cn/fragment/ImageFragment$1;
+a=0;// 
+a=0;//     #v1=(UninitRef,Lcom/twocloo/com/cn/fragment/ImageFragment$1;);
+a=0;//     invoke-direct {v1, p0}, Lcom/twocloo/com/cn/fragment/ImageFragment$1;-><init>(Lcom/twocloo/com/cn/fragment/ImageFragment;)V
+a=0;// 
+a=0;//     #v1=(Reference,Lcom/twocloo/com/cn/fragment/ImageFragment$1;);
+a=0;//     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+a=0;// 
+a=0;//     .line 65
+a=0;//     :cond_0
+a=0;//     #v1=(Conflicted);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+a=0;//     .locals 3
+a=0;//     .param p1, "inflater"    # Landroid/view/LayoutInflater;
+a=0;//     .param p2, "container"    # Landroid/view/ViewGroup;
+a=0;//     .param p3, "savedInstanceState"    # Landroid/os/Bundle;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 43
+a=0;//     sget v1, Lcom/twocloo/com/cn/R$layout;->imagefragment:I
+a=0;// 
+a=0;//     #v1=(Integer);
+a=0;//     const/4 v2, 0x0
+a=0;// 
+a=0;//     #v2=(Null);
+a=0;//     invoke-virtual {p1, v1, p2, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     .line 44
+a=0;//     .local v0, "view":Landroid/view/View;
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     sget v1, Lcom/twocloo/com/cn/R$id;->image:I
+a=0;// 
+a=0;//     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     #v1=(Reference,Landroid/view/View;);
+a=0;//     check-cast v1, Landroid/widget/ImageView;
+a=0;// 
+a=0;//     iput-object v1, p0, Lcom/twocloo/com/cn/fragment/ImageFragment;->imageView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     .line 45
+a=0;//     iget-object v1, p0, Lcom/twocloo/com/cn/fragment/ImageFragment;->imageView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     iget v2, p0, Lcom/twocloo/com/cn/fragment/ImageFragment;->id:I
+a=0;// 
+a=0;//     #v2=(Integer);
+a=0;//     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
+a=0;// 
+a=0;//     .line 46
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public onDestroy()V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 70
+a=0;//     invoke-super {p0}, Landroid/support/v4/app/Fragment;->onDestroy()V
+a=0;// 
+a=0;//     .line 71
+a=0;//     return-void
+a=0;// .end method
+}}

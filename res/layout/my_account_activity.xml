@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topbar_layout" android:background="@null" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@id/btn_back" android:background="@drawable/back_button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/usercenter_text" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我的账户" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ScrollView android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <WebView android:id="@id/advertisement_webview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="80.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+                    <com.twocloo.com.cn.view.CircleImageView android:id="@id/user_logo" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/usercentericon_nan" android:layout_centerVertical="true" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="" android:layout_toRightOf="@id/user_logo" android:layout_alignTop="@id/user_logo" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/usercenter_text" android:id="@id/user_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="" android:layout_toRightOf="@id/user_logo" android:layout_below="@id/username" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#55dcdcdc" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/yuepiao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="月票" />
+                        <TextView android:textSize="16.0sp" android:textColor="#ffeda4c7" android:id="@id/yuepiao_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="0" android:layout_toRightOf="@id/yuepiao" android:layout_centerVertical="true" />
+                    </LinearLayout>
+                    <View android:layout_gravity="center_vertical" android:id="@id/line1" android:background="#ffcccccc" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="20.0dip" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/dianquan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="点券" android:layout_centerVertical="true" />
+                        <TextView android:textSize="16.0sp" android:textColor="#fffc998f" android:id="@id/dianquan_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="0" android:layout_toRightOf="@id/dianquan" android:layout_centerVertical="true" />
+                    </LinearLayout>
+                    <View android:layout_gravity="center_vertical" android:id="@id/line8" android:background="#ffcccccc" android:layout_width="1.0dip" android:layout_height="20.0dip" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/shuquan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="书券" android:layout_centerVertical="true" />
+                        <TextView android:textSize="16.0sp" android:textColor="#ff85c7e6" android:id="@id/shuquan_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="0" android:layout_toRightOf="@id/shuquan" android:layout_centerVertical="true" />
+                    </LinearLayout>
+                    <View android:layout_gravity="center_vertical" android:id="@id/line3" android:background="#ffcccccc" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="20.0dip" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <Button android:textColor="#fff7a18b" android:id="@id/btn_chongzhi" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 充值" android:drawableLeft="@drawable/chongzhi_icon" android:layout_centerVertical="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:id="@id/chongzhi_layout1" android:background="@drawable/relativelayout_click_selector" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <ImageView android:id="@id/image_huodong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/chongzhi2" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="充值" android:layout_toRightOf="@id/image_huodong" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="支付宝、微信、银行卡等" android:layout_toRightOf="@id/text1" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@drawable/jiange" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <RelativeLayout android:id="@id/qiandao_layout" android:background="@drawable/relativelayout_click_selector" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <ImageView android:id="@id/image_qiandao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/qiandao_icon" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="签到" android:layout_toRightOf="@id/image_qiandao" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="免费获取书券" android:layout_toRightOf="@id/text2" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/huodong_layout" android:background="@drawable/relativelayout_click_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <ImageView android:id="@id/image_huodong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/huosongduihuan" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="活动兑换" android:layout_toRightOf="@id/image_huodong" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="领取福利了!!!" android:layout_toRightOf="@id/text1" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/line2" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <RelativeLayout android:id="@id/dianquan_layout" android:background="@drawable/relativelayout_click_selector" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <ImageView android:id="@id/image_dianquan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/dianquan_icon" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/text3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="赚取点券" android:layout_toRightOf="@id/image_dianquan" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="免费获取点券" android:layout_toRightOf="@id/text3" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/line0" android:background="#ffececec" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <RelativeLayout android:id="@id/renwu_layout" android:background="@drawable/relativelayout_click_selector" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <ImageView android:id="@id/image_renwu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/renwu_icon" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/text4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="任务" android:layout_toRightOf="@id/image_renwu" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="每日任务得书券" android:layout_toRightOf="@id/text4" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@drawable/jiange" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <RelativeLayout android:id="@id/baoyue_layout" android:background="@drawable/relativelayout_click_selector" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <ImageView android:id="@id/image_baoyue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/baoyue_icon" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="#fff7a18b" android:id="@id/text5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="包月优惠" android:layout_toRightOf="@id/image_baoyue" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="免费畅读包月书库" android:layout_toRightOf="@id/text5" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/line4" android:background="#ffececec" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <RelativeLayout android:id="@id/yuepiao_layout" android:background="@drawable/relativelayout_click_selector" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <ImageView android:id="@id/image_yuepiao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/yuepiao_icon" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/text6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="领取月票" android:layout_toRightOf="@id/image_yuepiao" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/line5" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <RelativeLayout android:id="@id/chongzhi_layout" android:background="@drawable/relativelayout_click_selector" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <ImageView android:id="@id/image_chongzhi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/chongzhijilu" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/text5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="充值记录" android:layout_toRightOf="@id/image_chongzhi" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/line6" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <RelativeLayout android:id="@id/xiaofei_layout" android:background="@drawable/relativelayout_click_selector" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <ImageView android:id="@id/image_xiaofei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/xiaofeijilu_icon" android:layout_centerVertical="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="消费记录" android:layout_toRightOf="@id/image_xiaofei" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/line7" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

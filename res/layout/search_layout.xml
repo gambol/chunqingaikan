@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mainlayout" android:background="@color/main_normal_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/menu_search_ly_num" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/titlebarlayout">
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray_text" android:id="@id/search_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/menu_search_ly_lv" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/menu_search_ly_num" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/titlebarlayout" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <EditText android:textSize="16.0sp" android:textColor="@color/white" android:textColorHint="@color/white" android:layout_gravity="center_vertical" android:id="@id/search_et" android:background="#55ffffff" android:paddingLeft="10.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:hint="搜索作品" android:singleLine="true" android:layout_weight="1.0" android:imeOptions="actionSearch" android:textCursorDrawable="@null" />
+        <ImageView android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/search_im" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/search1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/switchkey" android:background="@drawable/circle_ret_red3" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/titlebarlayout">
+        <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/hot_words" android:background="@drawable/circle_ret_red" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="热门搜索" android:layout_weight="1.0" />
+        <Button android:textSize="16.0sp" android:textColor="#ffff9999" android:id="@id/lishijulu" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="历史记录" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/mainfragment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_below="@id/switchkey" />
+</RelativeLayout>

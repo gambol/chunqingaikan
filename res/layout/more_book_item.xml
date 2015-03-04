@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/booklayout" android:layout_width="120.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.volley.toolbox.NetworkImageView android:id="@id/book_cover" android:layout_width="80.0dip" android:layout_height="120.0dip" android:src="@drawable/default_cover" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/usercenter_text" android:gravity="center" android:id="@id/bookname" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="斗破苍穹" android:singleLine="true" android:layout_below="@id/book_cover" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffff9999" android:gravity="center" android:id="@id/viewCount" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="10.0dip" android:text="" android:layout_below="@id/bookname" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,165 @@
+package com.twocloo.com.cn.task; class BookDetailTask { void a() { int a;
+a=0;// .class public Lcom/twocloo/com/cn/task/BookDetailTask;
+a=0;// .super Lcom/twocloo/base/sync/EasyTask;
+a=0;// .source "BookDetailTask.java"
+a=0;// 
+a=0;// 
+a=0;// # annotations
+a=0;// .annotation system Ldalvik/annotation/Signature;
+a=0;//     value = {
+a=0;//         "Lcom/twocloo/base/sync/EasyTask",
+a=0;//         "<",
+a=0;//         "Landroid/app/Activity;",
+a=0;//         "Ljava/lang/Void;",
+a=0;//         "Ljava/lang/Void;",
+a=0;//         "Ljava/lang/String;",
+a=0;//         ">;"
+a=0;//     }
+a=0;// .end annotation
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field private pd:Landroid/app/ProgressDialog;
+a=0;// 
+a=0;// .field private readBookShareListener:Lcom/twocloo/com/cn/common/ReadBookShareListener;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>(Landroid/app/Activity;Lcom/twocloo/com/cn/common/ReadBookShareListener;)V
+a=0;//     .locals 0
+a=0;//     .param p1, "caller"    # Landroid/app/Activity;
+a=0;//     .param p2, "readBookShareListener"    # Lcom/twocloo/com/cn/common/ReadBookShareListener;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 22
+a=0;//     invoke-direct {p0, p1}, Lcom/twocloo/base/sync/EasyTask;-><init>(Ljava/lang/Object;)V
+a=0;// 
+a=0;//     .line 24
+a=0;//     #p0=(Reference,Lcom/twocloo/com/cn/task/BookDetailTask;);
+a=0;//     iput-object p2, p0, Lcom/twocloo/com/cn/task/BookDetailTask;->readBookShareListener:Lcom/twocloo/com/cn/common/ReadBookShareListener;
+a=0;// 
+a=0;//     .line 25
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public bridge varargs synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 1
+a=0;//     check-cast p1, [Ljava/lang/Void;
+a=0;// 
+a=0;//     invoke-virtual {p0, p1}, Lcom/twocloo/com/cn/task/BookDetailTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/String;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public varargs doInBackground([Ljava/lang/Void;)Ljava/lang/String;
+a=0;//     .locals 4
+a=0;//     .param p1, "params"    # [Ljava/lang/Void;
+a=0;// 
+a=0;//     .prologue
+a=0;//     const/4 v1, 0x0
+a=0;// 
+a=0;//     .line 46
+a=0;//     #v1=(Null);
+a=0;//     iget-object v2, p0, Lcom/twocloo/com/cn/task/BookDetailTask;->caller:Ljava/lang/Object;
+a=0;// 
+a=0;//     #v2=(Reference,Ljava/lang/Object;);
+a=0;//     check-cast v2, Landroid/app/Activity;
+a=0;// 
+a=0;//     iget-object v3, p0, Lcom/twocloo/com/cn/task/BookDetailTask;->readBookShareListener:Lcom/twocloo/com/cn/common/ReadBookShareListener;
+a=0;// 
+a=0;//     #v3=(Reference,Lcom/twocloo/com/cn/common/ReadBookShareListener;);
+a=0;//     invoke-virtual {v3}, Lcom/twocloo/com/cn/common/ReadBookShareListener;->getAId()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v3
+a=0;// 
+a=0;//     invoke-static {v2, v3, v1}, Lcom/twocloo/com/cn/http/HttpImpl;->Shubenxinxiye(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;)Lcom/twocloo/com/cn/beans/Shubenxinxiye;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     .line 47
+a=0;//     .local v0, "bookDetail":Lcom/twocloo/com/cn/beans/Shubenxinxiye;
+a=0;//     #v0=(Reference,Lcom/twocloo/com/cn/beans/Shubenxinxiye;);
+a=0;//     if-eqz v0, :cond_0
+a=0;// 
+a=0;//     .line 48
+a=0;//     invoke-virtual {v0}, Lcom/twocloo/com/cn/beans/Shubenxinxiye;->getTitle()Ljava/lang/String;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     .line 53
+a=0;//     :cond_0
+a=0;//     #v1=(Reference,Ljava/lang/String;);
+a=0;//     return-object v1
+a=0;// .end method
+a=0;// 
+a=0;// .method public bridge synthetic onPostExecute(Ljava/lang/Object;)V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 1
+a=0;//     check-cast p1, Ljava/lang/String;
+a=0;// 
+a=0;//     invoke-virtual {p0, p1}, Lcom/twocloo/com/cn/task/BookDetailTask;->onPostExecute(Ljava/lang/String;)V
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public onPostExecute(Ljava/lang/String;)V
+a=0;//     .locals 1
+a=0;//     .param p1, "bookName"    # Ljava/lang/String;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 36
+a=0;//     invoke-static {p1}, Lcom/twocloo/base/util/StringUtils;->isNotBlank(Ljava/lang/String;)Z
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     #v0=(Boolean);
+a=0;//     if-eqz v0, :cond_0
+a=0;// 
+a=0;//     .line 37
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/task/BookDetailTask;->readBookShareListener:Lcom/twocloo/com/cn/common/ReadBookShareListener;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/twocloo/com/cn/common/ReadBookShareListener;);
+a=0;//     invoke-virtual {v0, p1}, Lcom/twocloo/com/cn/common/ReadBookShareListener;->setShareContent(Ljava/lang/String;)V
+a=0;// 
+a=0;//     .line 40
+a=0;//     :cond_0
+a=0;//     #v0=(Conflicted);
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/task/BookDetailTask;->pd:Landroid/app/ProgressDialog;
+a=0;// 
+a=0;//     #v0=(Reference,Landroid/app/ProgressDialog;);
+a=0;//     invoke-virtual {v0}, Landroid/app/ProgressDialog;->cancel()V
+a=0;// 
+a=0;//     .line 41
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public onPreExecute()V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 30
+a=0;//     iget-object v0, p0, Lcom/twocloo/com/cn/task/BookDetailTask;->caller:Ljava/lang/Object;
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/lang/Object;);
+a=0;//     check-cast v0, Landroid/content/Context;
+a=0;// 
+a=0;//     invoke-static {v0}, Lcom/twocloo/base/util/ViewUtils;->progressLoading(Landroid/content/Context;)Landroid/app/ProgressDialog;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     iput-object v0, p0, Lcom/twocloo/com/cn/task/BookDetailTask;->pd:Landroid/app/ProgressDialog;
+a=0;// 
+a=0;//     .line 32
+a=0;//     return-void
+a=0;// .end method
+}}

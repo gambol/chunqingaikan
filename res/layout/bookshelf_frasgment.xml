@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/book_head" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip">
+        <com.twocloo.com.cn.view.DragGridView android:gravity="center" android:id="@id/dragGridView" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:horizontalSpacing="10.0dip" android:columnWidth="90.0dip" android:numColumns="auto_fit" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/lajitong" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginBottom="20.0dip" android:src="@null" />
+    </FrameLayout>
+</LinearLayout>

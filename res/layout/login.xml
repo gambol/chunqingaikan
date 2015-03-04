@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mainlayout" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/user_center_top" />
+    </RelativeLayout>
+    <ScrollView android:id="@id/scrollview" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_below="@id/topbar_layout">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <RelativeLayout android:id="@id/name_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/text">
+                <EditText android:textSize="14.0sp" android:textColor="@color/usercenter_text" android:id="@id/name_edit" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:hint="@string/zhanghao" android:layout_centerHorizontal="true" />
+                <View android:id="@id/line2" android:background="#bbacacac" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/name_edit" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/password_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_below="@id/name_layout">
+                <EditText android:textSize="14.0sp" android:textColor="@color/usercenter_text" android:id="@id/password_edit" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:hint="@string/password" android:layout_centerHorizontal="true" android:inputType="textPassword" />
+                <View android:id="@id/line1" android:background="#bbacacac" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/password_edit" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <Button android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/loginBtn" android:background="@drawable/login_button_selector" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="10.0dip" android:text="@string/login_text" android:layout_below="@id/password_layout" />
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/register_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="30.0dip" android:layout_below="@id/loginBtn">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="还没有账号?" />
+                <TextView android:textSize="16.0sp" android:textColor="#ff21cba0" android:id="@id/registerbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/register" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/otherlogin_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/line3" android:background="@drawable/line_s" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/other_login" />
+            <View android:id="@id/line4" android:background="@drawable/line_s" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/otherloginbtn_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="15.0dip">
+            <ImageView android:id="@id/phonelogin" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/login_phone" android:layout_weight="1.0" android:contentDescription="@string/app_name" />
+            <ImageView android:id="@id/sinalogin" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/login_sina" android:layout_weight="1.0" android:contentDescription="@string/app_name" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/app_name">
+                <ImageView android:id="@id/qqlogin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/login_qq" android:layout_weight="1.0" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="QQ登录" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/app_name">
+                <ImageView android:id="@id/wechatlogin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wechat_friends" android:layout_weight="1.0" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="微信登录" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

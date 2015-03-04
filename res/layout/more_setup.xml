@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mainLayout" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/user_center_top" />
+    </RelativeLayout>
+    <View android:id="@id/line1" android:background="#ffacacac" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <ScrollView android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/readset" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="阅读设置" />
+            </LinearLayout>
+            <View android:id="@id/line2" android:background="#bbbcbcbc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:text="亮度调节" />
+                <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="30.0dip" android:src="@drawable/sun" />
+                <SeekBar android:id="@id/liangdu_seekBar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:max="4" android:progress="1" android:progressDrawable="@drawable/es_visitor_seekbar_bg" android:thumb="@drawable/es_seekbar_button1" android:layout_weight="1.0" style="?android:attr/progressBarStyleHorizontal" />
+                <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/sun" />
+            </LinearLayout>
+            <View android:id="@id/line4" android:background="#bbbcbcbc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="10.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:text="字号" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/usercenter_text" android:id="@id/text_zihao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="大小" />
+                <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/zimu" />
+                <SeekBar android:id="@id/zihao_seekBar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:max="4" android:progress="0" android:progressDrawable="@drawable/es_visitor_seekbar_bg" android:thumb="@drawable/es_seekbar_button1" android:layout_weight="1.0" style="?android:attr/progressBarStyleHorizontal" />
+                <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/zimu" />
+            </LinearLayout>
+            <View android:id="@id/line5" android:background="#bbbcbcbc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="10.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:text="行距" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/usercenter_text" android:id="@id/text_hangju" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="紧密" />
+                <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/hangju" />
+                <SeekBar android:id="@id/hangju_seekBar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:max="2" android:progress="0" android:progressDrawable="@drawable/es_visitor_seekbar_bg" android:thumb="@drawable/es_seekbar_button1" android:layout_weight="1.0" style="?android:attr/progressBarStyleHorizontal" />
+                <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/hangju" />
+            </LinearLayout>
+            <View android:id="@id/line6" android:background="#bbbcbcbc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="10.0dip" />
+            <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:text="字体下载" android:layout_centerVertical="true" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/zzzi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <RelativeLayout android:id="@id/zitilayout1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <Button android:textSize="12.0sp" android:id="@id/ziti1" android:background="@color/gray_button" android:layout_width="30.0dip" android:layout_height="30.0dip" android:text="行楷" />
+                        <ImageView android:id="@id/zhiti_selected1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selectedd" android:layout_alignRight="@id/ziti1" android:layout_alignBottom="@id/ziti1" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/zitilayout2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                        <Button android:textSize="12.0sp" android:id="@id/ziti2" android:background="@color/gray_button" android:layout_width="30.0dip" android:layout_height="30.0dip" android:text="新魏" />
+                        <ImageView android:id="@id/zhiti_selected2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selectedd" android:layout_alignRight="@id/ziti2" android:layout_alignBottom="@id/ziti2" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/zitilayout3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                        <Button android:textSize="12.0sp" android:id="@id/ziti3" android:background="@color/gray_button" android:layout_width="30.0dip" android:layout_height="30.0dip" android:text="简体" />
+                        <ImageView android:id="@id/zhiti_selected3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selectedd" android:layout_alignRight="@id/ziti3" android:layout_alignBottom="@id/ziti3" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/zitilayout4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                        <Button android:textSize="12.0sp" android:id="@id/ziti4" android:background="@color/gray_button" android:layout_width="30.0dip" android:layout_height="30.0dip" android:text="系統" />
+                        <ImageView android:id="@id/zhiti_selected4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selectedd" android:layout_alignRight="@id/ziti4" android:layout_alignBottom="@id/ziti4" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:id="@id/line7" android:background="#bbbcbcbc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="10.0dip" />
+            <View android:id="@id/line8" android:background="#bbbcbcbc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="10.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/ruanjianset" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="软件设置" />
+            </LinearLayout>
+            <View android:id="@id/line9" android:background="#bbbcbcbc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <RelativeLayout android:id="@id/xiaoxituisong_layout" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="消息推送设置" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/switch_xiaoxituisong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/switch_on" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/line10" android:background="#bbbcbcbc" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <RelativeLayout android:id="@id/yejianmoshi_layout" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="夜间模式" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/switch_yejianmoshi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/switch_off" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/line11" android:background="#bbbcbcbc" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <RelativeLayout android:id="@id/wifi_layout" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="非WIFI下载提示" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/switch_wifi_xiazai" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/switch_off" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/line12" android:background="#bbbcbcbc" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/lixianyuedu_layout" android:background="@drawable/relativelayout_click_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="离线阅读" />
+            </LinearLayout>
+            <View android:id="@id/line13" android:background="#bbbcbcbc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="背景主题" android:layout_centerVertical="true" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <RelativeLayout android:id="@id/zhuti_layout1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:id="@id/color1" android:background="@drawable/green" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+                        <ImageView android:id="@id/zhuti_selected1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selectedd" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/zhuti_layout2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                        <ImageView android:id="@id/color2" android:background="@drawable/red" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+                        <ImageView android:id="@id/zhuti_selected2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selectedd" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:id="@id/line3" android:background="#bbbcbcbc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <View android:id="@id/line14" android:background="#bbbcbcbc" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <RelativeLayout android:id="@id/ruanjiangengxin_layout" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="自动更新" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/switch_ruanjiangengxin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/switch_on" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/line0" android:background="#bbbcbcbc" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/moreset" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="更多" />
+            </LinearLayout>
+            <View android:id="@id/line15" android:background="#bbbcbcbc" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/qingchuhuancun_layout" android:background="@drawable/relativelayout_click_selector" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="清除缓存" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aboutme_layout" android:background="@drawable/relativelayout_click_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="关于我们" />
+            </LinearLayout>
+            <View android:id="@id/line16" android:background="#bbbcbcbc" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/yijianfankui_layout" android:background="@drawable/relativelayout_click_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="意见反馈" />
+            </LinearLayout>
+            <View android:id="@id/line17" android:background="#bbbcbcbc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pingjiawomen_layout" android:background="@drawable/relativelayout_click_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="评价我们" />
+            </LinearLayout>
+            <View android:id="@id/line18" android:background="#bbbcbcbc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/yingyongtuijian_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="应用推荐" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

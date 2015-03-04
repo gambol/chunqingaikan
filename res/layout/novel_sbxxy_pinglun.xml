@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/shuping_ly" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip">
+        <RelativeLayout android:id="@id/pinglun_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.twocloo.com.cn.view.CircleImageView android:id="@id/icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/usercentericon" android:layout_alignParentLeft="true" android:contentDescription="@null" />
+            <RelativeLayout android:id="@id/usernamelayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/icon" android:layout_alignTop="@id/icon">
+                <TextView android:textSize="16.0sp" android:textColor="#ff3bb296" android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/gray_text" android:id="@id/pingluntime" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/gray_dark_text" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_toRightOf="@id/icon" android:layout_below="@id/icon" />
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/pinglun_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/content">
+                <RelativeLayout android:id="@id/bottomlayout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/huifu_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sms" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/gray_text" android:id="@id/huifucountTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/huifu_icon" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View android:background="#ffececec" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+                <RelativeLayout android:id="@id/supportlayout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/support_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zan1" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/gray_text" android:id="@id/supportTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/support_icon" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <ImageView android:id="@id/more_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/more_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,455 @@
+package com.actionbarsherlock.internal.widget; class ScrollingTabContainerView$TabView { void a() { int a;
+a=0;// .class public Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;
+a=0;// .super Landroid/widget/LinearLayout;
+a=0;// .source "ScrollingTabContainerView.java"
+a=0;// 
+a=0;// 
+a=0;// # annotations
+a=0;// .annotation system Ldalvik/annotation/EnclosingClass;
+a=0;//     value = Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView;
+a=0;// .end annotation
+a=0;// 
+a=0;// .annotation system Ldalvik/annotation/InnerClass;
+a=0;//     accessFlags = 0x9
+a=0;//     name = "TabView"
+a=0;// .end annotation
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field private mCustomView:Landroid/view/View;
+a=0;// 
+a=0;// .field private mIconView:Landroid/widget/ImageView;
+a=0;// 
+a=0;// .field private mParent:Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView;
+a=0;// 
+a=0;// .field private mTab:Lcom/actionbarsherlock/app/ActionBar$Tab;
+a=0;// 
+a=0;// .field private mTextView:Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+a=0;//     .locals 0
+a=0;//     .param p1, "context"    # Landroid/content/Context;
+a=0;//     .param p2, "attrs"    # Landroid/util/AttributeSet;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 373
+a=0;//     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+a=0;// 
+a=0;//     .line 374
+a=0;//     #p0=(Reference,Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public bindTab(Lcom/actionbarsherlock/app/ActionBar$Tab;)V
+a=0;//     .locals 0
+a=0;//     .param p1, "tab"    # Lcom/actionbarsherlock/app/ActionBar$Tab;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 388
+a=0;//     iput-object p1, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mTab:Lcom/actionbarsherlock/app/ActionBar$Tab;
+a=0;// 
+a=0;//     .line 389
+a=0;//     invoke-virtual {p0}, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->update()V
+a=0;// 
+a=0;//     .line 390
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public getTab()Lcom/actionbarsherlock/app/ActionBar$Tab;
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 470
+a=0;//     iget-object v0, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mTab:Lcom/actionbarsherlock/app/ActionBar$Tab;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/actionbarsherlock/app/ActionBar$Tab;);
+a=0;//     return-object v0
+a=0;// .end method
+a=0;// 
+a=0;// .method public init(Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView;Lcom/actionbarsherlock/app/ActionBar$Tab;Z)V
+a=0;//     .locals 1
+a=0;//     .param p1, "parent"    # Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView;
+a=0;//     .param p2, "tab"    # Lcom/actionbarsherlock/app/ActionBar$Tab;
+a=0;//     .param p3, "forList"    # Z
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 377
+a=0;//     iput-object p1, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mParent:Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView;
+a=0;// 
+a=0;//     .line 378
+a=0;//     iput-object p2, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mTab:Lcom/actionbarsherlock/app/ActionBar$Tab;
+a=0;// 
+a=0;//     .line 380
+a=0;//     if-eqz p3, :cond_0
+a=0;// 
+a=0;//     .line 381
+a=0;//     const/16 v0, 0x13
+a=0;// 
+a=0;//     #v0=(PosByte);
+a=0;//     invoke-virtual {p0, v0}, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->setGravity(I)V
+a=0;// 
+a=0;//     .line 384
+a=0;//     :cond_0
+a=0;//     #v0=(Conflicted);
+a=0;//     invoke-virtual {p0}, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->update()V
+a=0;// 
+a=0;//     .line 385
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public onMeasure(II)V
+a=0;//     .locals 2
+a=0;//     .param p1, "widthMeasureSpec"    # I
+a=0;//     .param p2, "heightMeasureSpec"    # I
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 394
+a=0;//     invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;->onMeasure(II)V
+a=0;// 
+a=0;//     .line 397
+a=0;//     iget-object v0, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mParent:Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView;);
+a=0;//     iget v0, v0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView;->mMaxTabWidth:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     if-lez v0, :cond_0
+a=0;// 
+a=0;//     invoke-virtual {p0}, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->getMeasuredWidth()I
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     iget-object v1, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mParent:Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView;
+a=0;// 
+a=0;//     #v1=(Reference,Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView;);
+a=0;//     iget v1, v1, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView;->mMaxTabWidth:I
+a=0;// 
+a=0;//     #v1=(Integer);
+a=0;//     if-le v0, v1, :cond_0
+a=0;// 
+a=0;//     .line 398
+a=0;//     iget-object v0, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mParent:Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView;);
+a=0;//     iget v0, v0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView;->mMaxTabWidth:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     const/high16 v1, 0x40000000    # 2.0f
+a=0;// 
+a=0;//     invoke-static {v0, v1}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     invoke-super {p0, v0, p2}, Landroid/widget/LinearLayout;->onMeasure(II)V
+a=0;// 
+a=0;//     .line 401
+a=0;//     :cond_0
+a=0;//     #v1=(Conflicted);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public update()V
+a=0;//     .locals 14
+a=0;// 
+a=0;//     .prologue
+a=0;//     const/16 v13, 0x10
+a=0;// 
+a=0;//     #v13=(PosByte);
+a=0;//     const/4 v12, 0x0
+a=0;// 
+a=0;//     #v12=(Null);
+a=0;//     const/16 v9, 0x8
+a=0;// 
+a=0;//     #v9=(PosByte);
+a=0;//     const/4 v11, -0x2
+a=0;// 
+a=0;//     #v11=(Byte);
+a=0;//     const/4 v10, 0x0
+a=0;// 
+a=0;//     .line 404
+a=0;//     #v10=(Null);
+a=0;//     iget-object v5, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mTab:Lcom/actionbarsherlock/app/ActionBar$Tab;
+a=0;// 
+a=0;//     .line 405
+a=0;//     .local v5, "tab":Lcom/actionbarsherlock/app/ActionBar$Tab;
+a=0;//     #v5=(Reference,Lcom/actionbarsherlock/app/ActionBar$Tab;);
+a=0;//     invoke-virtual {v5}, Lcom/actionbarsherlock/app/ActionBar$Tab;->getCustomView()Landroid/view/View;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     .line 406
+a=0;//     .local v0, "custom":Landroid/view/View;
+a=0;//     #v0=(Reference,Landroid/view/View;);
+a=0;//     if-eqz v0, :cond_4
+a=0;// 
+a=0;//     .line 407
+a=0;//     invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     .line 408
+a=0;//     .local v1, "customParent":Landroid/view/ViewParent;
+a=0;//     #v1=(Reference,Landroid/view/ViewParent;);
+a=0;//     if-eq v1, p0, :cond_1
+a=0;// 
+a=0;//     .line 409
+a=0;//     if-eqz v1, :cond_0
+a=0;// 
+a=0;//     check-cast v1, Landroid/view/ViewGroup;
+a=0;// 
+a=0;//     .end local v1    # "customParent":Landroid/view/ViewParent;
+a=0;//     invoke-virtual {v1, v0}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 410
+a=0;//     :cond_0
+a=0;//     invoke-virtual {p0, v0}, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->addView(Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 412
+a=0;//     :cond_1
+a=0;//     iput-object v0, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mCustomView:Landroid/view/View;
+a=0;// 
+a=0;//     .line 413
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mTextView:Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;
+a=0;// 
+a=0;//     #v8=(Reference,Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;);
+a=0;//     if-eqz v8, :cond_2
+a=0;// 
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mTextView:Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;
+a=0;// 
+a=0;//     invoke-virtual {v8, v9}, Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;->setVisibility(I)V
+a=0;// 
+a=0;//     .line 414
+a=0;//     :cond_2
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mIconView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     if-eqz v8, :cond_3
+a=0;// 
+a=0;//     .line 415
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mIconView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     invoke-virtual {v8, v9}, Landroid/widget/ImageView;->setVisibility(I)V
+a=0;// 
+a=0;//     .line 416
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mIconView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     invoke-virtual {v8, v10}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+a=0;// 
+a=0;//     .line 467
+a=0;//     :cond_3
+a=0;//     :goto_0
+a=0;//     #v1=(Conflicted);v2=(Conflicted);v3=(Conflicted);v4=(Conflicted);v6=(Conflicted);v7=(Conflicted);v9=(Conflicted);
+a=0;//     return-void
+a=0;// 
+a=0;//     .line 419
+a=0;//     :cond_4
+a=0;//     #v1=(Uninit);v2=(Uninit);v3=(Uninit);v4=(Uninit);v6=(Uninit);v7=(Uninit);v8=(Uninit);v9=(PosByte);
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mCustomView:Landroid/view/View;
+a=0;// 
+a=0;//     #v8=(Reference,Landroid/view/View;);
+a=0;//     if-eqz v8, :cond_5
+a=0;// 
+a=0;//     .line 420
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mCustomView:Landroid/view/View;
+a=0;// 
+a=0;//     invoke-virtual {p0, v8}, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->removeView(Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 421
+a=0;//     iput-object v10, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mCustomView:Landroid/view/View;
+a=0;// 
+a=0;//     .line 424
+a=0;//     :cond_5
+a=0;//     invoke-virtual {v5}, Lcom/actionbarsherlock/app/ActionBar$Tab;->getIcon()Landroid/graphics/drawable/Drawable;
+a=0;// 
+a=0;//     move-result-object v2
+a=0;// 
+a=0;//     .line 425
+a=0;//     .local v2, "icon":Landroid/graphics/drawable/Drawable;
+a=0;//     #v2=(Reference,Landroid/graphics/drawable/Drawable;);
+a=0;//     invoke-virtual {v5}, Lcom/actionbarsherlock/app/ActionBar$Tab;->getText()Ljava/lang/CharSequence;
+a=0;// 
+a=0;//     move-result-object v6
+a=0;// 
+a=0;//     .line 427
+a=0;//     .local v6, "text":Ljava/lang/CharSequence;
+a=0;//     #v6=(Reference,Ljava/lang/CharSequence;);
+a=0;//     if-eqz v2, :cond_a
+a=0;// 
+a=0;//     .line 428
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mIconView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     if-nez v8, :cond_6
+a=0;// 
+a=0;//     .line 429
+a=0;//     new-instance v3, Landroid/widget/ImageView;
+a=0;// 
+a=0;//     #v3=(UninitRef,Landroid/widget/ImageView;);
+a=0;//     invoke-virtual {p0}, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->getContext()Landroid/content/Context;
+a=0;// 
+a=0;//     move-result-object v8
+a=0;// 
+a=0;//     invoke-direct {v3, v8}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
+a=0;// 
+a=0;//     .line 430
+a=0;//     .local v3, "iconView":Landroid/widget/ImageView;
+a=0;//     #v3=(Reference,Landroid/widget/ImageView;);
+a=0;//     new-instance v4, Landroid/widget/LinearLayout$LayoutParams;
+a=0;// 
+a=0;//     #v4=(UninitRef,Landroid/widget/LinearLayout$LayoutParams;);
+a=0;//     invoke-direct {v4, v11, v11}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
+a=0;// 
+a=0;//     .line 432
+a=0;//     .local v4, "lp":Landroid/widget/LinearLayout$LayoutParams;
+a=0;//     #v4=(Reference,Landroid/widget/LinearLayout$LayoutParams;);
+a=0;//     iput v13, v4, Landroid/widget/LinearLayout$LayoutParams;->gravity:I
+a=0;// 
+a=0;//     .line 433
+a=0;//     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+a=0;// 
+a=0;//     .line 434
+a=0;//     invoke-virtual {p0, v3, v12}, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->addView(Landroid/view/View;I)V
+a=0;// 
+a=0;//     .line 435
+a=0;//     iput-object v3, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mIconView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     .line 437
+a=0;//     .end local v3    # "iconView":Landroid/widget/ImageView;
+a=0;//     .end local v4    # "lp":Landroid/widget/LinearLayout$LayoutParams;
+a=0;//     :cond_6
+a=0;//     #v3=(Conflicted);v4=(Conflicted);
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mIconView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     invoke-virtual {v8, v2}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+a=0;// 
+a=0;//     .line 438
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mIconView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     invoke-virtual {v8, v12}, Landroid/widget/ImageView;->setVisibility(I)V
+a=0;// 
+a=0;//     .line 444
+a=0;//     :cond_7
+a=0;//     :goto_1
+a=0;//     if-eqz v6, :cond_b
+a=0;// 
+a=0;//     .line 445
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mTextView:Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;
+a=0;// 
+a=0;//     if-nez v8, :cond_8
+a=0;// 
+a=0;//     .line 446
+a=0;//     new-instance v7, Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;
+a=0;// 
+a=0;//     #v7=(UninitRef,Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;);
+a=0;//     invoke-virtual {p0}, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->getContext()Landroid/content/Context;
+a=0;// 
+a=0;//     move-result-object v8
+a=0;// 
+a=0;//     .line 447
+a=0;//     sget v9, Lcom/actionbarsherlock/R$attr;->actionBarTabTextStyle:I
+a=0;// 
+a=0;//     .line 446
+a=0;//     #v9=(Integer);
+a=0;//     invoke-direct {v7, v8, v10, v9}, Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+a=0;// 
+a=0;//     .line 448
+a=0;//     .local v7, "textView":Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;
+a=0;//     #v7=(Reference,Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;);
+a=0;//     sget-object v8, Landroid/text/TextUtils$TruncateAt;->END:Landroid/text/TextUtils$TruncateAt;
+a=0;// 
+a=0;//     invoke-virtual {v7, v8}, Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+a=0;// 
+a=0;//     .line 449
+a=0;//     new-instance v4, Landroid/widget/LinearLayout$LayoutParams;
+a=0;// 
+a=0;//     #v4=(UninitRef,Landroid/widget/LinearLayout$LayoutParams;);
+a=0;//     invoke-direct {v4, v11, v11}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
+a=0;// 
+a=0;//     .line 451
+a=0;//     .restart local v4    # "lp":Landroid/widget/LinearLayout$LayoutParams;
+a=0;//     #v4=(Reference,Landroid/widget/LinearLayout$LayoutParams;);
+a=0;//     iput v13, v4, Landroid/widget/LinearLayout$LayoutParams;->gravity:I
+a=0;// 
+a=0;//     .line 452
+a=0;//     invoke-virtual {v7, v4}, Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+a=0;// 
+a=0;//     .line 453
+a=0;//     invoke-virtual {p0, v7}, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->addView(Landroid/view/View;)V
+a=0;// 
+a=0;//     .line 454
+a=0;//     iput-object v7, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mTextView:Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;
+a=0;// 
+a=0;//     .line 456
+a=0;//     .end local v4    # "lp":Landroid/widget/LinearLayout$LayoutParams;
+a=0;//     .end local v7    # "textView":Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;
+a=0;//     :cond_8
+a=0;//     #v4=(Conflicted);v7=(Conflicted);
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mTextView:Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;
+a=0;// 
+a=0;//     invoke-virtual {v8, v6}, Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;->setTextCompat(Ljava/lang/CharSequence;)V
+a=0;// 
+a=0;//     .line 457
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mTextView:Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;
+a=0;// 
+a=0;//     invoke-virtual {v8, v12}, Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;->setVisibility(I)V
+a=0;// 
+a=0;//     .line 463
+a=0;//     :cond_9
+a=0;//     :goto_2
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mIconView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     if-eqz v8, :cond_3
+a=0;// 
+a=0;//     .line 464
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mIconView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     invoke-virtual {v5}, Lcom/actionbarsherlock/app/ActionBar$Tab;->getContentDescription()Ljava/lang/CharSequence;
+a=0;// 
+a=0;//     move-result-object v9
+a=0;// 
+a=0;//     #v9=(Reference,Ljava/lang/CharSequence;);
+a=0;//     invoke-virtual {v8, v9}, Landroid/widget/ImageView;->setContentDescription(Ljava/lang/CharSequence;)V
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// 
+a=0;//     .line 439
+a=0;//     :cond_a
+a=0;//     #v3=(Uninit);v4=(Uninit);v7=(Uninit);v9=(PosByte);
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mIconView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     if-eqz v8, :cond_7
+a=0;// 
+a=0;//     .line 440
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mIconView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     invoke-virtual {v8, v9}, Landroid/widget/ImageView;->setVisibility(I)V
+a=0;// 
+a=0;//     .line 441
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mIconView:Landroid/widget/ImageView;
+a=0;// 
+a=0;//     invoke-virtual {v8, v10}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+a=0;// 
+a=0;//     goto :goto_1
+a=0;// 
+a=0;//     .line 458
+a=0;//     :cond_b
+a=0;//     #v3=(Conflicted);v4=(Conflicted);
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mTextView:Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;
+a=0;// 
+a=0;//     if-eqz v8, :cond_9
+a=0;// 
+a=0;//     .line 459
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mTextView:Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;
+a=0;// 
+a=0;//     invoke-virtual {v8, v9}, Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;->setVisibility(I)V
+a=0;// 
+a=0;//     .line 460
+a=0;//     iget-object v8, p0, Lcom/actionbarsherlock/internal/widget/ScrollingTabContainerView$TabView;->mTextView:Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;
+a=0;// 
+a=0;//     invoke-virtual {v8, v10}, Lcom/actionbarsherlock/internal/widget/CapitalizingTextView;->setText(Ljava/lang/CharSequence;)V
+a=0;// 
+a=0;//     goto :goto_2
+a=0;// .end method
+}}

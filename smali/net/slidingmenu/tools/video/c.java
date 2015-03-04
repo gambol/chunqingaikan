@@ -1,0 +1,52 @@
+package net.slidingmenu.tools.video; class c { void a() { int a;
+a=0;// .class public Lnet/slidingmenu/tools/video/c;
+a=0;// .super Ljava/lang/Object;
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field public a:I
+a=0;// 
+a=0;// .field public b:Ljava/lang/String;
+a=0;// 
+a=0;// .field public c:Ljava/lang/String;
+a=0;// 
+a=0;// .field public d:Ljava/lang/String;
+a=0;// 
+a=0;// .field public e:Ljava/lang/String;
+a=0;// 
+a=0;// .field public f:Ljava/lang/String;
+a=0;// 
+a=0;// .field public g:Ljava/lang/String;
+a=0;// 
+a=0;// .field public h:Ljava/lang/String;
+a=0;// 
+a=0;// .field public i:Ljava/lang/String;
+a=0;// 
+a=0;// .field public j:I
+a=0;// 
+a=0;// .field public k:Ljava/lang/String;
+a=0;// 
+a=0;// .field public l:Ljava/lang/String;
+a=0;// 
+a=0;// .field public m:Ljava/lang/String;
+a=0;// 
+a=0;// .field public n:Ljava/lang/String;
+a=0;// 
+a=0;// .field public o:Ljava/lang/String;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>()V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     #p0=(Reference,Lnet/slidingmenu/tools/video/c;);
+a=0;//     const/4 v0, 0x0
+a=0;// 
+a=0;//     #v0=(Null);
+a=0;//     iput v0, p0, Lnet/slidingmenu/tools/video/c;->a:I
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+}}

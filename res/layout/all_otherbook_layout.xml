@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/pd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/_title_layout" android:background="@drawable/title_bg" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <LinearLayout android:id="@id/back_layout" android:layout_width="60.0dip" android:layout_height="45.0dip">
+            <Button android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/_iv_back" android:background="@drawable/back_button_normal" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/zuopin_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="作者的作品" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ScrollView android:id="@id/sbxxy_view1" android:visibility="visible" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/_title_layout">
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="7.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/_title_layout">
+            <com.twocloo.com.cn.view.LinearLayoutForListView android:orientation="vertical" android:id="@id/zuopin_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

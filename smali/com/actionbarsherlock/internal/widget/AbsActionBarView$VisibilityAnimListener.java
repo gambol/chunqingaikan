@@ -1,0 +1,173 @@
+package com.actionbarsherlock.internal.widget; class AbsActionBarView$VisibilityAnimListener { void a() { int a;
+a=0;// .class public Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "AbsActionBarView.java"
+a=0;// 
+a=0;// # interfaces
+a=0;// .implements Lcom/actionbarsherlock/internal/nineoldandroids/animation/Animator$AnimatorListener;
+a=0;// 
+a=0;// 
+a=0;// # annotations
+a=0;// .annotation system Ldalvik/annotation/EnclosingClass;
+a=0;//     value = Lcom/actionbarsherlock/internal/widget/AbsActionBarView;
+a=0;// .end annotation
+a=0;// 
+a=0;// .annotation system Ldalvik/annotation/InnerClass;
+a=0;//     accessFlags = 0x4
+a=0;//     name = "VisibilityAnimListener"
+a=0;// .end annotation
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field private mCanceled:Z
+a=0;// 
+a=0;// .field mFinalVisibility:I
+a=0;// 
+a=0;// .field final synthetic this$0:Lcom/actionbarsherlock/internal/widget/AbsActionBarView;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method protected constructor <init>(Lcom/actionbarsherlock/internal/widget/AbsActionBarView;)V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 255
+a=0;//     iput-object p1, p0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;->this$0:Lcom/actionbarsherlock/internal/widget/AbsActionBarView;
+a=0;// 
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     .line 256
+a=0;//     #p0=(Reference,Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;);
+a=0;//     const/4 v0, 0x0
+a=0;// 
+a=0;//     #v0=(Null);
+a=0;//     iput-boolean v0, p0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;->mCanceled:Z
+a=0;// 
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public onAnimationCancel(Lcom/actionbarsherlock/internal/nineoldandroids/animation/Animator;)V
+a=0;//     .locals 1
+a=0;//     .param p1, "animation"    # Lcom/actionbarsherlock/internal/nineoldandroids/animation/Animator;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 284
+a=0;//     const/4 v0, 0x1
+a=0;// 
+a=0;//     #v0=(One);
+a=0;//     iput-boolean v0, p0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;->mCanceled:Z
+a=0;// 
+a=0;//     .line 285
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public onAnimationEnd(Lcom/actionbarsherlock/internal/nineoldandroids/animation/Animator;)V
+a=0;//     .locals 2
+a=0;//     .param p1, "animation"    # Lcom/actionbarsherlock/internal/nineoldandroids/animation/Animator;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 273
+a=0;//     iget-boolean v0, p0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;->mCanceled:Z
+a=0;// 
+a=0;//     #v0=(Boolean);
+a=0;//     if-eqz v0, :cond_1
+a=0;// 
+a=0;//     .line 280
+a=0;//     :cond_0
+a=0;//     :goto_0
+a=0;//     #v0=(Conflicted);v1=(Conflicted);
+a=0;//     return-void
+a=0;// 
+a=0;//     .line 275
+a=0;//     :cond_1
+a=0;//     #v0=(Boolean);v1=(Uninit);
+a=0;//     iget-object v0, p0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;->this$0:Lcom/actionbarsherlock/internal/widget/AbsActionBarView;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/actionbarsherlock/internal/widget/AbsActionBarView;);
+a=0;//     const/4 v1, 0x0
+a=0;// 
+a=0;//     #v1=(Null);
+a=0;//     iput-object v1, v0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView;->mVisibilityAnim:Lcom/actionbarsherlock/internal/nineoldandroids/animation/Animator;
+a=0;// 
+a=0;//     .line 276
+a=0;//     iget-object v0, p0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;->this$0:Lcom/actionbarsherlock/internal/widget/AbsActionBarView;
+a=0;// 
+a=0;//     iget v1, p0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;->mFinalVisibility:I
+a=0;// 
+a=0;//     #v1=(Integer);
+a=0;//     invoke-virtual {v0, v1}, Lcom/actionbarsherlock/internal/widget/AbsActionBarView;->setVisibility(I)V
+a=0;// 
+a=0;//     .line 277
+a=0;//     iget-object v0, p0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;->this$0:Lcom/actionbarsherlock/internal/widget/AbsActionBarView;
+a=0;// 
+a=0;//     iget-object v0, v0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView;->mSplitView:Lcom/actionbarsherlock/internal/widget/ActionBarContainer;
+a=0;// 
+a=0;//     if-eqz v0, :cond_0
+a=0;// 
+a=0;//     iget-object v0, p0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;->this$0:Lcom/actionbarsherlock/internal/widget/AbsActionBarView;
+a=0;// 
+a=0;//     iget-object v0, v0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView;->mMenuView:Lcom/actionbarsherlock/internal/view/menu/ActionMenuView;
+a=0;// 
+a=0;//     if-eqz v0, :cond_0
+a=0;// 
+a=0;//     .line 278
+a=0;//     iget-object v0, p0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;->this$0:Lcom/actionbarsherlock/internal/widget/AbsActionBarView;
+a=0;// 
+a=0;//     iget-object v0, v0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView;->mMenuView:Lcom/actionbarsherlock/internal/view/menu/ActionMenuView;
+a=0;// 
+a=0;//     iget v1, p0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;->mFinalVisibility:I
+a=0;// 
+a=0;//     invoke-virtual {v0, v1}, Lcom/actionbarsherlock/internal/view/menu/ActionMenuView;->setVisibility(I)V
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// .end method
+a=0;// 
+a=0;// .method public onAnimationRepeat(Lcom/actionbarsherlock/internal/nineoldandroids/animation/Animator;)V
+a=0;//     .locals 0
+a=0;//     .param p1, "animation"    # Lcom/actionbarsherlock/internal/nineoldandroids/animation/Animator;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 289
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public onAnimationStart(Lcom/actionbarsherlock/internal/nineoldandroids/animation/Animator;)V
+a=0;//     .locals 2
+a=0;//     .param p1, "animation"    # Lcom/actionbarsherlock/internal/nineoldandroids/animation/Animator;
+a=0;// 
+a=0;//     .prologue
+a=0;//     const/4 v1, 0x0
+a=0;// 
+a=0;//     .line 266
+a=0;//     #v1=(Null);
+a=0;//     iget-object v0, p0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;->this$0:Lcom/actionbarsherlock/internal/widget/AbsActionBarView;
+a=0;// 
+a=0;//     #v0=(Reference,Lcom/actionbarsherlock/internal/widget/AbsActionBarView;);
+a=0;//     invoke-virtual {v0, v1}, Lcom/actionbarsherlock/internal/widget/AbsActionBarView;->setVisibility(I)V
+a=0;// 
+a=0;//     .line 267
+a=0;//     iget-object v0, p0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;->this$0:Lcom/actionbarsherlock/internal/widget/AbsActionBarView;
+a=0;// 
+a=0;//     iput-object p1, v0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView;->mVisibilityAnim:Lcom/actionbarsherlock/internal/nineoldandroids/animation/Animator;
+a=0;// 
+a=0;//     .line 268
+a=0;//     iput-boolean v1, p0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;->mCanceled:Z
+a=0;// 
+a=0;//     .line 269
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public withFinalVisibility(I)Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;
+a=0;//     .locals 0
+a=0;//     .param p1, "visibility"    # I
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 260
+a=0;//     iput p1, p0, Lcom/actionbarsherlock/internal/widget/AbsActionBarView$VisibilityAnimListener;->mFinalVisibility:I
+a=0;// 
+a=0;//     .line 261
+a=0;//     return-object p0
+a=0;// .end method
+}}

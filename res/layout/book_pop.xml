@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/updatelayout" android:layout_width="85.0dip" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/book_pop" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" style="@style/style_bookshelf_btn" />
+    <ImageView android:id="@id/updatebtn" android:layout_width="85.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/update_img" android:layout_alignBottom="@id/book_pop" android:contentDescription="@null" />
+</RelativeLayout>

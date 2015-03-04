@@ -1,0 +1,34 @@
+package com.tencent.tauth; class IRequestListener { void a() { int a;
+a=0;// .class public interface abstract Lcom/tencent/tauth/IRequestListener;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "ProGuard"
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method public abstract onComplete(Lorg/json/JSONObject;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onConnectTimeoutException(Lorg/apache/http/conn/ConnectTimeoutException;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onHttpStatusException(Lcom/tencent/utils/HttpUtils$HttpStatusException;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onIOException(Ljava/io/IOException;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onJSONException(Lorg/json/JSONException;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onMalformedURLException(Ljava/net/MalformedURLException;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onNetworkUnavailableException(Lcom/tencent/utils/HttpUtils$NetworkUnavailableException;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onSocketTimeoutException(Ljava/net/SocketTimeoutException;)V
+a=0;// .end method
+a=0;// 
+a=0;// .method public abstract onUnknowException(Ljava/lang/Exception;)V
+a=0;// .end method
+}}

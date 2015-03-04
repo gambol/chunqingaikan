@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mainlayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/user_center_top" />
+    </RelativeLayout>
+    <ListView android:id="@id/mulu_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="#ffececec" android:layout_below="@id/top_bar" />
+    <ImageView android:id="@id/back_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/back_top" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

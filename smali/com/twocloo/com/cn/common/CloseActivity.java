@@ -1,0 +1,329 @@
+package com.twocloo.com.cn.common; class CloseActivity { void a() { int a;
+a=0;// .class public Lcom/twocloo/com/cn/common/CloseActivity;
+a=0;// .super Ljava/lang/Object;
+a=0;// .source "CloseActivity.java"
+a=0;// 
+a=0;// 
+a=0;// # static fields
+a=0;// .field private static acts:Ljava/util/LinkedList;
+a=0;//     .annotation system Ldalvik/annotation/Signature;
+a=0;//         value = {
+a=0;//             "Ljava/util/LinkedList",
+a=0;//             "<",
+a=0;//             "Landroid/app/Activity;",
+a=0;//             ">;"
+a=0;//         }
+a=0;//     .end annotation
+a=0;// .end field
+a=0;// 
+a=0;// .field public static curActivity:Landroid/app/Activity;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method static constructor <clinit>()V
+a=0;//     .locals 1
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 12
+a=0;//     new-instance v0, Ljava/util/LinkedList;
+a=0;// 
+a=0;//     #v0=(UninitRef,Ljava/util/LinkedList;);
+a=0;//     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/util/LinkedList;);
+a=0;//     sput-object v0, Lcom/twocloo/com/cn/common/CloseActivity;->acts:Ljava/util/LinkedList;
+a=0;// 
+a=0;//     .line 14
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public constructor <init>()V
+a=0;//     .locals 0
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 11
+a=0;//     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+a=0;// 
+a=0;//     #p0=(Reference,Lcom/twocloo/com/cn/common/CloseActivity;);
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public static add(Landroid/app/Activity;)V
+a=0;//     .locals 1
+a=0;//     .param p0, "acy"    # Landroid/app/Activity;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 17
+a=0;//     sget-object v0, Lcom/twocloo/com/cn/common/CloseActivity;->acts:Ljava/util/LinkedList;
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/util/LinkedList;);
+a=0;//     invoke-virtual {v0, p0}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
+a=0;// 
+a=0;//     .line 18
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public static close()V
+a=0;//     .locals 3
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 48
+a=0;//     const/4 v1, 0x0
+a=0;// 
+a=0;//     #v1=(Null);
+a=0;//     sput-boolean v1, Lcom/twocloo/com/cn/activitys/BookApp;->isInit:Z
+a=0;// 
+a=0;//     .line 51
+a=0;//     sget-object v1, Lcom/twocloo/com/cn/common/CloseActivity;->acts:Ljava/util/LinkedList;
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/util/LinkedList;);
+a=0;//     invoke-virtual {v1}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     .local v0, "act":Landroid/app/Activity;
+a=0;//     :cond_0
+a=0;//     :goto_0
+a=0;//     #v0=(Conflicted);v2=(Conflicted);
+a=0;//     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+a=0;// 
+a=0;//     move-result v2
+a=0;// 
+a=0;//     #v2=(Boolean);
+a=0;//     if-nez v2, :cond_1
+a=0;// 
+a=0;//     .line 56
+a=0;//     sget-object v1, Lcom/twocloo/com/cn/common/CloseActivity;->acts:Ljava/util/LinkedList;
+a=0;// 
+a=0;//     invoke-virtual {v1}, Ljava/util/LinkedList;->clear()V
+a=0;// 
+a=0;//     .line 57
+a=0;//     return-void
+a=0;// 
+a=0;//     .line 51
+a=0;//     :cond_1
+a=0;//     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v0
+a=0;// 
+a=0;//     .end local v0    # "act":Landroid/app/Activity;
+a=0;//     #v0=(Reference,Ljava/lang/Object;);
+a=0;//     check-cast v0, Landroid/app/Activity;
+a=0;// 
+a=0;//     .line 52
+a=0;//     .restart local v0    # "act":Landroid/app/Activity;
+a=0;//     invoke-virtual {v0}, Landroid/app/Activity;->isFinishing()Z
+a=0;// 
+a=0;//     move-result v2
+a=0;// 
+a=0;//     if-nez v2, :cond_0
+a=0;// 
+a=0;//     .line 53
+a=0;//     invoke-virtual {v0}, Landroid/app/Activity;->finish()V
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// .end method
+a=0;// 
+a=0;// .method public static closeRd()V
+a=0;//     .locals 3
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 26
+a=0;//     sget-object v1, Lcom/twocloo/com/cn/common/CloseActivity;->acts:Ljava/util/LinkedList;
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/util/LinkedList;);
+a=0;//     invoke-virtual {v1}, Ljava/util/LinkedList;->size()I
+a=0;// 
+a=0;//     move-result v1
+a=0;// 
+a=0;//     #v1=(Integer);
+a=0;//     add-int/lit8 v0, v1, -0x1
+a=0;// 
+a=0;//     .local v0, "i":I
+a=0;//     :goto_0
+a=0;//     #v0=(Integer);v1=(Conflicted);v2=(Conflicted);
+a=0;//     if-gez v0, :cond_0
+a=0;// 
+a=0;//     .line 34
+a=0;//     return-void
+a=0;// 
+a=0;//     .line 27
+a=0;//     :cond_0
+a=0;//     sget-object v1, Lcom/twocloo/com/cn/common/CloseActivity;->acts:Ljava/util/LinkedList;
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/util/LinkedList;);
+a=0;//     invoke-virtual {v1, v0}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     check-cast v1, Landroid/app/Activity;
+a=0;// 
+a=0;//     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     const-class v2, Lcom/twocloo/com/cn/activitys/ReadbookDown;
+a=0;// 
+a=0;//     #v2=(Reference,Ljava/lang/Class;);
+a=0;//     if-eq v1, v2, :cond_1
+a=0;// 
+a=0;//     sget-object v1, Lcom/twocloo/com/cn/common/CloseActivity;->acts:Ljava/util/LinkedList;
+a=0;// 
+a=0;//     invoke-virtual {v1, v0}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     check-cast v1, Landroid/app/Activity;
+a=0;// 
+a=0;//     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     const-class v2, Lcom/twocloo/com/cn/activitys/Readbook;
+a=0;// 
+a=0;//     if-ne v1, v2, :cond_2
+a=0;// 
+a=0;//     .line 28
+a=0;//     :cond_1
+a=0;//     sget-object v1, Lcom/twocloo/com/cn/common/CloseActivity;->acts:Ljava/util/LinkedList;
+a=0;// 
+a=0;//     invoke-virtual {v1, v0}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     check-cast v1, Landroid/app/Activity;
+a=0;// 
+a=0;//     invoke-virtual {v1}, Landroid/app/Activity;->isFinishing()Z
+a=0;// 
+a=0;//     move-result v1
+a=0;// 
+a=0;//     #v1=(Boolean);
+a=0;//     if-nez v1, :cond_2
+a=0;// 
+a=0;//     .line 29
+a=0;//     sget-object v1, Lcom/twocloo/com/cn/common/CloseActivity;->acts:Ljava/util/LinkedList;
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/util/LinkedList;);
+a=0;//     invoke-virtual {v1, v0}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     check-cast v1, Landroid/app/Activity;
+a=0;// 
+a=0;//     invoke-virtual {v1}, Landroid/app/Activity;->finish()V
+a=0;// 
+a=0;//     .line 26
+a=0;//     :cond_2
+a=0;//     #v1=(Conflicted);
+a=0;//     add-int/lit8 v0, v0, -0x1
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// .end method
+a=0;// 
+a=0;// .method public static closeReadBookDown()V
+a=0;//     .locals 3
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 37
+a=0;//     sget-object v1, Lcom/twocloo/com/cn/common/CloseActivity;->acts:Ljava/util/LinkedList;
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/util/LinkedList;);
+a=0;//     invoke-virtual {v1}, Ljava/util/LinkedList;->size()I
+a=0;// 
+a=0;//     move-result v1
+a=0;// 
+a=0;//     #v1=(Integer);
+a=0;//     add-int/lit8 v0, v1, -0x1
+a=0;// 
+a=0;//     .local v0, "i":I
+a=0;//     :goto_0
+a=0;//     #v0=(Integer);v1=(Conflicted);v2=(Conflicted);
+a=0;//     if-gez v0, :cond_0
+a=0;// 
+a=0;//     .line 45
+a=0;//     return-void
+a=0;// 
+a=0;//     .line 38
+a=0;//     :cond_0
+a=0;//     sget-object v1, Lcom/twocloo/com/cn/common/CloseActivity;->acts:Ljava/util/LinkedList;
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/util/LinkedList;);
+a=0;//     invoke-virtual {v1, v0}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     check-cast v1, Landroid/app/Activity;
+a=0;// 
+a=0;//     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     const-class v2, Lcom/twocloo/com/cn/activitys/ReadbookDown;
+a=0;// 
+a=0;//     #v2=(Reference,Ljava/lang/Class;);
+a=0;//     if-ne v1, v2, :cond_1
+a=0;// 
+a=0;//     .line 39
+a=0;//     sget-object v1, Lcom/twocloo/com/cn/common/CloseActivity;->acts:Ljava/util/LinkedList;
+a=0;// 
+a=0;//     invoke-virtual {v1, v0}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     check-cast v1, Landroid/app/Activity;
+a=0;// 
+a=0;//     invoke-virtual {v1}, Landroid/app/Activity;->isFinishing()Z
+a=0;// 
+a=0;//     move-result v1
+a=0;// 
+a=0;//     #v1=(Boolean);
+a=0;//     if-nez v1, :cond_1
+a=0;// 
+a=0;//     .line 40
+a=0;//     sget-object v1, Lcom/twocloo/com/cn/common/CloseActivity;->acts:Ljava/util/LinkedList;
+a=0;// 
+a=0;//     #v1=(Reference,Ljava/util/LinkedList;);
+a=0;//     invoke-virtual {v1, v0}, Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
+a=0;// 
+a=0;//     move-result-object v1
+a=0;// 
+a=0;//     check-cast v1, Landroid/app/Activity;
+a=0;// 
+a=0;//     invoke-virtual {v1}, Landroid/app/Activity;->finish()V
+a=0;// 
+a=0;//     .line 37
+a=0;//     :cond_1
+a=0;//     #v1=(Conflicted);
+a=0;//     add-int/lit8 v0, v0, -0x1
+a=0;// 
+a=0;//     goto :goto_0
+a=0;// .end method
+a=0;// 
+a=0;// .method public static remove(Landroid/app/Activity;)V
+a=0;//     .locals 1
+a=0;//     .param p0, "acy"    # Landroid/app/Activity;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 21
+a=0;//     sget-object v0, Lcom/twocloo/com/cn/common/CloseActivity;->acts:Ljava/util/LinkedList;
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/util/LinkedList;);
+a=0;//     invoke-virtual {v0, p0}, Ljava/util/LinkedList;->contains(Ljava/lang/Object;)Z
+a=0;// 
+a=0;//     move-result v0
+a=0;// 
+a=0;//     #v0=(Boolean);
+a=0;//     if-eqz v0, :cond_0
+a=0;// 
+a=0;//     .line 22
+a=0;//     sget-object v0, Lcom/twocloo/com/cn/common/CloseActivity;->acts:Ljava/util/LinkedList;
+a=0;// 
+a=0;//     #v0=(Reference,Ljava/util/LinkedList;);
+a=0;//     invoke-virtual {v0, p0}, Ljava/util/LinkedList;->remove(Ljava/lang/Object;)Z
+a=0;// 
+a=0;//     .line 23
+a=0;//     :cond_0
+a=0;//     #v0=(Conflicted);
+a=0;//     return-void
+a=0;// .end method
+}}

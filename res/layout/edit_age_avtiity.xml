@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topbar_layout" android:background="@null" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@id/btn_back" android:background="@drawable/back_button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:gravity="center_vertical" android:id="@id/edit" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:text="编辑" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/usercenter_text" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我的年龄" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/age_layout" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/age" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="年龄" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/text_age" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:text="" android:layout_toRightOf="@id/age" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/line1" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" />
+    <RelativeLayout android:id="@id/xingzuo_layout" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/xingzuo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="星座" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/text_xingzuo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="" android:layout_toRightOf="@id/xingzuo" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/line2" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" />
+</LinearLayout>

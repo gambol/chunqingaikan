@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.twocloo.com.cn" platformBuildVersionCode="21" platformBuildVersionName="APKTOOL">
+    <permission android:name="com.twocloo.com.cn.permission.JPUSH_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.twocloo.com.cn.permission.JPUSH_MESSAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <application android:allowBackup="true" android:hardwareAccelerated="false" android:icon="@drawable/icon_danmei" android:label="@string/app_name" android:name="com.twocloo.com.cn.activitys.BookApp" android:theme="@android:style/Theme.NoTitleBar" android:debuggable="false">
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.twocloo.com.cn.activitys.LoadingActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppStartLoadTranslucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.GuideActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.DingyueSuccessActvity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.twocloo.com.cn.activitys.RechargeActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.LoginActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.RegistActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.PrivacyActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.UpdateMiMa" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.MainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.twocloo.com.cn.fragment.MainGroupFragment" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.AboutUsActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.NovelDetailedActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.twocloo.com.cn.android"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="android-app"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.BfMLActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.twocloo.com.cn.activitys.AllBookActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.BookMarkActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.UseHelpActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.twocloo.com.cn.activitys.Readbook" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.ReadbookDown" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.MyInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.twocloo.com.cn.activitys.GeneralActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.SignInActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.UpdateInfo" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.ModifyUserInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.ForgetPasswordActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.twocloo.com.cn.activitys.ManageBookShelf" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.LastPageGuide" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.twocloo.com.cn.activitys.KeYongYuEActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.UserInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.SettingActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.VersionUpdateFrequencyActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.FeedbackActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.FindPasswordActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.BaseConsumeCenter" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.RechargeWayActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.RechargeAlipayActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.RechargeSMSCUActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.RechargeSMSCMActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.RechargeSMSCTActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.RechargeWechatpayActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.RechargeWangyinActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.ShareInfoActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.TwoYuanPayActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.ShupingReplyActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.BaoyueActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.twocloo.com.cn.activitys.SearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twocloo.com.cn.activitys.OfferWallActivity" android:screenOrientation="portrait"/>
+        <service android:name="com.twocloo.com.cn.http.UpdateService"/>
+        <service android:name="com.twocloo.com.cn.http.UpdateAPKService"/>
+        <service android:name="com.twocloo.com.cn.http.RecommendClientsService"/>
+        <service android:exported="true" android:name="mm.purchasesdk.iapservice.PurchaseService">
+            <intent-filter android:priority="310">
+                <action android:name="com.aspire.purchaseservice.BIND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:priority="310">
+                <action android:name="com.twocloo.com.cn.purchaseservice.BIND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:priority="310">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.SAFIAP.COMPONENT"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="mm.purchasesdk.iapservice.BillingLayoutActivity" android:theme="@android:style/Theme.Translucent">
+            <intent-filter android:priority="310">
+                <action android:name="com.twocloo.com.cn.com.mmiap.activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="true" android:name="safiap.framework.SafFrameworkManager" android:process="safiap.framework">
+            <intent-filter android:priority="630">
+                <action android:name="safiap.framework.sdk.ISAFFramework"/>
+            </intent-filter>
+            <intent-filter android:priority="630">
+                <action android:name="safiap.framework.ACTION_START_DOWNLOAD"/>
+            </intent-filter>
+            <intent-filter android:priority="630">
+                <action android:name="safiap.framework.ACTION_CHECK_UPDATE"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="safiap.framework.CheckUpdateReceiver">
+            <intent-filter>
+                <action android:name="safiap.framework.ACTION_CANCEL_NOTIFICATION"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="safiap.GET_SHARED_DATA"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="safiap.framework.ACTION_SET_TIMER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="orientation" android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="safiap.framework.ui.UpdateHintActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="safiap.framework.ACTION_TO_INSTALL"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="safiap.framework.ACTION_TO_INSTALL_IAP"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="safiap.framework.ACTION_NETWORK_ERROR_IAP"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="safiap.framework.ACTION_NETWORK_ERROR_FRAMEWORK"/>
+            </intent-filter>
+        </activity>
+        <service android:name="safiap.framework.logreport.monitor.handler.LogreportHandler" android:process=":remote"/>
+        <meta-data android:name="UMENG_CHANNEL" android:value="@string/channel"/>
+        <meta-data android:name="UMENG_APPKEY" android:value="@string/umeng_app_key"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="net.slidingmenu.tools.video.slidingcaxc" android:screenOrientation="landscape" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="net.slidingmenu.tools.slidingaaxc" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <service android:exported="false" android:name="net.slidingmenu.tools.slidingajxc"/>
+        <service android:exported="false" android:name="net.slidingmenu.tools.slidingbjxc"/>
+        <receiver android:name="net.slidingmenu.tools.slidingahxc">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_INSTALL"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="YOUMI_CHANNEL" android:value="@string/youmi_channel"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.twocloooo.DevNativeActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:name="com.twocloooo.DevNativeService"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="cn.dm.android.DMOfferActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <service android:name="cn.dm.android.DMService"/>
+        <activity android:configChanges="keyboardHidden" android:exported="true" android:launchMode="singleTask" android:name="com.twocloo.com.cn.wxapi.WXEntryActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="com.twocloo.com.cn.wxapi.WXPayEntryActivity"/>
+        <activity android:label="@string/title_activity_push" android:name="com.twocloo.com.cn.PushActivity"/>
+        <service android:enabled="true" android:exported="false" android:name="cn.jpush.android.service.DownloadService"/>
+        <service android:enabled="true" android:exported="false" android:name="cn.jpush.android.service.PushService">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER"/>
+                <action android:name="cn.jpush.android.intent.REPORT"/>
+                <action android:name="cn.jpush.android.intent.PushService"/>
+                <action android:name="cn.jpush.android.intent.PUSH_TIME"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:name="cn.jpush.android.service.PushReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"/>
+                <category android:name="com.twocloo.com.cn"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver"/>
+        <receiver android:enabled="true" android:name="com.twocloo.com.cn.jpush.PushReceiver">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION"/>
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION"/>
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED"/>
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED"/>
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED"/>
+                <action android:name="cn.jpush.android.intent.CONNECTION"/>
+                <category android:name="com.twocloo.com.cn"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="JPUSH_CHANNEL" android:value="developer-default"/>
+        <meta-data android:name="JPUSH_APPKEY" android:value="5118d4ffdd817aefca9c7cbb"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.example.qqloginsample.ReturnActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent1102844717"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.twocloo.com.cn.activitys.QQLoginActivity" android:theme="@android:style/Theme.NoDisplay"/>
+        <receiver android:name="com.twocloo.com.cn.jpush.AlarmReceiver" android:process=".abc"/>
+        <receiver android:name="com.twocloo.com.cn.jpush.RebootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.twocloo.com.cn.jpush.RebootService"/>
+        <service android:name="com.twocloo.com.cn.jpush.UpdateBookService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.sharesdk.framework.ShareSDKUIShell" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:label="@string/title_activity_wei_xinlogin" android:name="com.twocloo.com.cn.activitys.WeiXinloginActivity"/>
+        <activity android:name="com.twocloo.com.cn.activitys.PopActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:label="@string/title_activity_tidy_book_shelf" android:name="com.twocloo.com.cn.bookshelf.TidyBookShelfActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.twocloo.com.cn.activitys.MyUserCneterActivity"/>
+        <activity android:name="com.twocloo.com.cn.activitys.AddFriendActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.twocloo.com.cn.activitys.FriendUserCenterActivity"/>
+        <activity android:name="com.twocloo.com.cn.activitys.DragSupportActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.twocloo.com.cn.activitys.EditProfileActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.twocloo.com.cn.activitys.AddLabelActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.twocloo.com.cn.activitys.AddUserLabelActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.twocloo.com.cn.activitys.EditActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.twocloo.com.cn.activitys.EditAgeActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.twocloo.com.cn.activitys.MyaccountActivity"/>
+        <activity android:name="com.twocloo.com.cn.activitys.FriendCenterActivity"/>
+        <activity android:name="com.twocloo.com.cn.activitys.MoreSetActivity"/>
+        <activity android:name="com.twocloo.com.cn.activitys.ImageViewPagerActivity"/>
+        <activity android:name="com.twocloo.com.cn.activitys.AccountsecurityActivity"/>
+        <activity android:name="com.twocloo.com.cn.activitys.BindPhoneActivity"/>
+        <activity android:name="com.twocloo.com.cn.activitys.BindEmailActivity"/>
+        <activity android:name="com.twocloo.com.cn.activitys.SwitchingAccountsActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.twocloo.com.cn.activitys.PinglunActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/title_activity_publish_pinglun" android:name="com.twocloo.com.cn.activitys.PublishPinglunActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/title_activity_mu_lu" android:name="com.twocloo.com.cn.activitys.MuLuActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.twocloo.com.cn.activitys.SelectSexActicity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.twocloo.com.cn.activitys.SelectBookActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.twocloo.com.cn.activitys.InstallationWizardActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.twocloo.com.cn.activitys.AuthorWorksActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.twocloo.com.cn.activitys.SearchResultActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

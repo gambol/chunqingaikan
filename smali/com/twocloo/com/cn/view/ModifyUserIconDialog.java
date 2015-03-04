@@ -1,0 +1,64 @@
+package com.twocloo.com.cn.view; class ModifyUserIconDialog { void a() { int a;
+a=0;// .class public Lcom/twocloo/com/cn/view/ModifyUserIconDialog;
+a=0;// .super Landroid/app/Dialog;
+a=0;// .source "ModifyUserIconDialog.java"
+a=0;// 
+a=0;// 
+a=0;// # instance fields
+a=0;// .field context:Landroid/content/Context;
+a=0;// 
+a=0;// 
+a=0;// # direct methods
+a=0;// .method public constructor <init>(Landroid/content/Context;)V
+a=0;//     .locals 0
+a=0;//     .param p1, "context"    # Landroid/content/Context;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 24
+a=0;//     invoke-direct {p0, p1}, Landroid/app/Dialog;-><init>(Landroid/content/Context;)V
+a=0;// 
+a=0;//     .line 25
+a=0;//     #p0=(Reference,Lcom/twocloo/com/cn/view/ModifyUserIconDialog;);
+a=0;//     iput-object p1, p0, Lcom/twocloo/com/cn/view/ModifyUserIconDialog;->context:Landroid/content/Context;
+a=0;// 
+a=0;//     .line 26
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// .method public constructor <init>(Landroid/content/Context;I)V
+a=0;//     .locals 0
+a=0;//     .param p1, "context"    # Landroid/content/Context;
+a=0;//     .param p2, "theme"    # I
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 19
+a=0;//     invoke-direct {p0, p1, p2}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
+a=0;// 
+a=0;//     .line 20
+a=0;//     #p0=(Reference,Lcom/twocloo/com/cn/view/ModifyUserIconDialog;);
+a=0;//     iput-object p1, p0, Lcom/twocloo/com/cn/view/ModifyUserIconDialog;->context:Landroid/content/Context;
+a=0;// 
+a=0;//     .line 21
+a=0;//     return-void
+a=0;// .end method
+a=0;// 
+a=0;// 
+a=0;// # virtual methods
+a=0;// .method protected onCreate(Landroid/os/Bundle;)V
+a=0;//     .locals 1
+a=0;//     .param p1, "savedInstanceState"    # Landroid/os/Bundle;
+a=0;// 
+a=0;//     .prologue
+a=0;//     .line 30
+a=0;//     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
+a=0;// 
+a=0;//     .line 31
+a=0;//     sget v0, Lcom/twocloo/com/cn/R$layout;->modify_usericon_layout:I
+a=0;// 
+a=0;//     #v0=(Integer);
+a=0;//     invoke-virtual {p0, v0}, Lcom/twocloo/com/cn/view/ModifyUserIconDialog;->setContentView(I)V
+a=0;// 
+a=0;//     .line 32
+a=0;//     return-void
+a=0;// .end method
+}}

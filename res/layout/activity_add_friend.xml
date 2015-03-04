@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mainLayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topbar_layout" android:background="@drawable/user_bg" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@id/btn_back" android:background="@drawable/back_button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <EditText android:textColorHint="#ffcccccc" android:id="@id/editText_search" android:background="@drawable/add_friend_search" android:paddingLeft="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:hint="请输入好友昵称" android:layout_toRightOf="@id/btn_back" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/search1" android:layout_alignLeft="@id/editText_search" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ScrollView android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="30.0dip">
+                <View android:background="#ffdadada" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="邀请我的好友" />
+                <View android:background="#ffdadada" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_marginLeft="5.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip">
+                <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/image_qq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/login_qq" android:layout_centerVertical="true" />
+                    <Button android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/add_friend_qq" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="添加Q Q好友" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                    <ImageView android:id="@id/image_wechat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wechat_friends" android:layout_centerVertical="true" />
+                    <Button android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/add_friend_wechat" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="添加微信好友" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip">
+                <View android:background="#ffdadada" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="可能感兴趣的人" />
+                <View android:background="#ffdadada" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_marginLeft="5.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <com.twocloo.com.cn.view.CustomGridView android:id="@id/friendGridView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:horizontalSpacing="10.0dip" android:verticalSpacing="20.0dip" android:numColumns="3" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip">
+                <Button android:textSize="16.0sp" android:textColor="@color/usercenter_text" android:id="@id/btn_huanyipi" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:text="换一批  " android:drawableRight="@drawable/btn_refresh" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
