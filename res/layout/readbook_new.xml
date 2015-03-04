@@ -109,6 +109,14 @@
             <Button android:textSize="20.0sp" android:textColor="#ff0066b7" android:id="@id/btn_readjps2" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="下一章" android:layout_weight="1.0" />
         </LinearLayout>
     </LinearLayout>
+    <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:id="@id/title_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+    </RelativeLayout>
+    
     <RelativeLayout android:id="@id/showly3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
     <RelativeLayout android:gravity="center_horizontal" android:id="@id/showly1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
     <RelativeLayout android:id="@id/showly2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="11.329987dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:layout_below="@id/read_top" />

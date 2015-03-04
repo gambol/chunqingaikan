@@ -2006,6 +2006,7 @@ a=0;// .field public static final zuopin_title:I = 0x7f0500be
 a=0;// 
 a=0;// .field public static final zzzi:I = 0x7f0501ec
 a=0;// 
+a=0;// .field public static final adLayout_readbook:I = 0x7f0503e3
 a=0;// 
 a=0;// # direct methods
 a=0;// .method public constructor <init>()V
