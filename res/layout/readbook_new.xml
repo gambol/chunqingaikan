@@ -9,7 +9,7 @@
             android:gravity="center_horizontal">
     </RelativeLayout>
 
-    <RelativeLayout android:id="@id/read_txrl"  android:layout_below="@id/title_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/read_txrl"  android:layout_below="@id/title_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
     <RelativeLayout android:id="@id/read_yy2" android:layout_width="160.0dip" android:layout_height="200.0dip" android:layout_centerInParent="true" />
     <RelativeLayout android:id="@id/read_yy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <RelativeLayout android:id="@id/read_yy3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/read_top" />

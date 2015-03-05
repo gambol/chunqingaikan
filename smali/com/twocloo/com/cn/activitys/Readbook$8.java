@@ -404,7 +404,7 @@ a=0;//
 a=0;//     #v6=(PosShort);
 a=0;//     #invoke-virtual {v5, v1, v6}, Lcom/twocloo/com/cn/activitys/Readbook;->startActivityForResult(Landroid/content/Intent;I)V
 a=0;// 
-a=0;//     invoke-virtual {v5}, Lcom/twocloo/com/cn/activitys/Readbook;->addChaping()V
+a=0;//     #invoke-virtual {v5}, Lcom/twocloo/com/cn/activitys/Readbook;->addChaping()V
 a=0;//     goto :goto_1
 a=0;// .end method
 }}
